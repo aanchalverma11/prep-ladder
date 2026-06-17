@@ -1,0 +1,283 @@
+/* ─────────────────────────────────────────────
+   PrepLadder Navbar — Navbar.css
+   Prefix: pl- (PrepLadder) to avoid conflicts
+───────────────────────────────────────────── */
+
+/* ── Color Tokens ── */
+:root {
+  --pl-purple:       #4338ca;   /* primary brand */
+  --pl-purple-light: #ede9fe;   /* hover bg */
+  --pl-purple-dark:  #3730a3;   /* hover text */
+  --pl-green:        #059669;   /* accent */
+  --pl-text:         #1e1b4b;   /* dark text */
+  --pl-muted:        #6b7280;   /* muted text */
+  --pl-border:       #e5e7eb;   /* borders */
+  --pl-white:        #ffffff;
+  --pl-shadow:       0 2px 12px rgba(0, 0, 0, 0.08);
+}
+
+/* ── Header Wrapper ── */
+.pl-header {
+  position: sticky;
+  top: 0;
+  z-index: 100;
+  background: var(--pl-white);
+  border-bottom: 1px solid var(--pl-border);
+  box-shadow: var(--pl-shadow);
+}
+
+/* ── Navbar Row ── */
+.pl-navbar {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 1.5rem;
+  height: 64px;
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+}
+
+/* ── Logo ── */
+.pl-logo {
+  font-size: 1.25rem;
+  font-weight: 700;
+  color: var(--pl-text);
+  text-decoration: none;
+  letter-spacing: -0.4px;
+  flex-shrink: 0;
+}
+.pl-logo__accent {
+  color: var(--pl-purple);
+}
+
+/* ── Desktop Nav List ── */
+.pl-nav__list {
+  display: flex;
+  align-items: center;
+  gap: 2px;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  flex: 1;
+}
+
+.pl-nav__item {
+  position: relative;
+}
+
+.pl-nav__link {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+  padding: 6px 12px;
+  font-size: 0.875rem;
+  font-weight: 500;
+  color: var(--pl-muted);
+  text-decoration: none;
+  border-radius: 6px;
+  transition: background 0.15s, color 0.15s;
+  white-space: nowrap;
+  background: none;
+  border: none;
+  cursor: pointer;
+  font-family: inherit;
+}
+.pl-nav__link:hover {
+  background: var(--pl-purple-light);
+  color: var(--pl-purple-dark);
+}
+
+.pl-nav__arrow {
+  font-size: 10px;
+  margin-top: 1px;
+  transition: transform 0.2s;
+}
+.pl-nav__item--has-dropdown:hover .pl-nav__arrow {
+  transform: rotate(180deg);
+}
+
+/* ── Dropdown ── */
+.pl-dropdown {
+  position: absolute;
+  top: calc(100% + 8px);
+  left: 0;
+  background: var(--pl-white);
+  border: 1px solid var(--pl-border);
+  border-radius: 10px;
+  box-shadow: var(--pl-shadow);
+  padding: 6px;
+  list-style: none;
+  margin: 0;
+  min-width: 200px;
+  animation: pl-fade-in 0.15s ease;
+  z-index: 200;
+}
+
+.pl-dropdown__item {
+  display: block;
+  padding: 8px 14px;
+  font-size: 0.875rem;
+  color: var(--pl-text);
+  text-decoration: none;
+  border-radius: 6px;
+  transition: background 0.12s, color 0.12s;
+}
+.pl-dropdown__item:hover {
+  background: var(--pl-purple-light);
+  color: var(--pl-purple);
+}
+
+/* ── CTA Buttons ── */
+.pl-ctas {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  flex-shrink: 0;
+}
+
+.pl-btn {
+  display: inline-flex;
+  align-items: center;
+  padding: 8px 18px;
+  font-size: 0.875rem;
+  font-weight: 600;
+  border-radius: 8px;
+  text-decoration: none;
+  transition: background 0.15s, color 0.15s, border-color 0.15s;
+  cursor: pointer;
+  white-space: nowrap;
+}
+
+.pl-btn--outline {
+  color: var(--pl-purple);
+  border: 1.5px solid var(--pl-purple);
+  background: transparent;
+}
+.pl-btn--outline:hover {
+  background: var(--pl-purple-light);
+}
+
+.pl-btn--primary {
+  color: var(--pl-white);
+  background: var(--pl-purple);
+  border: 1.5px solid var(--pl-purple);
+}
+.pl-btn--primary:hover {
+  background: var(--pl-purple-dark);
+  border-color: var(--pl-purple-dark);
+}
+
+/* ── Hamburger Button (mobile only) ── */
+.pl-hamburger {
+  display: none;
+  flex-direction: column;
+  justify-content: center;
+  gap: 5px;
+  padding: 6px;
+  background: none;
+  border: none;
+  cursor: pointer;
+  margin-left: auto;
+}
+
+.pl-hamburger__bar {
+  display: block;
+  width: 22px;
+  height: 2px;
+  background: var(--pl-text);
+  border-radius: 2px;
+  transition: transform 0.25s, opacity 0.25s;
+}
+
+/* Hamburger → X animation */
+.pl-hamburger--open .pl-hamburger__bar:nth-child(1) {
+  transform: translateY(7px) rotate(45deg);
+}
+.pl-hamburger--open .pl-hamburger__bar:nth-child(2) {
+  opacity: 0;
+}
+.pl-hamburger--open .pl-hamburger__bar:nth-child(3) {
+  transform: translateY(-7px) rotate(-45deg);
+}
+
+/* ── Mobile Menu ── */
+.pl-mobile-menu {
+  display: none;
+  background: var(--pl-white);
+  border-top: 1px solid var(--pl-border);
+  padding: 1rem 1.5rem 1.5rem;
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.3s ease;
+}
+.pl-mobile-menu--open {
+  max-height: 600px;
+}
+
+.pl-mobile-menu__list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.pl-mobile-menu__item {
+  border-bottom: 1px solid var(--pl-border);
+}
+
+.pl-mobile-menu__link {
+  display: block;
+  padding: 12px 4px;
+  font-size: 0.9375rem;
+  font-weight: 500;
+  color: var(--pl-text);
+  text-decoration: none;
+}
+
+.pl-mobile-menu__sub {
+  list-style: none;
+  margin: 0 0 8px 0;
+  padding: 0 0 0 12px;
+}
+
+.pl-mobile-menu__sublink {
+  display: block;
+  padding: 6px 4px;
+  font-size: 0.875rem;
+  color: var(--pl-muted);
+  text-decoration: none;
+}
+.pl-mobile-menu__sublink:hover {
+  color: var(--pl-purple);
+}
+
+.pl-mobile-menu__ctas {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin-top: 1.25rem;
+}
+.pl-mobile-menu__ctas .pl-btn {
+  justify-content: center;
+}
+
+/* ── Animation ── */
+@keyframes pl-fade-in {
+  from { opacity: 0; transform: translateY(-4px); }
+  to   { opacity: 1; transform: translateY(0); }
+}
+
+/* ── Responsive: Mobile ── */
+@media (max-width: 768px) {
+  .pl-nav__list,
+  .pl-ctas {
+    display: none;   /* hide desktop nav & buttons */
+  }
+
+  .pl-hamburger {
+    display: flex;   /* show hamburger */
+  }
+
+  .pl-mobile-menu {
+    display: block;  /* enable mobile menu */
+  }
+}
