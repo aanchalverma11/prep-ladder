@@ -1,0 +1,294 @@
+/* ─────────────────────────────────────────────
+   PrepLadder Footer Stylesheet
+   Prefix: pl-footer- and pl- to prevent leakage
+───────────────────────────────────────────── */
+
+.pl-footer-new {
+  background-color: #0F172A; /* Slate 900 */
+  color: #94A3B8; /* Slate 400 */
+  font-family: 'Inter', system-ui, -apple-system, sans-serif;
+  padding: 5rem 0 3rem 0;
+  border-top: 1px solid #1E293B;
+  box-sizing: border-box;
+  text-align: left;
+}
+
+.pl-footer-container {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 0 2rem;
+}
+
+/* --- Layout Grid --- */
+.pl-footer-grid {
+  display: grid;
+  grid-template-columns: 1.5fr 1fr 1fr 1fr 1.5fr;
+  gap: 3rem;
+  margin-bottom: 4rem;
+}
+
+/* --- Footer Brand Card --- */
+.pl-footer-logo {
+  display: flex;
+  align-items: center;
+  gap: 0.6rem;
+  margin-bottom: 1.25rem;
+}
+
+.pl-footer-logo-text {
+  font-size: 1.5rem;
+  font-weight: 700;
+  color: #FFFFFF;
+}
+
+.pl-footer-logo-accent {
+  color: #007BFF;
+}
+
+.pl-footer-tagline {
+  font-size: 0.95rem;
+  line-height: 1.6;
+  color: #94A3B8;
+  margin: 0 0 1.75rem 0;
+}
+
+.pl-app-links {
+  display: flex;
+  flex-direction: column;
+  gap: 0.75rem;
+  max-width: 160px;
+}
+
+.pl-app-badge {
+  display: block;
+  border-radius: 6px;
+  overflow: hidden;
+  transition: transform 0.2s ease, filter 0.2s ease;
+}
+
+.pl-app-badge img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+.pl-app-badge:hover {
+  transform: translateY(-2px);
+  filter: brightness(1.1);
+}
+
+/* --- Links Columns --- */
+.pl-footer-heading {
+  font-size: 0.8rem;
+  font-weight: 700;
+  color: #FFFFFF;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  margin: 0 0 1.5rem 0;
+}
+
+.pl-footer-links {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 0.85rem;
+}
+
+.pl-footer-links a {
+  color: #94A3B8;
+  text-decoration: none;
+  font-size: 0.9rem;
+  font-weight: 500;
+  transition: color 0.15s ease, transform 0.15s ease;
+  display: inline-block;
+}
+
+.pl-footer-links a:hover {
+  color: #FFFFFF;
+  transform: translateX(2px);
+}
+
+/* --- Download App Card Form --- */
+.pl-download-desc {
+  font-size: 0.9rem;
+  line-height: 1.5;
+  margin: 0 0 1.25rem 0;
+  color: #94A3B8;
+}
+
+.pl-download-form {
+  display: flex;
+  flex-direction: column;
+  gap: 0.75rem;
+}
+
+.pl-input-wrapper {
+  display: flex;
+  align-items: center;
+  background-color: #1E293B; /* Slate 800 */
+  border: 1.5px solid #334155;
+  border-radius: 8px;
+  padding: 0.65rem 1rem;
+  transition: border-color 0.2s ease;
+}
+
+.pl-input-wrapper:focus-within {
+  border-color: #007BFF;
+}
+
+.pl-input-prefix {
+  color: #FFFFFF;
+  font-weight: 600;
+  font-size: 0.95rem;
+  margin-right: 0.5rem;
+  user-select: none;
+}
+
+.pl-download-input {
+  background: transparent;
+  border: none;
+  color: #FFFFFF;
+  font-family: inherit;
+  font-size: 0.95rem;
+  width: 100%;
+  outline: none;
+}
+
+.pl-download-input::placeholder {
+  color: #64748B;
+}
+
+.pl-btn-submit {
+  background-color: #007BFF;
+  color: #FFFFFF;
+  border: none;
+  border-radius: 8px;
+  padding: 0.8rem;
+  font-size: 0.95rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.2s ease;
+  font-family: inherit;
+}
+
+.pl-btn-submit:hover:not(:disabled) {
+  background-color: #0056b3;
+}
+
+.pl-btn-submit:disabled {
+  opacity: 0.6;
+  cursor: not-allowed;
+}
+
+.pl-btn-submit.success {
+  background-color: #10B981;
+}
+
+.pl-form-msg {
+  font-size: 0.8rem;
+  margin: -0.25rem 0 0 0;
+  font-weight: 500;
+}
+
+.pl-form-msg.error {
+  color: #EF4444;
+}
+
+.pl-form-msg.success {
+  color: #10B981;
+}
+
+/* --- Bottom Bar --- */
+.pl-footer-bottom {
+  border-top: 1px solid #1E293B;
+  padding-top: 2rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 1.5rem;
+}
+
+.pl-copyright {
+  font-size: 0.88rem;
+  margin: 0;
+}
+
+.pl-bottom-policies {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  align-items: center;
+  gap: 1.5rem;
+  flex-wrap: wrap;
+}
+
+.pl-bottom-policies a {
+  color: #64748B;
+  text-decoration: none;
+  font-size: 0.85rem;
+  font-weight: 500;
+  transition: color 0.15s ease;
+}
+
+.pl-bottom-policies a:hover {
+  color: #FFFFFF;
+}
+
+/* --- Responsive Layouts --- */
+@media (max-width: 1200px) {
+  .pl-footer-grid {
+    grid-template-columns: 1.5fr 1fr 1fr 1.5fr;
+    gap: 2.5rem;
+  }
+  .pl-footer-card--brand {
+    grid-column: span 1;
+  }
+  .pl-footer-card--download {
+    grid-column: span 1;
+  }
+}
+
+@media (max-width: 992px) {
+  .pl-footer-grid {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 2.5rem;
+  }
+  .pl-footer-card--brand,
+  .pl-footer-card--download {
+    grid-column: span 2;
+  }
+  .pl-app-links {
+    flex-direction: row;
+    max-width: none;
+    flex-wrap: wrap;
+  }
+  .pl-app-badge {
+    width: 140px;
+  }
+}
+
+@media (max-width: 600px) {
+  .pl-footer-new {
+    padding: 3.5rem 0 2rem 0;
+  }
+  .pl-footer-grid {
+    grid-template-columns: 1fr;
+    gap: 2rem;
+  }
+  .pl-footer-card--brand,
+  .pl-footer-card--download {
+    grid-column: span 1;
+  }
+  .pl-footer-bottom {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 1rem;
+  }
+  .pl-bottom-policies {
+    gap: 1rem;
+  }
+}

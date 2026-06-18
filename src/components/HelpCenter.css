@@ -1,0 +1,436 @@
+/* ─────────────────────────────────────────────
+   PrepLadder Help Center Stylesheet
+   Prefix: pl-hc- and pl- to maintain boundaries
+───────────────────────────────────────────── */
+
+.pl-helpcenter {
+  font-family: 'Inter', system-ui, -apple-system, sans-serif;
+  color: #1E1B4B;
+  background-color: #FAFCFF;
+  min-height: 100vh;
+  box-sizing: border-box;
+}
+
+/* --- Hero Banner Section --- */
+.pl-hc-hero {
+  background: linear-gradient(135deg, #EBF3FC 0%, #F5F9FD 100%);
+  padding: 5rem 2rem;
+  text-align: center;
+  border-bottom: 1px solid #E2E8F0;
+  position: relative;
+  overflow: hidden;
+}
+
+.pl-hc-hero::before {
+  content: "";
+  position: absolute;
+  top: -100px;
+  right: -100px;
+  width: 300px;
+  height: 300px;
+  border-radius: 50%;
+  background: radial-gradient(circle, rgba(0, 123, 255, 0.08) 0%, rgba(255, 255, 255, 0) 70%);
+  z-index: 1;
+}
+
+.pl-hc-hero__container {
+  max-width: 800px;
+  margin: 0 auto;
+  position: relative;
+  z-index: 2;
+}
+
+.pl-hc-hero__subtitle {
+  color: #007BFF;
+  font-size: 1rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  display: inline-block;
+  margin-bottom: 0.75rem;
+}
+
+.pl-hc-hero__title {
+  font-size: 2.8rem;
+  font-weight: 800;
+  color: #1E1B4B;
+  margin: 0 0 2rem 0;
+  letter-spacing: -0.02em;
+}
+
+/* --- Search Bar --- */
+.pl-search-container {
+  display: flex;
+  align-items: center;
+  background: #FFFFFF;
+  border: 1.5px solid #E2E8F0;
+  border-radius: 35px;
+  padding: 0.4rem 0.6rem 0.4rem 1.5rem;
+  box-shadow: 0 10px 30px rgba(0, 123, 255, 0.05);
+  max-width: 620px;
+  margin: 0 auto;
+  transition: all 0.25s cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+.pl-search-container:focus-within {
+  border-color: #007BFF;
+  box-shadow: 0 10px 30px rgba(0, 123, 255, 0.12);
+  transform: translateY(-2px);
+}
+
+.pl-search-icon {
+  color: #A0AEC0;
+  margin-right: 0.75rem;
+  flex-shrink: 0;
+}
+
+.pl-search-input {
+  border: none;
+  background: transparent;
+  font-family: inherit;
+  font-size: 1.05rem;
+  color: #1E1B4B;
+  width: 100%;
+  padding: 0.6rem 0;
+  outline: none;
+}
+
+.pl-search-input::placeholder {
+  color: #A0AEC0;
+}
+
+.pl-search-clear {
+  background: #EDF2F7;
+  border: none;
+  border-radius: 50%;
+  width: 26px;
+  height: 26px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #718096;
+  font-size: 0.75rem;
+  cursor: pointer;
+  margin-right: 0.5rem;
+  transition: background 0.15s ease;
+}
+
+.pl-search-clear:hover {
+  background: #E2E8F0;
+  color: #4A5568;
+}
+
+/* --- Layout Page Containers --- */
+.pl-hc-content {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 3rem 2rem 5rem 2rem;
+  box-sizing: border-box;
+}
+
+/* --- Get in Touch Contact Box --- */
+.pl-hc-contact {
+  background: #FFFFFF;
+  border: 1px solid #E5E7EB;
+  border-radius: 16px;
+  padding: 2rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 3rem;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.02);
+}
+
+.pl-hc-contact__left {
+  display: flex;
+  align-items: center;
+  gap: 1.5rem;
+}
+
+.pl-hc-phone-circle {
+  width: 56px;
+  height: 56px;
+  border-radius: 50%;
+  background-color: #E6F0FF;
+  color: #007BFF;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+}
+
+.pl-hc-contact__left h3 {
+  margin: 0 0 0.25rem 0;
+  font-size: 1.35rem;
+  font-weight: 700;
+  color: #1E1B4B;
+}
+
+.pl-hc-contact__left p {
+  margin: 0;
+  color: #6B7280;
+  font-size: 0.95rem;
+}
+
+.pl-hc-contact__right {
+  display: flex;
+  gap: 3rem;
+}
+
+.pl-hc-contact-col {
+  display: flex;
+  flex-direction: column;
+  gap: 0.25rem;
+}
+
+.pl-contact-sub {
+  font-size: 0.75rem;
+  text-transform: uppercase;
+  font-weight: 700;
+  color: #9CA3AF;
+  letter-spacing: 0.05em;
+}
+
+.pl-contact-tel {
+  font-size: 1.25rem;
+  font-weight: 700;
+  color: #1E1B4B;
+  text-decoration: none;
+  border-bottom: 2px dashed #CBD5E1;
+  transition: all 0.2s ease;
+  display: inline-block;
+  padding-bottom: 2px;
+}
+
+.pl-contact-tel:hover {
+  color: #007BFF;
+  border-bottom-color: #007BFF;
+}
+
+.pl-contact-hours {
+  font-size: 0.8rem;
+  color: #6B7280;
+}
+
+/* --- Category Cards Grid --- */
+.pl-hc-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1.5rem;
+  margin-bottom: 3.5rem;
+}
+
+.pl-category-card {
+  background: #FFFFFF;
+  border: 1px solid #E2E8F0;
+  border-radius: 16px;
+  padding: 2rem;
+  text-align: left;
+  cursor: pointer;
+  transition: all 0.25s cubic-bezier(0.16, 1, 0.3, 1);
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.01);
+  font-family: inherit;
+}
+
+.pl-category-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 12px 28px rgba(0, 123, 255, 0.06);
+  border-color: #007BFF;
+}
+
+.pl-category-card.selected {
+  border-color: #007BFF;
+  background-color: #F7FBFF;
+  box-shadow: 0 8px 20px rgba(0, 123, 255, 0.05);
+}
+
+.pl-cat-icon-wrapper {
+  width: 48px;
+  height: 48px;
+  border-radius: 12px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 1.25rem;
+}
+
+/* Card theme styling */
+.card-account .pl-cat-icon-wrapper { background: #E6F0FF; color: #007BFF; }
+.card-modules .pl-cat-icon-wrapper { background: #EAFDF4; color: #10B981; }
+.card-technical .pl-cat-icon-wrapper { background: #FFF5EC; color: #F59E0B; }
+.card-delivery .pl-cat-icon-wrapper { background: #FAF5FF; color: #8B5CF6; }
+.card-payments .pl-cat-icon-wrapper { background: #EEF2FF; color: #4F46E5; }
+.card-others .pl-cat-icon-wrapper { background: #EDFDFD; color: #0D9488; }
+
+.pl-category-card h2 {
+  font-size: 1.15rem;
+  font-weight: 700;
+  color: #1E1B4B;
+  margin: 0 0 0.5rem 0;
+}
+
+.pl-category-card p {
+  font-size: 0.88rem;
+  color: #6B7280;
+  line-height: 1.45;
+  margin: 0;
+}
+
+/* --- Accordion Details Drawer --- */
+.pl-faq-accordion-section {
+  background: #FFFFFF;
+  border: 1px solid #E5E7EB;
+  border-radius: 16px;
+  padding: 2.5rem;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.02);
+}
+
+.pl-accordion-title {
+  font-size: 1.5rem;
+  font-weight: 700;
+  margin: 0 0 1.5rem 0;
+  color: #1E1B4B;
+}
+
+.pl-accordion-list {
+  display: flex;
+  flex-direction: column;
+}
+
+.pl-accordion-item {
+  border-bottom: 1px solid #F3F4F6;
+}
+
+.pl-accordion-item:last-child {
+  border-bottom: none;
+}
+
+.pl-accordion-header {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: none;
+  border: none;
+  padding: 1.25rem 0;
+  font-family: inherit;
+  font-size: 1.05rem;
+  font-weight: 600;
+  color: #1E1B4B;
+  text-align: left;
+  cursor: pointer;
+  transition: color 0.15s ease;
+}
+
+.pl-accordion-header:hover {
+  color: #007BFF;
+}
+
+.pl-accordion-qtext {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+  flex-wrap: wrap;
+}
+
+.pl-search-badge {
+  font-size: 0.7rem;
+  font-weight: 700;
+  background-color: #EDF2F7;
+  color: #4A5568;
+  padding: 0.2rem 0.5rem;
+  border-radius: 12px;
+  text-transform: uppercase;
+}
+
+.pl-accordion-icon {
+  font-size: 1.35rem;
+  color: #9CA3AF;
+  flex-shrink: 0;
+  margin-left: 1rem;
+}
+
+/* Beautiful slide-open drawer effect using CSS transition */
+.pl-accordion-body {
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.3s cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+.pl-accordion-item.open .pl-accordion-body {
+  max-height: 250px;
+}
+
+.pl-accordion-content {
+  padding: 0 0 1.25rem 0;
+}
+
+.pl-accordion-content p {
+  font-size: 0.95rem;
+  line-height: 1.6;
+  color: #4B5563;
+  margin: 0;
+}
+
+/* Empty state styling */
+.pl-faq-no-results {
+  text-align: center;
+  padding: 3rem 1rem;
+}
+
+.pl-faq-no-results h3 {
+  font-size: 1.2rem;
+  color: #1E1B4B;
+  margin: 0 0 0.5rem 0;
+}
+
+.pl-faq-no-results p {
+  color: #6B7280;
+  font-size: 0.95rem;
+}
+
+/* --- Responsive Breakpoints --- */
+@media (max-width: 992px) {
+  .pl-hc-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .pl-hc-contact {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 1.5rem;
+  }
+
+  .pl-hc-contact__right {
+    gap: 2rem;
+    width: 100%;
+    justify-content: space-between;
+  }
+}
+
+@media (max-width: 768px) {
+  .pl-hc-hero {
+    padding: 3.5rem 1.5rem;
+  }
+
+  .pl-hc-hero__title {
+    font-size: 2.2rem;
+  }
+
+  .pl-hc-grid {
+    grid-template-columns: 1fr;
+    gap: 1rem;
+  }
+
+  .pl-hc-contact__right {
+    flex-direction: column;
+    gap: 1.25rem;
+  }
+
+  .pl-faq-accordion-section {
+    padding: 1.5rem;
+  }
+}
