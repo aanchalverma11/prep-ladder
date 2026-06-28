@@ -1,0 +1,448 @@
+.ent-residency-page {
+  font-family: "Inter", sans-serif;
+  color: #111111;
+  background-color: #ffffff;
+}
+
+/* Announcement Strip */
+.ent-announcement-strip {
+  background-color: #e3f2fd;
+  border-bottom: 1px solid #bbdefb;
+  padding: 10px 0;
+}
+
+.ent-announcement-text {
+  margin: 0;
+  font-size: 0.95rem;
+  color: #1565c0;
+}
+
+.ent-announcement-btn {
+  color: #0d47a1;
+  text-decoration: underline;
+  font-weight: 700;
+  margin-left: 8px;
+}
+
+.ent-announcement-btn:hover {
+  color: #0a3372;
+}
+
+/* Hero Section */
+.ent-hero {
+  background: linear-gradient(180deg, #f4f9ff 0%, #ffffff 100%);
+  padding: 80px 0;
+  color: #1e1b4b;
+  position: relative;
+}
+
+.ent-hero-content-center {
+  position: relative;
+  z-index: 10;
+}
+
+.ent-hero-decor-left {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: auto;
+  max-height: 80%;
+  pointer-events: none;
+  opacity: 0.9;
+}
+
+.ent-hero-decor-right {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  width: auto;
+  max-height: 85%;
+  pointer-events: none;
+  opacity: 0.9;
+}
+
+.ent-hero-badge {
+  background-color: #e3f2fd;
+  color: #1e88e5;
+  padding: 8px 18px;
+  border-radius: 30px;
+  display: inline-block;
+  font-size: 0.85rem;
+  font-weight: 700;
+  margin-bottom: 24px;
+  text-decoration: none;
+  transition: background-color 0.2s ease;
+}
+
+.ent-hero-badge:hover {
+  background-color: #bbdefb;
+  color: #1565c0;
+}
+
+.ent-hero-heading {
+  font-size: 3rem;
+  font-weight: 800;
+  line-height: 1.25;
+  margin-bottom: 20px;
+  color: #1e1b4b;
+}
+
+.ent-hero-heading span {
+  color: #1e88e5;
+}
+
+.ent-hero-desc {
+  font-size: 1.15rem;
+  line-height: 1.7;
+  color: #4b5563;
+  margin-bottom: 36px;
+  max-width: 680px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.ent-hero-action-row {
+  margin-bottom: 32px;
+}
+
+.ent-hero-btn {
+  background-color: #2a275c;
+  color: #ffffff;
+  border: none;
+  border-radius: 8px;
+  padding: 14px 44px;
+  font-size: 1rem;
+  font-weight: 700;
+  cursor: pointer;
+  display: inline-block;
+  text-decoration: none;
+  transition: background-color 0.2s ease, transform 0.2s ease;
+  box-shadow: 0 4px 12px rgba(42, 39, 92, 0.2);
+}
+
+.ent-hero-btn:hover {
+  background-color: #1e1b46;
+  transform: translateY(-1px);
+  color: #ffffff;
+}
+
+.ent-hero-badges-row {
+  display: flex;
+  justify-content: center;
+  gap: 16px;
+}
+
+.ent-hero-badges-row img {
+  height: 40px;
+  transition: transform 0.2s ease;
+}
+
+.ent-hero-badges-row img:hover {
+  transform: translateY(-1px);
+}
+
+/* Features Section Layout */
+.ent-feature-section-row {
+  padding: 80px 0;
+  background-color: #ffffff;
+  border-top: 1px solid #f1f5f9;
+}
+
+.ent-feature-text-block {
+  padding: 20px;
+}
+
+.ent-feature-item-heading {
+  font-size: 2.2rem;
+  font-weight: 700;
+  color: #1e1b4b;
+  margin-bottom: 20px;
+  line-height: 1.3;
+}
+
+.ent-feature-item-desc {
+  font-size: 1.1rem;
+  line-height: 1.7;
+  color: #4b5563;
+}
+
+.ent-feature-item-img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 16px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.05);
+}
+
+.ent-feature-media-block {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Faculty Section */
+.ent-faculty-section {
+  padding: 80px 0;
+  background-color: #ffffff;
+  border-top: 1px solid #f1f5f9;
+}
+
+.ent-faculty-section-title {
+  font-size: 2.5rem;
+  font-weight: 800;
+  color: #1e1b4b;
+  margin-bottom: 40px;
+}
+
+.ent-faculty-card-wrapper {
+  max-width: 900px;
+  margin: 0 auto 40px auto;
+  border-radius: 28px;
+  overflow: hidden;
+  box-shadow: 0 15px 35px rgba(0, 0, 0, 0.05);
+  border: 1px solid #eef2f6;
+  background-color: #ffffff;
+}
+
+.ent-faculty-card-inner {
+  width: 100%;
+}
+
+.ent-faculty-img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+.ent-faculty-desc-below {
+  font-size: 1.15rem;
+  line-height: 1.7;
+  color: #4b5563;
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+/* FAQs Section */
+.ent-faqs-accordion-section {
+  padding: 80px 0;
+  background-color: #ffffff;
+  border-top: 1px solid #f1f5f9;
+}
+
+.ent-faq-container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+.ent-faq-title {
+  font-size: 2.4rem;
+  font-weight: 800;
+  color: #1e1b4b;
+  margin-bottom: 24px;
+}
+
+.ent-faq-category {
+  font-size: 1.15rem;
+  font-weight: 700;
+  color: #94a3b8;
+  margin-bottom: 24px;
+  text-align: left;
+}
+
+.ent-faq-accordion {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.ent-faq-item {
+  border: 1px solid #eef2f6;
+  border-radius: 16px;
+  background-color: #fafbfc;
+  overflow: hidden;
+  transition: all 0.3s ease;
+}
+
+.ent-faq-item.open {
+  border-color: #bbdefb;
+  background-color: #ffffff;
+  box-shadow: 0 4px 20px rgba(30, 136, 229, 0.04);
+}
+
+.ent-faq-question-btn {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 24px 30px;
+  background: none;
+  border: none;
+  text-align: left;
+  font-size: 1.1rem;
+  font-weight: 700;
+  color: #1e1b4b;
+  cursor: pointer;
+  outline: none;
+}
+
+.ent-faq-icon {
+  font-size: 1.5rem;
+  font-weight: 400;
+  color: #64748b;
+  transition: transform 0.2s ease;
+}
+
+.ent-faq-answer-container {
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.3s ease-out;
+}
+
+.ent-faq-item.open .ent-faq-answer-container {
+  max-height: 500px; /* high enough value to cover content */
+}
+
+.ent-faq-answer-content {
+  padding: 0 30px 24px 30px;
+  font-size: 1rem;
+  line-height: 1.65;
+  color: #4b5563;
+}
+
+.ent-faq-answer-content ul {
+  padding-left: 20px;
+  margin-top: 10px;
+}
+
+/* Subscription Plans Section */
+.ent-plans-card-section {
+  padding: 80px 0;
+  background-color: #ffffff;
+  border-top: 1px solid #f1f5f9;
+}
+
+.ent-plan-card-large {
+  background-color: #f7faff;
+  border: 1px solid #b3d7ff;
+  border-radius: 24px;
+  padding: 50px;
+  box-shadow: 0 10px 30px rgba(30, 136, 229, 0.02);
+}
+
+.ent-plan-image-col {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.ent-plan-large-img {
+  width: 260px;
+  height: auto;
+  display: block;
+}
+
+.ent-plan-details-col {
+  padding-left: 30px;
+}
+
+.ent-plan-badge-pill {
+  background-color: #e3f2fd;
+  color: #1e88e5;
+  padding: 6px 16px;
+  border-radius: 8px;
+  display: inline-block;
+  font-size: 0.85rem;
+  font-weight: 700;
+  margin-bottom: 20px;
+}
+
+.ent-plan-large-title {
+  font-size: 2.3rem;
+  font-weight: 800;
+  color: #1e1b4b;
+  margin-bottom: 12px;
+}
+
+.ent-plan-large-subtitle {
+  font-size: 1.1rem;
+  color: #4b5563;
+  margin-bottom: 32px;
+}
+
+.ent-plan-features-list-clean {
+  list-style: none;
+  padding: 0;
+  margin: 0 0 36px 0;
+}
+
+.ent-plan-features-list-clean li {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  font-size: 1.05rem;
+  color: #1e1b4b;
+  margin-bottom: 18px;
+}
+
+.ent-plan-check-icon {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 20px;
+  height: 20px;
+  background-color: #1e88e5;
+  color: #ffffff;
+  border-radius: 50%;
+  font-weight: 700;
+  font-size: 0.75rem;
+  flex-shrink: 0;
+}
+
+.ent-plan-enroll-large-btn {
+  background-color: #2a275c;
+  color: #ffffff !important;
+  border: none;
+  border-radius: 8px;
+  padding: 14px 44px;
+  font-size: 1rem;
+  font-weight: 700;
+  cursor: pointer;
+  transition: background-color 0.2s ease, transform 0.2s ease;
+  box-shadow: 0 4px 12px rgba(42, 39, 92, 0.2);
+}
+
+.ent-plan-enroll-large-btn:hover {
+  background-color: #1e1b46;
+  transform: translateY(-1px);
+}
+
+@media (max-width: 991px) {
+  .ent-hero {
+    padding: 60px 0 0;
+  }
+  .ent-hero-decor-left,
+  .ent-hero-decor-right {
+    display: none;
+  }
+  .ent-hero-heading {
+    font-size: 2.2rem;
+  }
+  .ent-plan-card-large {
+    padding: 30px;
+  }
+  .ent-plan-details-col {
+    padding-left: 0;
+    margin-top: 30px;
+  }
+  .ent-plan-large-title {
+    font-size: 2rem;
+  }
+  .ent-faculty-card {
+    padding: 30px;
+  }
+  .ent-faculty-details-col {
+    padding-right: 0;
+    margin-bottom: 30px;
+  }
+}

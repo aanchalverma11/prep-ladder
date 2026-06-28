@@ -1,0 +1,279 @@
+{
+  "props": {
+    "pageProps": {
+      "courseMeta": {
+        "courseID": 35,
+        "courseMeta": {
+          "name": "Radiology Residency",
+          "urlName": "radiology-residency",
+          "id": 35,
+          "blogsSlug": "radiology-residency-study-material",
+          "packID": "",
+          "link": "/courses/radiology-residency/plan",
+          "blogLink": "/radiology-residency-study-material",
+          "faqAppName": "prepladder-2021",
+          "seo": {},
+          "socialLinks": {
+            "fb": "https://www.facebook.com/medical.pg.entrance.prepladder/",
+            "insta": "https://www.instagram.com/prepladder_med/",
+            "yt": "https://www.youtube.com/channel/UCdbMxSVAgPENqhYVeYkAA2w/featured",
+            "tl": "https://t.me/medicalprep",
+            "linkdn": "https://in.linkedin.com/company/prepladder"
+          }
+        },
+        "isExtraCourse": false,
+        "urlName": "radiology-residency",
+        "user": {
+          "isLogin": false,
+          "token": "",
+          "device": "",
+          "temporaryCourse": "",
+          "fakeCourseID": ""
+        }
+      },
+      "serverTime": "Tue Jun 23 2026 05:09:00 GMT+0000 (Coordinated Universal Time)",
+      "funValue": {
+        "schema": [
+          {
+            "timer": "",
+            "x": "",
+            "type": "header",
+            "data": {
+              "getACallback": {
+                "isShow": true,
+                "phoneNo": "+91-7026233334"
+              },
+              "seo": {
+                "title": "Radiology Residency Preparation Online | PrepLadder",
+                "description": "Master radiology residency concepts with 170+ hours of engaging video lectures by India’s top experts, laying a strong foundation for your career.",
+                "image": "https://image.prepladder.com/content/5oxQFfomnKRKFvZSuZU31752653174.jpg",
+                "canonicalURL": "https://www.prepladder.com/courses/radiology-residency"
+              },
+              "logoutButton": {
+                "afterRedirect": {
+                  "link": "/courses/radiology-residency",
+                  "isSoftLogout": true
+                }
+              }
+            }
+          },
+          {
+            "type": "offerSingleLine",
+            "data": {
+              "text": "Ease your residency prep with the <b>Radiology Residency Course</b> .",
+              "href": "/courses/radiology-residency/plan?utm_source=yellowband&utm_medium=banner&utm_campaign=radiology_residency_plan",
+              "buttonText": "Enrol Now"
+            }
+          },
+          {
+            "type": "timer",
+            "disabled": 0,
+            "data": {
+              "title": "THE COUNTDOWN HAS BEGUN",
+              "subTitle": "Get Residency ELITE Plan Now! Offer Ends Tonight at 11:59 PM!",
+              "timer": {
+                "start": "2025-09-18 00:00:00",
+                "end": "2025-09-18 23:59:59"
+              },
+              "button": {
+                "text": "Enrol now",
+                "href": "/courses/radiology-residency/plan"
+              },
+              "coupon": {
+                "code": "CRACKEXAM"
+              }
+            }
+          },
+          {
+            "type": "bannerTwo",
+            "data": {
+              "greenView": true,
+              "radiology": true,
+              "title": "Your <span>Radiology Residency Companion -</span> From Day One to Done",
+              "paragraph": "Residency is tough-we make it easier. With tools that think like a radiologist and guidance you can trust, this is your go-to companion, built by experts.",
+              "button": {
+                "href": "/courses/radiology-residency/plan",
+                "text": "Enrol Now",
+                "WALink": "/app"
+              },
+              "image": {
+                "src": "https://image.prepladder.com/content/N0A6jZ1Q7wEaKqqV50351752643725.png",
+                "alt": "Mohammed Azam"
+              }
+            }
+          },
+          {
+            "type": "featureRadiology",
+            "data": {
+              "titleIcon": "https://image.prepladder.com/content/AsZmnPTY4e5QcBWlCgox1752645084.png",
+              "head": "Video Lectures for Concept Clarity",
+              "icon": "https://image.prepladder.com/content/ohy8V1cDsPeUITHKKeZO1752644864.png",
+              "video": "https://image.prepladder.com/content/e2xHweKvN7duSyxWSIsl1752645381.png",
+              "features": [
+                {
+                  "title": "170+ hours of expert-led Conceptual Video Lectures",
+                  "subtitle": "Bite-sized, accessible content that fits between cases"
+                },
+                {
+                  "title": "Bridge theory into practice",
+                  "subtitle": "Understand what you're seeing, not just what to memorize"
+                },
+                {
+                  "title": "Adapted from standard textbooks",
+                  "subtitle": "Includes references from renowned resources like <strong>David Sutton</strong> and more-so you’re always aligned with the gold standard."
+                },
+                {
+                  "title": "Built to strengthen your foundation",
+                  "subtitle": "Perfect for residents who want to master core concepts and develop strong clinical reasoning skills"
+                }
+              ]
+            }
+          },
+          {
+            "type": "featureRadiology",
+            "data": {
+              "notes": true,
+              "titleIcon": "https://image.prepladder.com/content/tzQ0AxQXWZZuLsvEQwrd1752646445.svg",
+              "head": "Notes that think like a Radiologist",
+              "icon": "https://image.prepladder.com/content/p2RAF2YsEi7ufVGPDx1g1752646486.svg",
+              "video": "https://image.prepladder.com/content/F5jloAwJNgvy4eQliZaV1752646502.png",
+              "features": [
+                {
+                  "title": "Most topics are completable in under 15 minutes",
+                  "subtitle": "Perfect for between cases or quick breaks"
+                },
+                {
+                  "title": "Integrated visuals",
+                  "subtitle": "Annotated scans, diagrams, and interactive 3D models to simplify complex topics"
+                },
+                {
+                  "title": "Clinically contextualized content",
+                  "subtitle": "That mirrors how you think during real cases"
+                },
+                {
+                  "title": "Modular and searchable",
+                  "subtitle": "So you always know what to study next"
+                },
+                {
+                  "title": "Exam focused + practice-ready",
+                  "subtitle": "Supports both exams and reporting room decisions"
+                }
+              ]
+            }
+          },
+          {
+            "type": "featureRadiology",
+            "data": {
+              "titleIcon": "https://image.prepladder.com/content/aCJEdcGPbYVZSE6robS91752646279.svg",
+              "head": "High-yield QBank <span>(Coming Soon)</span>",
+              "icon": "https://image.prepladder.com/content/ohy8V1cDsPeUITHKKeZO1752644864.png",
+              "video": "https://image.prepladder.com/content/iYiPoMujR6u5kT7F8Mip1752646330.png",
+              "features": [
+                {
+                  "title": "Clinical scenario focus",
+                  "subtitle": "Train your brain to think like a specialist with real-world clinical vignettes."
+                },
+                {
+                  "title": "Image -based questions",
+                  "subtitle": "Understand why findings matter, not just how to spot them"
+                },
+                {
+                  "title": "Detailed solutions",
+                  "subtitle": "Get crystal-clear explanations with every answer to reinforce core concepts."
+                },
+                {
+                  "title": "Designed for real exam prep",
+                  "subtitle": "Structured to match the latest exam pattern and challenge your reasoning, not just your memory."
+                }
+              ]
+            }
+          },
+          {
+            "type": "download",
+            "disabled": false,
+            "data": {
+              "radiology": true,
+              "title": "Anytime, Anywhere Access to Quality Content",
+              "subTitle": "Prepare for Radiology Residency with top-tier study materials accessible anytime on iOS, Android, or Laptop.\n",
+              "button": {
+                "text": "Avail FREE Access",
+                "href": "/courses/radiology-residency/plan"
+              },
+              "appStoreTypeTwo": [
+                {
+                  "href": "https://play.google.com/store/apps/details?id=com.prepladder.learningapp",
+                  "target": "_blank",
+                  "img": "https://image.prepladder.com/content/lPU9vb0ejHpGK1psrFuY1752643873.png"
+                },
+                {
+                  "href": "https://itunes.apple.com/us/app/prepladder/id1622337839",
+                  "target": "_blank",
+                  "img": "https://image.prepladder.com/content/csu1MSFv3KCVGkCk4Teu1752643895.png"
+                }
+              ],
+              "img": {
+                "src": "https://image.prepladder.com/content/c0QXHZqryUggxS3ZEnr51752648760.png",
+                "loading": "lazy"
+              }
+            }
+          },
+          {
+            "type": "faq",
+            "data": {
+              "ssRapidFaq": true,
+              "ssMedicine": true,
+              "bgColor": "#EAF6FE",
+              "icon": "https://image.prepladder.com/content/jxPqGg9hp1N2j5fRBW6s1752644077.png",
+              "faqArr": [
+                {
+                  "name": "What is the course content and duration? ",
+                  "text": "This course is divided into 3 major parts\n<ul>\n<li>Systemic and General Radiology</li>\n\n<li>Radiology Physics</li>\n\n<li>Conventional Radiology</li>\n\n</ul>\n\n\nAnd, the complete duration of the course will be around 170+ hours. \n\n"
+                },
+                {
+                  "name": "Who should join this course?\n\n",
+                  "text": "The comprehensive study course encompassed the entire syllabus taught during 3 years of Radiology residency. It is beneficial for first-, second-, and third-year residents, practicing radiologists, and students preparing for FRCR/EDiR as it offers thorough syllabus coverage. It can also be used to create content for journal clubs and seminars. \n\n"
+                },
+                {
+                  "name": "Which books are the course based on?\n\n",
+                  "text": "The course is designed based on prominent textbooks, including Grainger & Allison’s Diagnostic Radiology- 7th Edition, Textbook of Radiology and Imaging by David Sutton- 7th Edition, Osborn’s Brain: Imaging, Pathology and Anatomy- 2nd Edition, Diagnostic Ultrasound by Carol M Rumack- 5th edition, High-resolution CT of lung: 5th edition by W. Richard Webb\n\n"
+                }
+              ]
+            }
+          },
+          {
+            "type": "footer"
+          }
+        ],
+        "collapseView": false,
+        "ssr_apis_response": {
+          "status": false,
+          "error": "on server apisList.length===0"
+        }
+      },
+      "isNewView": true
+    },
+    "__N_SSP": true
+  },
+  "page": "/courses/[subcourse]",
+  "query": {
+    "subcourse": "radiology-residency"
+  },
+  "buildId": "F1MLco_Yzell_it0CEtyO",
+  "isFallback": false,
+  "isExperimentalCompile": false,
+  "dynamicIds": [
+    62867,
+    65658,
+    87601,
+    69784,
+    20717,
+    56124,
+    86991,
+    62530,
+    18868,
+    96941,
+    52973
+  ],
+  "gssp": true,
+  "scriptLoader": []
+}

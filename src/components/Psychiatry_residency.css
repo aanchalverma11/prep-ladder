@@ -1,0 +1,790 @@
+.psychiatry-residency-page {
+  font-family: "Inter", sans-serif;
+  color: #111111;
+  background-color: #ffffff;
+}
+
+/* Announcement Strip */
+.psych-announcement-strip {
+  background-color: #e0f2fe;
+  border-bottom: 1px solid #bae6fd;
+  padding: 10px 0;
+}
+
+.psych-announcement-text {
+  margin: 0;
+  font-size: 0.95rem;
+  color: #0369a1;
+}
+
+.psych-announcement-btn {
+  color: #0c4a6e;
+  text-decoration: underline;
+  font-weight: 700;
+  margin-left: 8px;
+}
+
+.psych-announcement-btn:hover {
+  color: #082f49;
+}
+
+/* Hero Section */
+.psych-hero {
+  background: linear-gradient(180deg, #f4f9ff 0%, #ffffff 100%);
+  padding: 80px 0;
+  color: #1e1b4b;
+  position: relative;
+}
+
+.psych-hero-content-center {
+  position: relative;
+  z-index: 10;
+}
+
+.psych-hero-decor-left {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: auto;
+  max-height: 80%;
+  pointer-events: none;
+  opacity: 0.9;
+}
+
+.psych-hero-decor-right {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  width: auto;
+  max-height: 85%;
+  pointer-events: none;
+  opacity: 0.9;
+}
+
+.psych-hero-heading {
+  font-size: 2.3rem;
+  font-weight: 800;
+  line-height: 1.25;
+  margin-bottom: 20px;
+  color: #1e1b4b;
+}
+
+.psych-hero-heading span {
+  color: #3b82f6;
+}
+
+.psych-hero-desc {
+  font-size: 1.05rem;
+  line-height: 1.7;
+  color: #4b5563;
+  margin-bottom: 36px;
+  max-width: 680px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.psych-hero-action-row {
+  margin-bottom: 32px;
+}
+
+.psych-hero-btn {
+  background-color: #272556;
+  color: #ffffff;
+  border: none;
+  border-radius: 8px;
+  padding: 14px 44px;
+  font-size: 1rem;
+  font-weight: 700;
+  cursor: pointer;
+  display: inline-block;
+  text-decoration: none;
+  transition: background-color 0.2s ease, transform 0.2s ease;
+  box-shadow: 0 4px 12px rgba(39, 37, 86, 0.2);
+}
+
+.psych-hero-btn:hover {
+  background-color: #1b1940;
+  transform: translateY(-1px);
+  color: #ffffff;
+}
+
+.psych-hero-badges-row {
+  display: flex;
+  justify-content: center;
+  gap: 16px;
+}
+
+.psych-hero-badges-row img {
+  height: 40px;
+  transition: transform 0.2s ease;
+}
+
+.psych-hero-badges-row img:hover {
+  transform: translateY(-1px);
+}
+
+/* Common Layout Settings */
+.psych-feature-section-row {
+  padding: 80px 0;
+  background-color: #ffffff;
+}
+
+.psych-feature-section-row.alternate-bg {
+  background-color: #fafbfc;
+}
+
+.psych-feature-text-block {
+  padding: 20px 40px;
+}
+
+.psych-feature-item-heading {
+  font-size: 2.2rem;
+  font-weight: 800;
+  color: #1e1b4b;
+  margin-bottom: 20px;
+  line-height: 1.25;
+}
+
+.psych-feature-item-desc {
+  font-size: 1.05rem;
+  line-height: 1.7;
+  color: #4b5563;
+}
+
+.psych-feature-media-block {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+}
+
+/* Phone Mockup Styling */
+.psych-phone-mockup {
+  width: 320px;
+  height: 480px;
+  background: #ffffff;
+  border: 12px solid #1e293b;
+  border-radius: 40px;
+  box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.15);
+  position: relative;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+}
+
+.psych-phone-camera {
+  position: absolute;
+  top: 10px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 60px;
+  height: 12px;
+  background: #1e293b;
+  border-radius: 6px;
+  z-index: 10;
+}
+
+.psych-phone-screen {
+  padding-top: 24px;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  background: #f8fafc;
+}
+
+.psych-video-box {
+  width: 90%;
+  margin: 10px auto;
+  aspect-ratio: 16 / 9;
+  background: #020617;
+  border-radius: 12px;
+  overflow: hidden;
+  position: relative;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+}
+
+.psych-video-blackboard {
+  width: 100%;
+  height: 100%;
+  background: #064e3b; /* Deep green blackboard */
+  border: 6px solid #451a03; /* Wooden frame */
+  box-sizing: border-box;
+  position: relative;
+  color: #fef08a; /* Yellow chalk text */
+  padding: 8px;
+}
+
+.psych-board-header {
+  font-size: 0.5rem;
+  font-weight: 800;
+  text-align: center;
+  border-bottom: 1px dashed rgba(254, 240, 138, 0.4);
+  padding-bottom: 2px;
+}
+
+.psych-board-diagram {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 60%;
+}
+
+.psych-brain-svg {
+  width: 70%;
+  height: auto;
+}
+
+.psych-board-teacher {
+  position: absolute;
+  bottom: 4px;
+  right: 8px;
+  width: 32px;
+  height: 32px;
+}
+
+.psych-teacher-mini-avatar {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 4px;
+  border: 1.5px solid #ffffff;
+  background: #cbd5e1;
+}
+
+.psych-board-play-btn {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 36px;
+  height: 36px;
+  border-radius: 50%;
+  background: rgba(59, 130, 246, 0.9);
+  color: #ffffff;
+  border: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.3);
+}
+
+/* Progress Slider */
+.psych-phone-slider-container {
+  width: 90%;
+  margin: 8px auto;
+}
+
+.psych-phone-slider-track {
+  width: 100%;
+  height: 4px;
+  background: #e2e8f0;
+  border-radius: 2px;
+  position: relative;
+}
+
+.psych-phone-slider-fill {
+  height: 100%;
+  background: #3b82f6;
+  border-radius: 2px;
+}
+
+.psych-phone-slider-thumb {
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background: #3b82f6;
+  position: absolute;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+
+/* Tab Actions */
+.psych-phone-actions {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  gap: 2px;
+  margin-top: auto;
+  background: #ffffff;
+  border-top: 1px solid #f1f5f9;
+  padding: 10px 4px;
+}
+
+.psych-phone-action-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: 0.55rem;
+  color: #64748b;
+  cursor: pointer;
+}
+
+.psych-action-icon {
+  width: 18px;
+  height: 18px;
+  margin-bottom: 4px;
+  color: #94a3b8;
+}
+
+.psych-phone-action-item.highlight {
+  color: #10b981;
+}
+
+.psych-download-badge {
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  background: #10b981;
+  color: #ffffff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 4px;
+}
+
+.psych-download-badge svg {
+  width: 10px;
+  height: 10px;
+}
+
+/* Notes Stack Mockup */
+.psych-notes-stack {
+  width: 280px;
+  height: 380px;
+  position: relative;
+}
+
+.psych-note-page {
+  position: absolute;
+  width: 250px;
+  height: 340px;
+  background: #ffffff;
+  border: 1px solid #e2e8f0;
+  border-radius: 12px;
+  box-shadow: 0 10px 25px -5px rgba(0, 0, 0, 0.05);
+}
+
+.psych-note-page.back-page {
+  top: 0;
+  left: 0;
+  transform: rotate(-3deg);
+  background: #f8fafc;
+}
+
+.psych-note-page.front-page {
+  top: 15px;
+  left: 20px;
+  transform: rotate(2deg);
+  z-index: 2;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+}
+
+.psych-note-header {
+  border-bottom: 1.5px solid #f3f4f6;
+  padding-bottom: 8px;
+  margin-bottom: 12px;
+}
+
+.psych-note-number {
+  font-size: 0.65rem;
+  font-weight: 700;
+  color: #d97706;
+  background: #fef3c7;
+  padding: 2px 6px;
+  border-radius: 4px;
+  display: inline-block;
+  margin-bottom: 4px;
+}
+
+.psych-note-title {
+  font-size: 0.68rem;
+  font-weight: 800;
+  color: #1f2937;
+  letter-spacing: 0.5px;
+}
+
+.psych-note-text-line {
+  height: 4px;
+  background: #e5e7eb;
+  border-radius: 2px;
+  margin-bottom: 8px;
+}
+
+.psych-note-text-line.short {
+  width: 60%;
+}
+
+.psych-note-diagram-placeholder {
+  height: 100px;
+  border: 1px dashed #e5e7eb;
+  border-radius: 8px;
+  margin: 12px 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #faf5ff;
+}
+
+.psych-synapse-svg {
+  width: 60%;
+}
+
+.psych-note-footer {
+  margin-top: auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.psych-note-badge {
+  font-size: 0.55rem;
+  font-weight: 700;
+  color: #3b82f6;
+  background: #eff6ff;
+  padding: 2px 6px;
+  border-radius: 4px;
+}
+
+.psych-note-download-btn {
+  width: 24px;
+  height: 24px;
+  border-radius: 50%;
+  background: #ecfdf5;
+  color: #10b981;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  box-shadow: 0 2px 5px rgba(16, 185, 129, 0.15);
+}
+
+/* Residency ELITE Plan section styling */
+.psych-plans-card-section {
+  padding: 80px 0;
+  background-color: #ffffff;
+}
+
+.psych-plan-card-large {
+  background-color: #fffbf7;
+  border: 1px solid #fed7aa;
+  border-radius: 32px;
+  padding: 60px;
+  box-shadow: 0 10px 40px rgba(251, 146, 60, 0.03);
+}
+
+.psych-plan-image-col {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.psych-trophy-ladder-box {
+  width: 100%;
+  max-width: 220px;
+}
+
+.psych-trophy-ladder-svg {
+  width: 100%;
+  height: auto;
+}
+
+.psych-plan-details-col {
+  padding-left: 40px;
+}
+
+.psych-plan-badge-pill {
+  background-color: #ffedd5;
+  color: #ea580c;
+  padding: 6px 16px;
+  border-radius: 30px;
+  display: inline-block;
+  font-size: 0.8rem;
+  font-weight: 700;
+  margin-bottom: 20px;
+}
+
+.psych-plan-large-title {
+  font-size: 2.2rem;
+  font-weight: 800;
+  color: #1e1b4b;
+  margin-bottom: 12px;
+}
+
+.psych-plan-large-subtitle {
+  font-size: 1.05rem;
+  color: #4b5563;
+  margin-bottom: 32px;
+}
+
+.psych-plan-features-list-clean {
+  list-style: none;
+  padding: 0;
+  margin: 0 0 36px 0;
+}
+
+.psych-plan-features-list-clean li {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  font-size: 1.05rem;
+  color: #1e1b4b;
+  margin-bottom: 18px;
+}
+
+.psych-plan-check-icon {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 20px;
+  height: 20px;
+  background-color: #10b981;
+  color: #ffffff;
+  border-radius: 50%;
+  flex-shrink: 0;
+}
+
+.psych-plan-enroll-large-btn {
+  background-color: #272556;
+  color: #ffffff !important;
+  border: none;
+  border-radius: 8px;
+  padding: 14px 44px;
+  font-size: 1rem;
+  font-weight: 700;
+  cursor: pointer;
+  transition: background-color 0.2s ease, transform 0.2s ease;
+  box-shadow: 0 4px 12px rgba(39, 37, 86, 0.2);
+}
+
+.psych-plan-enroll-large-btn:hover {
+  background-color: #1b1940;
+  transform: translateY(-1px);
+}
+
+/* Meet Faculty Section styling */
+.psych-faculty-section {
+  padding: 80px 0;
+  background-color: #ffffff;
+  border-top: 1px solid #f1f5f9;
+}
+
+.psych-faculty-section-title {
+  font-size: 2.2rem;
+  font-weight: 800;
+  color: #1e1b4b;
+  margin-bottom: 40px;
+}
+
+.psych-faculty-card-wrapper {
+  max-width: 780px;
+  margin: 0 auto 40px auto;
+  border-radius: 20px;
+  overflow: hidden;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.04);
+}
+
+.psych-faculty-large-card-img {
+  width: 100%;
+  max-width: 780px;
+  height: auto;
+  display: block;
+  border-radius: 20px;
+}
+
+.psych-faculty-card-inner {
+  width: 100%;
+  background: linear-gradient(135deg, #f0f4ff 0%, #e0ebff 100%);
+  border-radius: 20px;
+  padding: 40px 60px;
+  display: flex;
+  align-items: center;
+}
+
+.psych-faculty-card-left {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.psych-faculty-intro-label {
+  font-size: 1.8rem;
+  font-weight: 300;
+  color: #1e1b4b;
+  margin-bottom: 4px;
+}
+
+.psych-faculty-name {
+  font-size: 2.2rem;
+  font-weight: 800;
+  color: #1e1b4b;
+  margin-bottom: 12px;
+}
+
+.psych-faculty-title-tag {
+  font-size: 0.95rem;
+  font-weight: 700;
+  color: #ffffff;
+  background-color: #1e1b4b;
+  padding: 6px 18px;
+  border-radius: 30px;
+  display: inline-block;
+  width: fit-content;
+}
+
+.psych-faculty-card-right {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.psych-faculty-circle-bg {
+  position: absolute;
+  width: 180px;
+  height: 180px;
+  border-radius: 50%;
+  background: #bae6fd;
+  z-index: 1;
+}
+
+.psych-faculty-img {
+  width: 180px;
+  height: 180px;
+  border-radius: 50%;
+  object-fit: cover;
+  z-index: 2;
+  border: 4px solid #ffffff;
+  box-shadow: 0 10px 25px rgba(0,0,0,0.05);
+}
+
+.psych-faculty-desc-below {
+  font-size: 1.05rem;
+  line-height: 1.8;
+  color: #4b5563;
+  max-width: 840px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+/* FAQs Section */
+.psych-faqs-accordion-section {
+  padding: 80px 0;
+  background-color: #ffffff;
+  border-top: 1px solid #f1f5f9;
+}
+
+.psych-faq-container {
+  max-width: 880px;
+  margin: 0 auto;
+  padding: 0 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.psych-faq-icon-bubble {
+  width: 64px;
+  height: 64px;
+  background: #eff6ff;
+  color: #3b82f6;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+.psych-faq-title {
+  font-size: 2.2rem;
+  font-weight: 800;
+  color: #1e1b4b;
+  margin-bottom: 40px;
+}
+
+.psych-faq-accordion {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  width: 100%;
+}
+
+.psych-faq-item {
+  border: 1px solid #eef2f6;
+  border-radius: 12px;
+  background-color: #fafbfc;
+  overflow: hidden;
+  transition: all 0.3s ease;
+}
+
+.psych-faq-item.open {
+  border-color: #bfdbfe;
+  background-color: #ffffff;
+  box-shadow: 0 4px 20px rgba(59, 130, 246, 0.03);
+}
+
+.psych-faq-question-btn {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 30px;
+  background: none;
+  border: none;
+  text-align: left;
+  font-size: 1.05rem;
+  font-weight: 700;
+  color: #1e1b4b;
+  cursor: pointer;
+  outline: none;
+}
+
+.psych-faq-icon-dot {
+  width: 6px;
+  height: 6px;
+  background: #94a3b8;
+  border-radius: 50%;
+}
+
+.psych-faq-answer-container {
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.3s ease-out;
+}
+
+.psych-faq-item.open .psych-faq-answer-container {
+  max-height: 500px;
+}
+
+.psych-faq-answer-content {
+  padding: 0 30px 20px 30px;
+  font-size: 0.95rem;
+  line-height: 1.65;
+  color: #4b5563;
+}
+
+@media (max-width: 991px) {
+  .psych-plan-card-large {
+    padding: 30px;
+  }
+  .psych-plan-details-col {
+    padding-left: 0;
+    margin-top: 30px;
+  }
+  .psych-plan-large-title {
+    font-size: 1.8rem;
+  }
+  .psych-faculty-card-inner {
+    padding: 30px 20px;
+    flex-direction: column;
+  }
+  .psych-faculty-card-left {
+    text-align: center !important;
+    align-items: center;
+    margin-bottom: 30px;
+  }
+  .psych-faculty-title-tag {
+    margin: 0 auto;
+  }
+}

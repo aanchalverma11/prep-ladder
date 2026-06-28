@@ -1,0 +1,224 @@
+{
+  "props": {
+    "pageProps": {
+      "courseMeta": {
+        "courseID": 5,
+        "courseMeta": {
+          "name": "SS Medicine",
+          "urlName": "ss-medicine",
+          "blogsSlug": "neet-ss-medicine",
+          "seo": {},
+          "id": 5,
+          "packID": 265,
+          "link": "/courses/ss-medicine/plan",
+          "blogLink": "/neet-ss-medicine",
+          "faqAppName": "neet-ss-2021",
+          "socialLinks": {
+            "fb": "https://www.facebook.com/PrepLadder.neetss/",
+            "insta": "https://www.instagram.com/prepladder.neetss/",
+            "yt": "https://www.youtube.com/c/PrepLadderNEETSS/",
+            "tl": "https://t.me/MedicineSSprep",
+            "linkdn": "https://in.linkedin.com/company/prepladder"
+          }
+        },
+        "isExtraCourse": false,
+        "urlName": "ss-medicine",
+        "user": {
+          "isLogin": false,
+          "token": "",
+          "device": "",
+          "temporaryCourse": "",
+          "fakeCourseID": ""
+        }
+      },
+      "serverTime": "Fri Jun 19 2026 11:37:37 GMT+0000 (Coordinated Universal Time)",
+      "funValue": {
+        "schema": [
+          {
+            "type": "header",
+            "data": {
+              "getACallback": {
+                "isShow": true,
+                "phoneNo": "+91-7026233333"
+              },
+              "seo": {
+                "title": "NEET SS Medicine Preparation Online -NEET SS Coaching Online",
+                "description": "Ace your NEET SS Medicine preparation with PrepLadder's online coaching for NEET SS. Access Conceptual Videos, QBank, Comprehensive Notes, Test Series and PYQs.",
+                "image": "https://image.prepladder.com/content/zTGvSFTfaCnAuBrd1cU61750672440.png",
+                "canonicalURL": "https://www.prepladder.com/courses/ss-medicine"
+              },
+              "logoutButton": {
+                "afterRedirect": {
+                  "link": "/courses/ss-medicine",
+                  "isSoftLogout": true
+                }
+              }
+            }
+          },
+          {
+            "type": "offerSingleLine",
+            "disabled": true,
+            "data": {
+              "text": "Last Chance! Grab SS ELITE Plan now at 10% OFF. Offer Ends Tonight at 11:59 PM.",
+              "href": "https://www.prepladder.com/courses/ss-medicine/plan",
+              "buttonText": "Grab now"
+            }
+          },
+          {
+            "type": "timer",
+            "disabled": 0,
+            "data": {
+              "title": "THE COUNTDOWN HAS BEGUN",
+              "button": {
+                "text": "Enrol now",
+                "href": "/courses/ss-medicine/plan"
+              },
+              "subTitle": "Hurry! Secure your SS ELITE Plan before prices go up tonight at 11:59 PM.",
+              "timer": {
+                "start": "2025-09-18 00:00:00",
+                "end": "2025-09-18 23:59:59"
+              },
+              "coupon": {
+                "code": "CRACKEXAM"
+              }
+            }
+          },
+          {
+            "type": "bannerTwo",
+            "data": {
+              "ssMedicineView": true,
+              "title": "Master <span>NEET SS Medicine</span> with shortcut to Harrison’s 21st Edition",
+              "subTitle": "neet SS 2025",
+              "paragraph": "Crack NEET SS Medicine with expert-led video lectures, high-yield notes, and strategic guidance from <strong>Dr. Rajesh Gubba & Dr. Deepak Marwah</strong>-everything aligned with Harrison’s 21st Edition for smarter, faster prep.",
+              "button": {
+                "href": "/courses/ss-medicine/plan",
+                "text": "Enrol Now"
+              },
+              "image": {
+                "src": "https://image.prepladder.com/content/ygaesZGIqi5gMS6BxGkB1750401502.png",
+                "alt": "faculty"
+              }
+            }
+          },
+          {
+            "type": "featureVersionX",
+            "id": "featureVersion",
+            "data": {
+              "ssRemove": true,
+              "ssMedicine": true,
+              "feature": {
+                "poster": "https://image.prepladder.com/content/UUtbc8ShP0ksqRwYpOAh1750311937.png",
+                "video": "https://image.prepladder.com/content/UUtbc8ShP0ksqRwYpOAh1750311937.png",
+                "title": "Conceptual Video Lectures Based on Harrison’s 21st Edition",
+                "subtitle": "Gain access to 500+ hours of in-depth video lectures that simplify complex concepts, help you master clinical reasoning, all aligned with Harrison's 21st edition."
+              },
+              "features": [
+                {
+                  "poster": "https://image.prepladder.com/content/N5phOTfWk6Gi8GJot3IR1750316016.png",
+                  "video": "https://image.prepladder.com/content/N5phOTfWk6Gi8GJot3IR1750316016.png",
+                  "title": "High Yield QBank",
+                  "subtitle": "Boost your NEET SS Medicine prep with 7000+ carefully curated MCQs focused on high-impact topics and previous exam patterns."
+                },
+                {
+                  "poster": "https://image.prepladder.com/content/thSTicvxNOky0YlxTkgB1750670092.png",
+                  "video": "https://image.prepladder.com/content/thSTicvxNOky0YlxTkgB1750670092.png",
+                  "title": "Access Essential Treasures",
+                  "subtitle": "Leverage 700+ Treasures, a brief summary of the topics for your quick last-minute revisions."
+                }
+              ],
+              "featureNew": {
+                "video": "https://image.prepladder.com/content/FaaPKkWdQvTyYNjqxtBn1750316086.png",
+                "poster": "https://image.prepladder.com/content/FaaPKkWdQvTyYNjqxtBn1750316086.png",
+                "title": "In-depth Performance Analysis\n",
+                "subtitle": "Monitor your performance, pinpoint weak areas, and stay exam-ready with detailed insights and progress tracking."
+              }
+            }
+          },
+          {
+            "type": "bannerCarousel",
+            "disabled": false,
+            "data": {
+              "webClass": "bannerCarousel-slider",
+              "bannersList": [
+                {
+                  "img": {
+                    "src": "https://image.prepladder.com/content/App Banner Medicine.jpg",
+                    "mobileImage": "https://image.prepladder.com/content/App Banner Medicine.jpg"
+                  },
+                  "href": "/courses/ss-medicine/rapid-revision"
+                }
+              ]
+            },
+            "itemIndex": 5
+          },
+          {
+            "type": "topperHomepage",
+            "data": {
+              "newHome": false,
+              "subTitle": "Hear from the toppers, their real success stories of turning their dreams into reality!",
+              "title": "How They Made It: Toppers’ Journeys",
+              "image": "https://image.prepladder.com/content/DvdNrGyr7TjSLafePXhd1735882692.png",
+              "testimonial": [
+                {
+                  "type": "video",
+                  "arrow": "https://image.prepladder.com/content/s4GXBHGkfMNQVcBQ4lTA1675405606.png",
+                  "title": "I started with PrepLadder’s video lectures before diving into Harrison’s. This helped me have a strong foundation of concepts.",
+                  "name": "Dr. Jayant",
+                  "rank": "Rank 17  | NEET SS 2025",
+                  "video": {
+                    "videoLink": "https://www.youtube.com/embed/uXbWQB1WaDs?si=In0H7nvpOxj9qZMv",
+                    "videoPoster": "https://image.prepladder.com/content/zqFq2Gv5bGzRYtvCdUG51750682917.jpeg",
+                    "isVideoPlayInPopup": true
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "type": "packPlan",
+            "data": {
+              "homePagePack": {
+                "theme": "neetSSRR",
+                "title": "MOST POPULAR",
+                "para": "Prepare with PrepLadder & nail your exam like a pro",
+                "img": "https://image.prepladder.com/content/ggzCIutx4dBhdSYQbCJW1748241536.png",
+                "icon": "https://image.prepladder.com/content/TTabQ4ZPTcVCJmdVxjDy1748241644.svg"
+              }
+            }
+          },
+          {
+            "type": "footer"
+          }
+        ],
+        "collapseView": false,
+        "ssr_apis_response": {
+          "status": false,
+          "error": "on server apisList.length===0"
+        }
+      },
+      "isNewView": true
+    },
+    "__N_SSP": true
+  },
+  "page": "/courses/[subcourse]",
+  "query": {
+    "subcourse": "ss-medicine"
+  },
+  "buildId": "GjeQ7f0ef8CKmec4-Udsz",
+  "isFallback": false,
+  "isExperimentalCompile": false,
+  "dynamicIds": [
+    62867,
+    65658,
+    69784,
+    20717,
+    23109,
+    7275,
+    78742,
+    90413,
+    96941,
+    52973
+  ],
+  "gssp": true,
+  "scriptLoader": []
+}

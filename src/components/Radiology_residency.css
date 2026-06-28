@@ -1,0 +1,462 @@
+.radiology-residency-page {
+  font-family: "Inter", sans-serif;
+  color: #111111;
+  background-color: #ffffff;
+}
+
+/* Announcement Strip */
+.rad-announcement-strip {
+  background-color: #e0f2fe;
+  border-bottom: 1px solid #bae6fd;
+  padding: 10px 0;
+}
+
+.rad-announcement-text {
+  margin: 0;
+  font-size: 0.95rem;
+  color: #0369a1;
+}
+
+.rad-announcement-btn {
+  color: #0c4a6e;
+  text-decoration: underline;
+  font-weight: 700;
+  margin-left: 8px;
+}
+
+.rad-announcement-btn:hover {
+  color: #082f49;
+}
+
+/* Hero Section */
+.rad-hero {
+  background: #f0f7ff;
+  padding: 80px 0 0px;
+  color: #1e1b4b;
+  position: relative;
+  overflow: hidden;
+}
+
+.rad-hero .container {
+  position: relative;
+  z-index: 2;
+}
+
+.rad-hero-text-col {
+  padding-bottom: 80px;
+}
+
+.rad-hero-heading-main {
+  font-size: 2.8rem;
+  font-weight: 800;
+  line-height: 1.25;
+  margin-bottom: 24px;
+  color: #1e1b4b;
+}
+
+.rad-hero-heading-main span {
+  color: #3b82f6;
+}
+
+.rad-hero-description-text {
+  font-size: 1.05rem;
+  line-height: 1.7;
+  color: #4b5563;
+  margin-bottom: 36px;
+  max-width: 580px;
+}
+
+.rad-hero-enroll-btn {
+  background-color: #272556;
+  color: #ffffff;
+  border: none;
+  border-radius: 8px;
+  padding: 14px 44px;
+  font-size: 1rem;
+  font-weight: 700;
+  cursor: pointer;
+  display: inline-block;
+  text-decoration: none;
+  transition: background-color 0.2s ease, transform 0.2s ease;
+  box-shadow: 0 4px 12px rgba(39, 37, 86, 0.2);
+}
+
+.rad-hero-enroll-btn:hover {
+  background-color: #1b1940;
+  transform: translateY(-1px);
+  color: #ffffff;
+}
+
+.rad-hero-image-col {
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
+  height: 100%;
+}
+
+.rad-hero-doctor-wrapper {
+  position: relative;
+  display: inline-block;
+  margin-top: auto;
+}
+
+.rad-hero-doctor-img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
+
+.rad-doctor-name-tag {
+  position: absolute;
+  bottom: 24px;
+  left: 24px;
+  background-color: rgba(30, 27, 75, 0.75);
+  color: #ffffff;
+  padding: 8px 16px;
+  border-radius: 30px;
+  font-size: 0.9rem;
+  font-weight: 600;
+  backdrop-filter: blur(4px);
+}
+
+.rad-hero-decor-left {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: auto;
+  max-height: 80%;
+  pointer-events: none;
+  opacity: 0.9;
+}
+
+.rad-hero-decor-right {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  width: auto;
+  max-height: 85%;
+  pointer-events: none;
+  opacity: 0.9;
+}
+
+/* Feature Sections Layout */
+.rad-feature-section-row {
+  padding: 80px 0;
+  background-color: #ffffff;
+  border-top: 1px solid #f1f5f9;
+}
+
+.rad-feature-section-row.alternate-bg {
+  background-color: #fafbfc;
+}
+
+.rad-feature-text-block {
+  padding: 20px;
+}
+
+.rad-feature-title-row {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  margin-bottom: 30px;
+}
+
+.rad-section-header {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 12px;
+  margin-bottom: 40px;
+}
+
+.rad-section-title-icon {
+  width: 32px;
+  height: 32px;
+}
+
+.rad-feature-item-heading {
+  font-size: 2.2rem;
+  font-weight: 800;
+  color: #1e1b4b;
+  margin: 0;
+  line-height: 1.25;
+}
+
+.rad-badge-coming-soon {
+  font-size: 0.9rem;
+  font-weight: 700;
+  color: #ea580c;
+  background: #ffedd5;
+  padding: 4px 12px;
+  border-radius: 20px;
+  margin-left: 8px;
+  vertical-align: middle;
+}
+
+.rad-bullets-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.rad-bullets-list li {
+  display: flex;
+  align-items: flex-start;
+  gap: 16px;
+  margin-bottom: 24px;
+}
+
+.rad-check-icon {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  font-weight: 700;
+  font-size: 0.7rem;
+  flex-shrink: 0;
+  margin-top: 4px;
+}
+
+.rad-bullets-list.blue-bullets .rad-check-icon {
+  background-color: #3b82f6;
+  color: #ffffff;
+}
+
+.rad-bullets-list.green-bullets .rad-check-icon {
+  background-color: #10b981;
+  color: #ffffff;
+}
+
+.rad-bullet-text {
+  text-align: left;
+}
+
+.rad-bullet-text strong {
+  display: block;
+  font-size: 1.1rem;
+  color: #1e1b4b;
+  margin-bottom: 4px;
+}
+
+.rad-bullet-text p {
+  margin: 0;
+  font-size: 0.95rem;
+  color: #4b5563;
+  line-height: 1.5;
+}
+
+.rad-feature-item-img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 16px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.05);
+}
+
+.rad-feature-media-block {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Download Section */
+.rad-download-section {
+  padding: 80px 0;
+  background-color: #ffffff;
+  border-top: 1px solid #f1f5f9;
+}
+
+.rad-download-banner {
+  background: linear-gradient(135deg, #f0f7ff 0%, #e0efff 100%);
+  border: 1px solid #bfdbfe;
+  border-radius: 32px;
+  padding: 60px 80px;
+}
+
+.rad-download-content-col {
+  z-index: 2;
+}
+
+.rad-download-title {
+  font-size: 2.2rem;
+  font-weight: 800;
+  color: #1e1b4b;
+  margin-bottom: 12px;
+  line-height: 1.25;
+}
+
+.rad-download-desc {
+  font-size: 1.05rem;
+  color: #4b5563;
+  margin-bottom: 32px;
+  line-height: 1.6;
+}
+
+.rad-download-btn-row {
+  margin-bottom: 24px;
+}
+
+.rad-download-cta-btn {
+  background-color: #272556;
+  color: #ffffff;
+  border: none;
+  border-radius: 8px;
+  padding: 14px 36px;
+  font-size: 1rem;
+  font-weight: 700;
+  cursor: pointer;
+  display: inline-block;
+  text-decoration: none;
+  transition: background-color 0.2s ease, transform 0.2s ease;
+  box-shadow: 0 4px 12px rgba(39, 37, 86, 0.2);
+}
+
+.rad-download-cta-btn:hover {
+  background-color: #1b1940;
+  transform: translateY(-1px);
+  color: #ffffff;
+}
+
+.rad-app-stores-row {
+  display: flex;
+  gap: 16px;
+}
+
+.rad-app-stores-row img {
+  height: 40px;
+}
+
+.rad-download-banner-img {
+  max-width: 100%;
+  height: auto;
+}
+
+/* FAQs Section */
+.rad-faqs-accordion-section {
+  padding: 80px 0;
+  background-color: #ffffff;
+  border-top: 1px solid #f1f5f9;
+}
+
+.rad-faq-container {
+  max-width: 880px;
+  margin: 0 auto;
+  padding: 0 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.rad-faq-header-block {
+  margin-bottom: 40px;
+}
+
+.rad-faq-top-icon {
+  width: 64px;
+  height: 64px;
+  margin-bottom: 20px;
+}
+
+.rad-faq-title {
+  font-size: 2.2rem;
+  font-weight: 800;
+  color: #1e1b4b;
+  margin: 0;
+}
+
+.rad-faq-accordion {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  width: 100%;
+}
+
+.rad-faq-item {
+  border: 1px solid #eef2f6;
+  border-radius: 12px;
+  background-color: #fafbfc;
+  overflow: hidden;
+  transition: all 0.3s ease;
+}
+
+.rad-faq-item.open {
+  border-color: #bfdbfe;
+  background-color: #ffffff;
+  box-shadow: 0 4px 20px rgba(59, 130, 246, 0.03);
+}
+
+.rad-faq-question-btn {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 30px;
+  background: none;
+  border: none;
+  text-align: left;
+  font-size: 1.05rem;
+  font-weight: 700;
+  color: #1e1b4b;
+  cursor: pointer;
+  outline: none;
+}
+
+.rad-faq-icon-dot {
+  width: 6px;
+  height: 6px;
+  background: #94a3b8;
+  border-radius: 50%;
+}
+
+.rad-faq-answer-container {
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.3s ease-out;
+}
+
+.rad-faq-item.open .rad-faq-answer-container {
+  max-height: 500px;
+}
+
+.rad-faq-answer-content {
+  padding: 0 30px 20px 30px;
+  font-size: 0.95rem;
+  line-height: 1.65;
+  color: #4b5563;
+  text-align: left;
+}
+
+.rad-faq-answer-content ul {
+  padding-left: 20px;
+  margin-top: 10px;
+}
+
+@media (max-width: 991px) {
+  .rad-hero {
+    padding: 60px 0 0;
+  }
+  .rad-hero-decor-left,
+  .rad-hero-decor-right {
+    display: none;
+  }
+  .rad-hero-heading-main {
+    font-size: 2.2rem;
+  }
+  .rad-hero-text-col {
+    padding-bottom: 40px;
+    text-align: center !important;
+  }
+  .rad-hero-description-text {
+    margin: 0 auto 28px;
+  }
+  .rad-hero-image-col {
+    justify-content: center;
+  }
+  .rad-download-banner {
+    padding: 30px;
+  }
+  .rad-download-img-col {
+    margin-top: 40px;
+  }
+}

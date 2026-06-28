@@ -1,0 +1,1039 @@
+/* ─────────────────────────────────────────────
+   Physiology Online Course Page Styles
+   Branding Prefix: pl-forensic-
+   ───────────────────────────────────────────── */
+
+.pl-forensic-page {
+  font-family: 'Inter', system-ui, -apple-system, sans-serif;
+  color: #1E1B4B;
+  background-color: #ffffff;
+}
+
+.pl-forensic-container {
+  max-width: 1240px;
+  margin: 0 auto;
+  padding: 0 2rem;
+}
+
+/* ─────────────────────────────────────────────
+   Hero Section Styling
+   ───────────────────────────────────────────── */
+.pl-forensic-hero {
+  background: linear-gradient(135deg, #EAF3FA 0%, #FFFFFF 100%);
+  padding: 5rem 0;
+  border-bottom: 1px solid #E5E7EB;
+}
+
+.pl-forensic-hero__row {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 4rem;
+}
+
+.pl-forensic-hero__left {
+  flex: 1.2;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  text-align: left;
+}
+
+.pl-forensic-hero__tagline {
+  font-size: 0.95rem;
+  font-weight: 600;
+  color: #1E1B4B;
+  margin-bottom: 1.2rem;
+}
+
+.pl-forensic-hero__heading {
+  font-size: 3.25rem;
+  font-weight: 800;
+  line-height: 1.15;
+  color: #1E1B4B;
+  margin-bottom: 1.5rem;
+}
+
+.pl-forensic-hero__description {
+  font-size: 1.1rem;
+  line-height: 1.6;
+  color: #4B5563;
+  margin-bottom: 2.25rem;
+  max-width: 580px;
+}
+
+.pl-forensic-hero__action {
+  margin-bottom: 3.5rem;
+}
+
+.pl-forensic-btn-enrol {
+  background-color: #2A275C;
+  color: #ffffff;
+  font-size: 1.05rem;
+  font-weight: 600;
+  padding: 0.9rem 2.2rem;
+  border-radius: 8px;
+  text-decoration: none;
+  display: inline-block;
+  transition: all 0.2s cubic-bezier(0.16, 1, 0.3, 1);
+  box-shadow: 0 4px 14px rgba(42, 39, 92, 0.2);
+}
+
+.pl-forensic-btn-enrol:hover {
+  background-color: #1E1B46;
+  transform: translateY(-2px);
+  box-shadow: 0 6px 20px rgba(42, 39, 92, 0.3);
+}
+
+/* Hero Stats Row - Pill Style */
+.pl-forensic-hero__stats {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1.5rem;
+  width: 100%;
+}
+
+.pl-forensic-stat-item {
+  display: flex;
+  align-items: center;
+  gap: 0.85rem;
+  background-color: #ffffff;
+  padding: 0.65rem 1.35rem;
+  border-radius: 100px;
+  border: 1px solid rgba(229, 231, 235, 0.85);
+  box-shadow: 0 4px 12px rgba(30, 27, 75, 0.04);
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.pl-forensic-stat-item:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 6px 16px rgba(30, 27, 75, 0.08);
+}
+
+.pl-forensic-stat-icon {
+  width: 42px;
+  height: 42px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+}
+
+.pl-forensic-stat-icon--green {
+  background-color: #E6FDF4;
+}
+
+.pl-forensic-stat-icon--orange {
+  background-color: #FFF7ED;
+}
+
+.pl-forensic-stat-icon--purple {
+  background-color: #F5F3FF;
+}
+
+.pl-forensic-stat-text {
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+}
+
+.pl-forensic-stat-num {
+  font-size: 1.35rem;
+  font-weight: 800;
+  color: #1E1B4B;
+  line-height: 1.2;
+}
+
+.pl-forensic-stat-label {
+  font-size: 0.78rem;
+  color: #6B7280;
+  font-weight: 500;
+  white-space: nowrap;
+}
+
+/* Faculty Image Wrapper on Right */
+.pl-forensic-hero__right {
+  flex: 0.8;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.pl-forensic-hero__image-wrapper {
+  position: relative;
+  max-width: 380px;
+  width: 100%;
+}
+
+.pl-forensic-hero__faculty-img {
+  width: 100%;
+  height: auto;
+  display: block;
+  object-fit: cover;
+  transition: transform 0.4s ease;
+}
+
+.pl-forensic-hero__image-wrapper:hover .pl-forensic-hero__faculty-img {
+  transform: scale(1.03);
+}
+
+.pl-forensic-hero__faculty-label {
+  position: absolute;
+  bottom: 1.25rem;
+  left: 50%;
+  transform: translateX(-50%);
+  background-color: rgba(0, 0, 0, 0.45);
+  backdrop-filter: blur(8px);
+  color: #ffffff;
+  padding: 0.5rem 1.25rem;
+  border-radius: 30px;
+  font-size: 0.9rem;
+  font-weight: 600;
+  white-space: nowrap;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+}
+
+/* ─────────────────────────────────────────────
+   Let The Numbers Do The Talking Section
+   ───────────────────────────────────────────── */
+.pl-forensic-features {
+  padding: 6rem 0;
+  background-color: #ffffff;
+}
+
+.pl-forensic-features__header {
+  text-align: center;
+  margin-bottom: 4.5rem;
+}
+
+.pl-forensic-features__title {
+  font-size: 2.5rem;
+  font-weight: 800;
+  color: #1E1B4B;
+  margin-bottom: 0.75rem;
+}
+
+.pl-forensic-features__subtitle {
+  font-size: 1.1rem;
+  color: #6B7280;
+  max-width: 620px;
+  margin: 0 auto;
+  line-height: 1.5;
+}
+
+.pl-forensic-features__row {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 4rem;
+}
+
+.pl-forensic-features__left {
+  flex: 1.1;
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+/* Feature Cards list */
+.pl-forensic-feature-card {
+  display: flex;
+  align-items: flex-start;
+  gap: 1.25rem;
+  padding: 1.25rem;
+  border-radius: 16px;
+  transition: all 0.25s cubic-bezier(0.16, 1, 0.3, 1);
+  border: 1px solid transparent;
+  text-align: left;
+}
+
+.pl-forensic-feature-card:hover {
+  background-color: #F8FAFC;
+  border-color: #F1F5F9;
+  transform: translateX(4px);
+}
+
+.pl-forensic-feature-card__icon {
+  width: 48px;
+  height: 48px;
+  border-radius: 12px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+}
+
+.pl-forensic-feature-card__icon--blue {
+  background-color: #EFF6FF;
+}
+
+.pl-forensic-feature-card__icon--green {
+  background-color: #ECFDF5;
+}
+
+.pl-forensic-feature-card__icon--orange {
+  background-color: #FFFBEB;
+}
+
+.pl-forensic-feature-card__icon--purple {
+  background-color: #F5F3FF;
+}
+
+.pl-forensic-feature-card__content {
+  display: flex;
+  flex-direction: column;
+  gap: 0.2rem;
+}
+
+.pl-forensic-feature-card__title {
+  font-size: 1.15rem;
+  font-weight: 700;
+  color: #1E1B4B;
+}
+
+.pl-forensic-feature-card__desc {
+  font-size: 0.95rem;
+  color: #6B7280;
+  line-height: 1.45;
+}
+
+/* Mockup column on the Right */
+.pl-forensic-features__right {
+  flex: 0.9;
+  display: flex;
+  justify-content: center;
+}
+
+.pl-forensic-mockup-wrapper {
+  max-width: 460px;
+  width: 100%;
+}
+
+.pl-forensic-mockup-img {
+  width: 100%;
+  height: auto;
+  display: block;
+  border-radius: 16px;
+  box-shadow: 0 20px 40px rgba(0, 0, 0, 0.07);
+  transition: transform 0.3s ease;
+}
+
+.pl-forensic-mockup-img:hover {
+  transform: translateY(-4px);
+}
+
+/* ─────────────────────────────────────────────
+   What Our Dreamers Say About Us
+   ───────────────────────────────────────────── */
+.pl-forensic-dreamers {
+  padding: 5rem 0;
+  background-color: #ffffff;
+}
+
+.pl-forensic-section-title--centered {
+  text-align: center;
+  font-size: 2.25rem;
+  font-weight: 800;
+  color: #1E1B4B;
+  margin-bottom: 3.5rem;
+}
+
+.pl-forensic-dreamers__card {
+  background: #ffffff;
+  border-radius: 20px;
+  overflow: hidden;
+  box-shadow: 0 10px 40px rgba(0, 0, 0, 0.04);
+  border: 1px solid #F1F5F9;
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+.pl-forensic-dreamers__row {
+  display: flex;
+  align-items: stretch;
+}
+
+.pl-forensic-dreamers__left {
+  flex: 1.1;
+  background: #E8F4FD;
+  padding: 3.5rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.pl-forensic-dreamer-video {
+  position: relative;
+  width: 100%;
+  aspect-ratio: 1.45;
+  border-radius: 16px;
+  overflow: hidden;
+  cursor: pointer;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.08);
+}
+
+.pl-forensic-dreamer-video::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(180deg, rgba(30, 27, 75, 0.15) 0%, rgba(30, 27, 75, 0.4) 100%);
+  z-index: 1;
+}
+
+.pl-forensic-dreamer-img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+}
+
+.pl-forensic-dreamer-play-btn {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 72px;
+  height: 72px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: all 0.25s cubic-bezier(0.16, 1, 0.3, 1);
+  z-index: 2;
+  cursor: pointer;
+}
+
+.pl-forensic-dreamer-play-btn img {
+  width: 100%;
+  height: 100%;
+  display: block;
+}
+
+.pl-forensic-dreamer-video:hover .pl-forensic-dreamer-play-btn {
+  transform: translate(-50%, -50%) scale(1.08);
+}
+
+.pl-forensic-dreamers__right {
+  flex: 1.1;
+  background: #FFFBF5; /* Very soft light beige matching the screenshot */
+  padding: 4.5rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  position: relative;
+}
+
+.pl-forensic-dreamer-quote-wrap {
+  position: relative;
+  z-index: 2;
+  text-align: left;
+}
+
+.pl-forensic-dreamer-quote-icon {
+  width: 64px;
+  height: auto;
+  opacity: 0.12;
+  position: absolute;
+  top: -30px;
+  left: -15px;
+  z-index: -1;
+}
+
+.pl-forensic-dreamer-quote-text {
+  font-size: 1.6rem;
+  font-weight: 700;
+  line-height: 1.45;
+  color: #7C2D12;
+  margin-bottom: 2rem;
+}
+
+.pl-forensic-dreamer-author {
+  display: flex;
+  flex-direction: column;
+  gap: 0.25rem;
+}
+
+.pl-forensic-dreamer-author-name {
+  font-size: 1.15rem;
+  font-weight: 800;
+  color: #7C2D12;
+}
+
+.pl-forensic-dreamer-author-rank {
+  font-size: 0.9rem;
+  font-weight: 600;
+  color: #D97706;
+}
+
+/* ─────────────────────────────────────────────
+   Meet Our Toppers Section
+   ───────────────────────────────────────────── */
+.pl-forensic-toppers {
+  padding: 5rem 0 6rem 0;
+  background-color: #F8FAFC;
+  border-top: 1px solid #F1F5F9;
+  border-bottom: 1px solid #F1F5F9;
+}
+
+.pl-forensic-toppers-heading {
+  font-size: 2rem;
+  font-weight: 800;
+  color: #1E1B4B;
+  text-align: left;
+  margin-bottom: 2.5rem;
+}
+
+.pl-forensic-toppers__grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 1.75rem;
+  margin-bottom: 3.5rem;
+}
+
+.pl-forensic-topper-card {
+  background: #ffffff;
+  border-radius: 16px;
+  overflow: hidden;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.02);
+  border: 1px solid #E2E8F0;
+  display: flex;
+  flex-direction: column;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.pl-forensic-topper-card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.06);
+}
+
+.pl-forensic-topper-card__media {
+  position: relative;
+  width: 100%;
+  cursor: pointer;
+  overflow: hidden;
+  background-color: #E2E8F0;
+}
+
+.pl-forensic-topper-card__media::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(180deg, rgba(30, 27, 75, 0.05) 0%, rgba(30, 27, 75, 0.25) 100%);
+  z-index: 1;
+}
+
+.pl-forensic-topper-poster {
+  width: 100%;
+  height: auto;
+  display: block;
+  transition: transform 0.4s ease;
+}
+
+.pl-forensic-topper-card__media:hover .pl-forensic-topper-poster {
+  transform: scale(1.04);
+}
+
+.pl-forensic-topper-badge {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  background-color: #3B82F6;
+  color: #ffffff;
+  font-size: 0.65rem;
+  font-weight: 700;
+  padding: 3px 7px;
+  border-radius: 3px;
+  z-index: 2;
+  text-transform: uppercase;
+}
+
+.pl-forensic-topper-rank {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  background-color: #ffffff;
+  color: #3B82F6;
+  font-size: 0.65rem;
+  font-weight: 700;
+  padding: 2px 7px;
+  border-radius: 3px;
+  border: 1px solid #E2E8F0;
+  z-index: 2;
+}
+
+.pl-forensic-topper-play {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: rgba(255, 255, 255, 0.95);
+  border-radius: 50%;
+  width: 42px;
+  height: 42px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.12);
+  transition: all 0.25s ease;
+  z-index: 2;
+}
+
+.pl-forensic-topper-play img {
+  width: 16px;
+  height: 16px;
+  display: block;
+}
+
+.pl-forensic-topper-card__media:hover .pl-forensic-topper-play {
+  background-color: #ffffff;
+  transform: translate(-50%, -50%) scale(1.1);
+  box-shadow: 0 6px 18px rgba(0, 0, 0, 0.18);
+}
+
+.pl-forensic-topper-name-pill {
+  position: absolute;
+  bottom: 12px;
+  left: 50%;
+  transform: translateX(-50%);
+  background-color: #3B82F6;
+  color: #ffffff;
+  padding: 3px 12px;
+  border-radius: 15px;
+  font-size: 0.78rem;
+  font-weight: 700;
+  z-index: 2;
+  white-space: nowrap;
+}
+
+.pl-forensic-topper-card__info {
+  padding: 1.25rem;
+  text-align: left;
+}
+
+.pl-forensic-topper-name {
+  font-size: 1.1rem;
+  font-weight: 700;
+  color: #1E1B4B;
+  margin-bottom: 0.25rem;
+}
+
+.pl-forensic-topper-rank-text {
+  font-size: 0.88rem;
+  color: #64748B;
+  font-weight: 500;
+}
+
+.pl-forensic-toppers__action {
+  display: flex;
+  justify-content: center;
+}
+
+.pl-forensic-toppers-more-link {
+  font-size: 1.15rem;
+  font-weight: 700;
+  color: #3B82F6;
+  text-decoration: none;
+  border-bottom: 2px dotted #3B82F6;
+  padding-bottom: 3px;
+  transition: all 0.2s ease;
+}
+
+.pl-forensic-toppers-more-link:hover {
+  color: #1D4ED8;
+  border-bottom-color: #1D4ED8;
+  border-bottom-style: solid;
+}
+
+/* ─────────────────────────────────────────────
+   Video Overlay Modal Styling
+   ───────────────────────────────────────────── */
+.pl-forensic-video-modal {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  background-color: rgba(15, 23, 42, 0.85);
+  backdrop-filter: blur(8px);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 9999;
+}
+
+.pl-forensic-video-modal-content {
+  position: relative;
+  width: 90%;
+  max-width: 860px;
+  aspect-ratio: 1.777;
+  background-color: #000000;
+  border-radius: 16px;
+  overflow: hidden;
+  box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.5);
+}
+
+.pl-forensic-video-modal-close {
+  position: absolute;
+  top: 15px;
+  right: 15px;
+  background: rgba(255, 255, 255, 0.2);
+  color: #ffffff;
+  border: none;
+  border-radius: 50%;
+  width: 38px;
+  height: 38px;
+  font-size: 24px;
+  font-weight: 300;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 10;
+  transition: background-color 0.2s, transform 0.2s;
+  line-height: 1;
+}
+
+.pl-forensic-video-modal-close:hover {
+  background-color: rgba(255, 255, 255, 0.35);
+  transform: scale(1.05);
+}
+
+/* ─────────────────────────────────────────────
+   Responsive Design (Media Queries)
+   ───────────────────────────────────────────── */
+@media (max-width: 992px) {
+  .pl-forensic-hero__row {
+    flex-direction: column;
+    text-align: center;
+    gap: 3rem;
+  }
+
+  .pl-forensic-hero__left {
+    align-items: center;
+  }
+
+  .pl-forensic-hero__heading {
+    font-size: 2.75rem;
+  }
+
+  .pl-forensic-hero__description {
+    max-width: 100%;
+  }
+
+  .pl-forensic-hero__right {
+    justify-content: center;
+    width: 100%;
+  }
+
+  .pl-forensic-hero__stats {
+    justify-content: center;
+  }
+
+  .pl-forensic-features__row {
+    flex-direction: column;
+    gap: 3rem;
+  }
+
+  .pl-forensic-features__right {
+    width: 100%;
+  }
+
+  .pl-forensic-dreamers__row {
+    flex-direction: column;
+  }
+
+  .pl-forensic-dreamers__left,
+  .pl-forensic-dreamers__right {
+    padding: 3rem;
+  }
+
+  .pl-forensic-toppers__grid {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1.5rem;
+  }
+}
+
+@media (max-width: 576px) {
+  .pl-forensic-hero__heading {
+    font-size: 2.25rem;
+  }
+
+  .pl-forensic-features__title {
+    font-size: 2rem;
+  }
+
+  .pl-forensic-hero__stats {
+    gap: 1rem;
+  }
+
+  .pl-forensic-stat-item {
+    width: 100%;
+    justify-content: center;
+  }
+
+  .pl-forensic-dreamers__left,
+  .pl-forensic-dreamers__right {
+    padding: 2rem 1.5rem;
+  }
+
+  .pl-forensic-dreamer-quote-text {
+    font-size: 1.3rem;
+  }
+
+  .pl-forensic-toppers__grid {
+    grid-template-columns: 1fr;
+    max-width: 320px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .pl-forensic-toppers-heading {
+    text-align: center;
+    font-size: 1.6rem;
+  }
+}
+
+/* ─────────────────────────────────────────────
+   Explore Other NEET PG Subjects
+   ───────────────────────────────────────────── */
+.pl-forensic-other-subjects {
+  padding: 6rem 0;
+  background-color: #ffffff;
+}
+
+.pl-forensic-other-subjects__header {
+  text-align: center;
+  margin-bottom: 4.5rem;
+}
+
+.pl-forensic-other-subjects__title {
+  font-size: 2.5rem;
+  font-weight: 800;
+  color: #1E1B4B;
+  margin-bottom: 0.75rem;
+}
+
+.pl-forensic-other-subjects__subtitle {
+  font-size: 1.1rem;
+  color: #6B7280;
+  max-width: 620px;
+  margin: 0 auto;
+  line-height: 1.5;
+}
+
+/* Grid of Subjects */
+.pl-forensic-other-subjects__grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 2.5rem 3.5rem;
+  margin-bottom: 4rem;
+}
+
+/* Subject Card */
+.pl-forensic-subject-card {
+  display: flex;
+  align-items: flex-start;
+  gap: 1.5rem;
+  padding: 1.5rem;
+  background-color: #ffffff;
+  border: 1.5px solid transparent;
+  border-radius: 18px;
+  text-decoration: none;
+  transition: all 0.3s cubic-bezier(0.16, 1, 0.3, 1);
+  text-align: left;
+}
+
+.pl-forensic-subject-card:hover {
+  background-color: #ffffff;
+  border-color: #E2E8F0;
+  box-shadow: 0 12px 28px rgba(30, 27, 75, 0.05);
+  transform: translateY(-3px) scale(1.01);
+}
+
+/* Subject Icon Wrapper */
+.pl-forensic-subject-card__icon-wrap {
+  width: 56px;
+  height: 56px;
+  border-radius: 16px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+  transition: transform 0.3s cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+.pl-forensic-subject-card:hover .pl-forensic-subject-card__icon-wrap {
+  transform: scale(1.08) rotate(3deg);
+}
+
+.pl-forensic-subject-card__content {
+  display: flex;
+  flex-direction: column;
+  gap: 0.4rem;
+}
+
+.pl-forensic-subject-card__name {
+  font-size: 1.25rem;
+  font-weight: 750;
+  color: #1E1B4B;
+  transition: color 0.2s ease;
+}
+
+.pl-forensic-subject-card:hover .pl-forensic-subject-card__name {
+  color: #3B82F6;
+}
+
+.pl-forensic-subject-card__desc {
+  font-size: 0.96rem;
+  color: #6B7280;
+  line-height: 1.5;
+}
+
+/* Toggle View Button styling */
+.pl-forensic-other-subjects__toggle {
+  display: flex;
+  justify-content: center;
+}
+
+.pl-forensic-other-subjects__toggle-btn {
+  background: none;
+  border: none;
+  font-size: 1.15rem;
+  font-weight: 700;
+  color: #3B82F6;
+  cursor: pointer;
+  border-bottom: 2px dotted #3B82F6;
+  padding-bottom: 4px;
+  transition: all 0.2s ease;
+}
+
+.pl-forensic-other-subjects__toggle-btn:hover {
+  color: #1D4ED8;
+  border-bottom-color: #1D4ED8;
+  border-bottom-style: solid;
+}
+
+/* Subject Colors */
+.pl-subject-icon-bg--anatomy { background-color: #E6F7FF; }
+.pl-subject-icon-bg--physiology { background-color: #F5F3FF; }
+.pl-subject-icon-bg--pharmacology { background-color: #FFF7ED; }
+.pl-subject-icon-bg--biochemistry { background-color: #FEF3C7; }
+.pl-subject-icon-bg--medicine { background-color: #FCE7F3; }
+.pl-subject-icon-bg--microbiology { background-color: #EFF6FF; }
+.pl-subject-icon-bg--pathology { background-color: #E6FDF4; }
+.pl-subject-icon-bg--spm { background-color: #F3E8FF; }
+.pl-subject-icon-bg--forensic { background-color: #FEF9C3; }
+.pl-subject-icon-bg--dermatology { background-color: #FFF2E8; }
+.pl-subject-icon-bg--obg { background-color: #FFF0F6; }
+.pl-subject-icon-bg--surgery { background-color: #E6F7FF; }
+.pl-subject-icon-bg--anaesthesia { background-color: #E6FFFB; }
+.pl-subject-icon-bg--radiology { background-color: #F9F0FF; }
+.pl-subject-icon-bg--orthopedics { background-color: #FFFBE6; }
+.pl-subject-icon-bg--pediatrics { background-color: #FFF0F6; }
+.pl-subject-icon-bg--ophthalmology { background-color: #E6F7FF; }
+.pl-subject-icon-bg--ent { background-color: #F0F5FF; }
+.pl-subject-icon-bg--psychiatry { background-color: #F6FFED; }
+
+/* ─────────────────────────────────────────────
+   Why is Physiology important? Section
+   ───────────────────────────────────────────── */
+.pl-forensic-importance {
+  padding: 5rem 0 7rem 0;
+  background-color: #ffffff;
+}
+
+.pl-forensic-importance__card {
+  max-width: 1000px;
+  margin: 0 auto;
+  text-align: left;
+  border-top: 1px solid #E2E8F0;
+  padding-top: 4rem;
+}
+
+.pl-forensic-importance__title {
+  font-size: 2.25rem;
+  font-weight: 800;
+  color: #1E1B4B;
+  margin-bottom: 1.5rem;
+}
+
+.pl-forensic-importance__content p {
+  font-size: 1.15rem;
+  line-height: 1.7;
+  color: #4B5563;
+  margin: 0;
+}
+
+.pl-forensic-importance__readmore-btn {
+  background: none;
+  border: none;
+  font-size: 1.15rem;
+  font-weight: 700;
+  color: #3B82F6;
+  cursor: pointer;
+  padding: 0;
+  margin-left: 0.5rem;
+  display: inline;
+  transition: color 0.2s ease;
+}
+
+.pl-forensic-importance__readmore-btn:hover {
+  color: #1D4ED8;
+  text-decoration: underline;
+}
+
+/* ─────────────────────────────────────────────
+   Responsive design adjustments for new elements
+   ───────────────────────────────────────────── */
+@media (max-width: 992px) {
+  .pl-forensic-other-subjects__grid {
+    grid-template-columns: 1fr;
+    gap: 1.5rem;
+  }
+
+  .pl-forensic-other-subjects__title {
+    font-size: 2.1rem;
+  }
+
+  .pl-forensic-importance__title {
+    font-size: 2rem;
+  }
+}
+
+@media (max-width: 576px) {
+  .pl-forensic-other-subjects__title {
+    font-size: 1.75rem;
+  }
+
+  .pl-forensic-other-subjects__subtitle {
+    font-size: 0.95rem;
+  }
+
+  .pl-forensic-subject-card {
+    padding: 1.25rem;
+    gap: 1.25rem;
+  }
+
+  .pl-forensic-subject-card__name {
+    font-size: 1.15rem;
+  }
+
+  .pl-forensic-subject-card__desc {
+    font-size: 0.88rem;
+  }
+
+  .pl-forensic-importance__title {
+    font-size: 1.6rem;
+    text-align: center;
+  }
+
+  .pl-forensic-importance__content p {
+    font-size: 1.02rem;
+    text-align: justify;
+  }
+}

@@ -13,9 +13,8 @@
 
 /* --- Hero Banner Section --- */
 .pl-hc-hero {
-  background: linear-gradient(135deg, #EBF3FC 0%, #F5F9FD 100%);
-  padding: 5rem 2rem;
-  text-align: center;
+  background: linear-gradient(135deg, #E6F0FF 0%, #FFFFFF 100%);
+  padding: 4rem 2rem;
   border-bottom: 1px solid #E2E8F0;
   position: relative;
   overflow: hidden;
@@ -34,27 +33,56 @@
 }
 
 .pl-hc-hero__container {
-  max-width: 800px;
+  max-width: 1200px;
   margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 3rem;
   position: relative;
   z-index: 2;
+  text-align: left;
+}
+
+.pl-hc-hero__content {
+  flex: 1.2;
+}
+
+.pl-hc-hero__media {
+  flex: 0.8;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.pl-hc-hero__image {
+  max-width: 100%;
+  max-height: 280px;
+  object-fit: contain;
+  filter: drop-shadow(0 8px 16px rgba(0, 0, 0, 0.04));
+  animation: pl-float 6s ease-in-out infinite;
+}
+
+@keyframes pl-float {
+  0%, 100% { transform: translateY(0); }
+  50% { transform: translateY(-8px); }
 }
 
 .pl-hc-hero__subtitle {
-  color: #007BFF;
+  color: #5A7184;
   font-size: 1rem;
-  font-weight: 700;
-  text-transform: uppercase;
-  letter-spacing: 0.1em;
+  font-weight: 600;
+  text-transform: none;
+  letter-spacing: normal;
   display: inline-block;
-  margin-bottom: 0.75rem;
+  margin-bottom: 0.5rem;
 }
 
 .pl-hc-hero__title {
   font-size: 2.8rem;
   font-weight: 800;
   color: #1E1B4B;
-  margin: 0 0 2rem 0;
+  margin: 0 0 1.5rem 0;
   letter-spacing: -0.02em;
 }
 
@@ -67,8 +95,8 @@
   border-radius: 35px;
   padding: 0.4rem 0.6rem 0.4rem 1.5rem;
   box-shadow: 0 10px 30px rgba(0, 123, 255, 0.05);
-  max-width: 620px;
-  margin: 0 auto;
+  max-width: 580px;
+  margin: 0;
   transition: all 0.25s cubic-bezier(0.16, 1, 0.3, 1);
 }
 
@@ -133,23 +161,36 @@
   background: #FFFFFF;
   border: 1px solid #E5E7EB;
   border-radius: 16px;
-  padding: 2rem;
-  display: flex;
+  padding: 1.75rem 2rem;
+  display: grid;
+  grid-template-columns: 1.2fr 1fr 1fr;
   align-items: center;
-  justify-content: space-between;
   margin-bottom: 3rem;
   box-shadow: 0 4px 20px rgba(0, 0, 0, 0.02);
 }
 
-.pl-hc-contact__left {
+.pl-hc-contact-col {
   display: flex;
+  flex-direction: column;
+  gap: 0.25rem;
+}
+
+.pl-hc-contact-col--info {
+  flex-direction: row;
   align-items: center;
-  gap: 1.5rem;
+  gap: 1.25rem;
+  padding-right: 2rem;
+}
+
+.pl-hc-contact-col--support,
+.pl-hc-contact-col--sales {
+  border-left: 1px solid #E5E7EB;
+  padding-left: 3rem;
 }
 
 .pl-hc-phone-circle {
-  width: 56px;
-  height: 56px;
+  width: 52px;
+  height: 52px;
   border-radius: 50%;
   background-color: #E6F0FF;
   color: #007BFF;
@@ -159,28 +200,17 @@
   flex-shrink: 0;
 }
 
-.pl-hc-contact__left h3 {
-  margin: 0 0 0.25rem 0;
-  font-size: 1.35rem;
+.pl-hc-contact-col__info-text h3 {
+  margin: 0 0 0.15rem 0;
+  font-size: 1.25rem;
   font-weight: 700;
   color: #1E1B4B;
 }
 
-.pl-hc-contact__left p {
+.pl-hc-contact-col__info-text p {
   margin: 0;
   color: #6B7280;
-  font-size: 0.95rem;
-}
-
-.pl-hc-contact__right {
-  display: flex;
-  gap: 3rem;
-}
-
-.pl-hc-contact-col {
-  display: flex;
-  flex-direction: column;
-  gap: 0.25rem;
+  font-size: 0.9rem;
 }
 
 .pl-contact-sub {
@@ -258,12 +288,12 @@
 }
 
 /* Card theme styling */
-.card-account .pl-cat-icon-wrapper { background: #E6F0FF; color: #007BFF; }
-.card-modules .pl-cat-icon-wrapper { background: #EAFDF4; color: #10B981; }
-.card-technical .pl-cat-icon-wrapper { background: #FFF5EC; color: #F59E0B; }
-.card-delivery .pl-cat-icon-wrapper { background: #FAF5FF; color: #8B5CF6; }
-.card-payments .pl-cat-icon-wrapper { background: #EEF2FF; color: #4F46E5; }
-.card-others .pl-cat-icon-wrapper { background: #EDFDFD; color: #0D9488; }
+.card-account .pl-cat-icon-wrapper { background: #FEE2E2; color: #EF4444; }
+.card-modules .pl-cat-icon-wrapper { background: #D1FAE5; color: #10B981; }
+.card-technical .pl-cat-icon-wrapper { background: #FEF3C7; color: #D97706; }
+.card-delivery .pl-cat-icon-wrapper { background: #DBEAFE; color: #2563EB; }
+.card-payments .pl-cat-icon-wrapper { background: #E0E7FF; color: #4F46E5; }
+.card-others .pl-cat-icon-wrapper { background: #FFEDD5; color: #EA580C; }
 
 .pl-category-card h2 {
   font-size: 1.15rem;
@@ -399,21 +429,49 @@
   }
 
   .pl-hc-contact {
-    flex-direction: column;
-    align-items: flex-start;
+    grid-template-columns: 1fr;
     gap: 1.5rem;
+    padding: 1.5rem;
   }
 
-  .pl-hc-contact__right {
-    gap: 2rem;
-    width: 100%;
-    justify-content: space-between;
+  .pl-hc-contact-col--info {
+    padding-right: 0;
+  }
+
+  .pl-hc-contact-col--support,
+  .pl-hc-contact-col--sales {
+    border-left: none;
+    border-top: 1px solid #E5E7EB;
+    padding-left: 0;
+    padding-top: 1rem;
   }
 }
 
 @media (max-width: 768px) {
   .pl-hc-hero {
-    padding: 3.5rem 1.5rem;
+    padding: 3rem 1.5rem;
+  }
+
+  .pl-hc-hero__container {
+    flex-direction: column;
+    text-align: center;
+    gap: 1.5rem;
+  }
+
+  .pl-hc-hero__content {
+    max-width: 100%;
+  }
+
+  .pl-hc-hero__media {
+    justify-content: center;
+  }
+
+  .pl-hc-hero__image {
+    max-height: 200px;
+  }
+
+  .pl-search-container {
+    margin: 0 auto;
   }
 
   .pl-hc-hero__title {
@@ -423,11 +481,6 @@
   .pl-hc-grid {
     grid-template-columns: 1fr;
     gap: 1rem;
-  }
-
-  .pl-hc-contact__right {
-    flex-direction: column;
-    gap: 1.25rem;
   }
 
   .pl-faq-accordion-section {

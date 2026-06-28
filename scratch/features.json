@@ -1,0 +1,154 @@
+[
+  {
+    "tag": "NEW",
+    "title": "Rapid Revision",
+    "subtitle": "280 hours of exam-oriented videos",
+    "parentClass": "rapid",
+    "poster": "https://image.prepladder.com/content/dnwztYsu0hj1bZIEvUhX1778656695.webp",
+    "video": "https://image.prepladder.com/content/dnwztYsu0hj1bZIEvUhX1778656695.webp",
+    "list": [
+      {
+        "text": "Mapped with PYQs from NEET PG, FMGE, INI-CET"
+      },
+      {
+        "text": "Tagged with error files, highlighting common mistakes"
+      },
+      {
+        "text": "Aligned with current exam patterns and trends"
+      },
+      {
+        "text": "Helps you revise faster and focus on high-yield topics"
+      }
+    ]
+  },
+  {
+    "tag": "NEWLY REVISED",
+    "title": "Integrated Essentials",
+    "subtitle": "50 hours of system-wise learning ",
+    "parentClass": "integrated",
+    "poster": "https://image.prepladder.com/content/oEmwRolampLJMfADvOY71778656726.webp",
+    "video": "https://image.prepladder.com/content/oEmwRolampLJMfADvOY71778656726.webp",
+    "list": [
+      {
+        "text": "Covers overlapping topics in one integrated flow",
+        "icon": "https://image.prepladder.com/content/7B95OvEwrYRzqeWrvMS41771574039.svg"
+      },
+      {
+        "text": "Eliminates unnecessary repetition across multiple subjects",
+        "icon": "https://image.prepladder.com/content/7B95OvEwrYRzqeWrvMS41771574039.svg"
+      },
+      {
+        "text": "Reduces mental load during study sessions",
+        "icon": "https://image.prepladder.com/content/7B95OvEwrYRzqeWrvMS41771574039.svg"
+      },
+      {
+        "text": "Builds connected understanding for clinical MCQs",
+        "icon": "https://image.prepladder.com/content/7B95OvEwrYRzqeWrvMS41771574039.svg"
+      }
+    ]
+  },
+  {
+    "tag": "INTRODUCING",
+    "title": "Dissection Videos",
+    "subtitle": "20 hours of real cadaver dissections",
+    "parentClass": "dessection",
+    "poster": "https://image.prepladder.com/content/xMCvJ9yq0VD1aetOHOiy1778656793.webp",
+    "video": "https://image.prepladder.com/content/xMCvJ9yq0VD1aetOHOiy1778656793.webp",
+    "list": [
+      {
+        "text": "Real structures shown exactly as in the human body",
+        "icon": "https://image.prepladder.com/content/KtUqUowF5wAjD4jDgQQW1771574165.svg"
+      },
+      {
+        "text": "Makes anatomy visual and three-dimensional",
+        "icon": "https://image.prepladder.com/content/KtUqUowF5wAjD4jDgQQW1771574165.svg"
+      },
+      {
+        "text": "Improves cross-section and applied anatomy recall",
+        "icon": "https://image.prepladder.com/content/KtUqUowF5wAjD4jDgQQW1771574165.svg"
+      },
+      {
+        "text": "Reduces confusion between similar-looking structures",
+        "icon": "https://image.prepladder.com/content/KtUqUowF5wAjD4jDgQQW1771574165.svg"
+      }
+    ]
+  },
+  {
+    "tag": "OFFLINE",
+    "title": "Printed Summary Charts",
+    "subtitle": "High-yield revision in one-page topics",
+    "parentClass": "flashcard",
+    "poster": "https://image.prepladder.com/content/EQMU714xBL6BEYvVtBdN1778656815.webp",
+    "video": "https://image.prepladder.com/content/EQMU714xBL6BEYvVtBdN1778656815.webp",
+    "list": [
+      {
+        "text": "Summarises key points into exam-focused flash pages",
+        "icon": "https://image.prepladder.com/content/u5pwQ9Q9dPxdTObQOMsh1771574238.svg"
+      },
+      {
+        "text": "Made for quick revision anytime, anywhere",
+        "icon": "https://image.prepladder.com/content/u5pwQ9Q9dPxdTObQOMsh1771574238.svg"
+      },
+      {
+        "text": "No extra content, only repeatedly asked concepts",
+        "icon": "https://image.prepladder.com/content/u5pwQ9Q9dPxdTObQOMsh1771574238.svg"
+      },
+      {
+        "text": "Helps boost recall with minimal reading time",
+        "icon": "https://image.prepladder.com/content/u5pwQ9Q9dPxdTObQOMsh1771574238.svg"
+      }
+    ]
+  },
+  {
+    "tag": "NEWLY REVISED",
+    "title": "Revamped QBank",
+    "subtitle": "18,500 exam-aligned MCQs",
+    "parentClass": "revamped",
+    "poster": "https://image.prepladder.com/content/iYsyxQPziZp7ris3Zosu1778656840.webp",
+    "video": "https://image.prepladder.com/content/iYsyxQPziZp7ris3Zosu1778656840.webp",
+    "list": [
+      {
+        "text": "New 5,000 questions aligned to the latest exam framing",
+        "icon": "https://image.prepladder.com/content/QVLQcxziRHG6HUo68mXP1771574280.svg"
+      },
+      {
+        "text": "Updated to match current difficulty and patterns",
+        "icon": "https://image.prepladder.com/content/QVLQcxziRHG6HUo68mXP1771574280.svg"
+      },
+      {
+        "text": "Reviewed with inputs from recent toppers",
+        "icon": "https://image.prepladder.com/content/QVLQcxziRHG6HUo68mXP1771574280.svg"
+      },
+      {
+        "text": "Improved UX/UI for seamless experience",
+        "icon": "https://image.prepladder.com/content/QVLQcxziRHG6HUo68mXP1771574280.svg"
+      }
+    ]
+  },
+  {
+    "tag": "ONLINE",
+    "title": "SPARK",
+    "subtitle": "Smart digital flashcards for active recall",
+    "parentClass": "spark",
+    "poster": "https://image.prepladder.com/content/BgYHps0tCDzVNeWGM9HA1778656871.webp",
+    "video": "https://image.prepladder.com/content/BgYHps0tCDzVNeWGM9HA1778656871.webp",
+    "list": [
+      {
+        "text": "Tracks what you remember and what you forget",
+        "icon": "https://image.prepladder.com/content/8NLXYWp0WFaTStBhj5TJ1771574319.svg"
+      },
+      {
+        "text": "Uses repeated recall to strengthen long-term memory",
+        "icon": "https://image.prepladder.com/content/8NLXYWp0WFaTStBhj5TJ1771574319.svg"
+      },
+      {
+        "text": "Highlights weak areas and prevents over-revision",
+        "icon": "https://image.prepladder.com/content/8NLXYWp0WFaTStBhj5TJ1771574319.svg"
+      },
+      {
+        "text": "Makes revision personalized, faster, and more efficient.",
+        "icon": "https://image.prepladder.com/content/8NLXYWp0WFaTStBhj5TJ1771574319.svg"
+      }
+    ]
+  }
+]

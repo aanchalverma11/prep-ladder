@@ -1,0 +1,434 @@
+/* 
+  Home.css - Custom CSS styling for the SS Surgery clone page.
+  This stylesheet manages typography, spacing, navigation bar elements, 
+  hero section layout, decorations, buttons, and responsiveness.
+*/
+
+:root {
+  --primary-blue: #007BFF;
+  --dark-blue: #111638;
+  --bg-light-blue: #F5F8FD;
+  --text-dark: #2B2C4C;
+  --text-muted: #64748B;
+  --border-color: #E2E8F0;
+  --white: #FFFFFF;
+}
+
+/* Base resets & typography */
+.home-page {
+  font-family: 'Inter', system-ui, -apple-system, sans-serif;
+  color: var(--text-dark);
+  overflow-x: hidden;
+}
+
+/* ==========================================================================
+   1. Navbar Styling
+   ========================================================================== */
+.cloned-navbar {
+  background-color: var(--white);
+  border-bottom: 1px solid var(--border-color);
+  padding: 16px 0;
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+}
+
+.nav-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+/* Left side group: Logo & Course Selector */
+.nav-left-group {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.logo-link {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  text-decoration: none;
+}
+
+.logo-text {
+  font-size: 1.25rem;
+  font-weight: 700;
+  color: var(--dark-blue);
+}
+
+.logo-accent {
+  color: var(--primary-blue);
+}
+
+/* Dropdown styling */
+.course-dropdown-container {
+  position: relative;
+}
+
+.course-dropdown-trigger {
+  background-color: transparent;
+  border: 1px solid var(--border-color);
+  border-radius: 8px;
+  padding: 6px 16px;
+  font-size: 0.9rem;
+  font-weight: 600;
+  color: var(--text-dark);
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+
+.course-dropdown-trigger:hover {
+  background-color: var(--bg-light-blue);
+  border-color: var(--primary-blue);
+}
+
+.dropdown-arrow {
+  transition: transform 0.2s ease;
+}
+
+.course-dropdown-container:hover .dropdown-arrow {
+  transform: rotate(180deg);
+}
+
+.dropdown-menu-custom {
+  position: absolute;
+  top: 100%;
+  left: 0;
+  margin-top: 8px;
+  background-color: var(--white);
+  border: 1px solid var(--border-color);
+  border-radius: 8px;
+  box-shadow: 0 10px 25px rgba(0,0,0,0.08);
+  min-width: 160px;
+  opacity: 0;
+  visibility: hidden;
+  transform: translateY(10px);
+  transition: all 0.2s ease;
+  z-index: 1001;
+  padding: 8px 0;
+  list-style: none;
+}
+
+.course-dropdown-container:hover .dropdown-menu-custom {
+  opacity: 1;
+  visibility: visible;
+  transform: translateY(0);
+}
+
+.dropdown-menu-custom li a {
+  display: block;
+  padding: 8px 16px;
+  color: var(--text-dark);
+  text-decoration: none;
+  font-size: 0.9rem;
+  font-weight: 500;
+  transition: background-color 0.2s ease;
+}
+
+.dropdown-menu-custom li a:hover {
+  background-color: var(--bg-light-blue);
+  color: var(--primary-blue);
+}
+
+/* Navigation Links */
+.nav-links-list {
+  display: flex;
+  align-items: center;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  gap: 24px;
+}
+
+.nav-link-item {
+  color: var(--text-dark);
+  text-decoration: none;
+  font-weight: 500;
+  font-size: 0.95rem;
+  transition: color 0.2s ease;
+}
+
+.nav-link-item:hover {
+  color: var(--primary-blue);
+}
+
+/* Right side CTAs */
+.nav-cta-group {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+}
+
+/* Buttons */
+.btn-plans-outline {
+  background: transparent;
+  color: var(--text-dark);
+  border: 1px solid var(--border-color);
+  border-radius: 50px;
+  padding: 8px 20px;
+  font-size: 0.9rem;
+  font-weight: 600;
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  transition: all 0.2s ease;
+}
+
+.btn-plans-outline:hover {
+  background-color: var(--bg-light-blue);
+  border-color: var(--primary-blue);
+  color: var(--primary-blue);
+}
+
+.sparkle-icon {
+  fill: currentColor;
+}
+
+.btn-login-primary {
+  background-color: var(--dark-blue);
+  color: var(--white);
+  border: none;
+  border-radius: 50px;
+  padding: 8px 24px;
+  font-size: 0.9rem;
+  font-weight: 600;
+  text-decoration: none;
+  transition: all 0.2s ease;
+}
+
+.btn-login-primary:hover {
+  background-color: var(--primary-blue);
+  box-shadow: 0 4px 12px rgba(0, 123, 255, 0.25);
+  transform: translateY(-1px);
+}
+
+/* Mobile Toggle Hamburger button */
+.mobile-nav-toggle {
+  display: none;
+  background: none;
+  border: none;
+  cursor: pointer;
+  padding: 4px;
+}
+
+.mobile-nav-toggle span {
+  display: block;
+  width: 24px;
+  height: 2px;
+  background-color: var(--dark-blue);
+  margin: 5px 0;
+  transition: all 0.3s ease;
+}
+
+/* Mobile Drawer */
+.mobile-nav-drawer {
+  display: none;
+  background-color: var(--white);
+  border-top: 1px solid var(--border-color);
+  padding: 16px;
+}
+
+.mobile-links-list {
+  list-style: none;
+  padding: 0;
+  margin: 0 0 16px 0;
+}
+
+.mobile-links-list li {
+  margin-bottom: 12px;
+}
+
+.mobile-nav-item {
+  color: var(--text-dark);
+  text-decoration: none;
+  font-size: 1rem;
+  font-weight: 500;
+  display: block;
+}
+
+.mobile-cta-group {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+/* Responsive Navbar Toggle */
+@media (max-width: 991px) {
+  .nav-links-list,
+  .nav-cta-group {
+    display: none;
+  }
+  .mobile-nav-toggle {
+    display: block;
+  }
+  .mobile-nav-drawer.open {
+    display: block;
+  }
+}
+
+
+/* ==========================================================================
+   2. Hero Section Styling
+   ========================================================================== */
+.cloned-hero {
+  background-color: var(--bg-light-blue);
+  padding: 100px 0;
+  position: relative;
+  overflow: hidden;
+}
+
+/* Center Content Container */
+.hero-content-center {
+  position: relative;
+  z-index: 10;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+/* Grab Plan Badge button */
+.grab-plan-badge {
+  background-color: var(--primary-blue);
+  color: var(--white);
+  font-size: 0.8rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+  padding: 8px 20px;
+  border-radius: 50px;
+  text-decoration: none;
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  margin-bottom: 24px;
+  transition: all 0.2s ease;
+}
+
+.grab-plan-badge:hover {
+  background-color: #0056b3;
+  transform: translateY(-1px);
+}
+
+/* Main Heading styling */
+.hero-main-heading {
+  font-size: 2.75rem;
+  font-weight: 800;
+  color: var(--dark-blue);
+  line-height: 1.3;
+  max-width: 800px;
+  margin-bottom: 20px;
+}
+
+.hero-heading-highlight {
+  color: var(--primary-blue);
+}
+
+/* Subheading Paragraph */
+.hero-paragraph {
+  font-size: 1.15rem;
+  line-height: 1.6;
+  color: var(--text-muted);
+  max-width: 650px;
+  margin-bottom: 32px;
+}
+
+/* Enrol CTA button */
+.btn-enrol-cta {
+  background-color: var(--dark-blue);
+  color: var(--white);
+  border: none;
+  border-radius: 8px;
+  padding: 14px 44px;
+  font-size: 1.1rem;
+  font-weight: 700;
+  text-decoration: none;
+  transition: all 0.2s ease;
+  margin-bottom: 32px;
+  display: inline-block;
+  box-shadow: 0 4px 15px rgba(17, 22, 56, 0.15);
+}
+
+.btn-enrol-cta:hover {
+  background-color: var(--primary-blue);
+  box-shadow: 0 6px 20px rgba(0, 123, 255, 0.35);
+  transform: translateY(-2px);
+}
+
+/* Store links group */
+.store-links-row {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 16px;
+}
+
+.store-badge img {
+  height: 40px;
+  transition: transform 0.2s ease;
+}
+
+.store-badge:hover img {
+  transform: scale(1.05);
+}
+
+/* ==========================================================================
+   3. Medical-themed Decorations
+   ========================================================================== */
+.decor-illustration {
+  position: absolute;
+  bottom: 0;
+  width: 320px;
+  height: auto;
+  pointer-events: none;
+  opacity: 0.15;
+  z-index: 1;
+  transition: opacity 0.3s ease;
+}
+
+.decor-left {
+  left: 0;
+}
+
+.decor-right {
+  right: 0;
+}
+
+/* Responsive adjustments */
+@media (max-width: 1199px) {
+  .decor-illustration {
+    width: 250px;
+  }
+}
+
+@media (max-width: 991px) {
+  .hero-main-heading {
+    font-size: 2.25rem;
+  }
+  .decor-illustration {
+    width: 180px;
+    opacity: 0.1;
+  }
+}
+
+@media (max-width: 767px) {
+  .cloned-hero {
+    padding: 60px 0;
+  }
+  .hero-main-heading {
+    font-size: 1.85rem;
+  }
+  .hero-paragraph {
+    font-size: 1rem;
+  }
+  .decor-illustration {
+    display: none; /* Hide decorations on mobile to save screen space */
+  }
+}

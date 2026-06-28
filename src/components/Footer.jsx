@@ -1,7 +1,8 @@
 import { useState } from "react";
+import { Link } from "react-router-dom";
 import "./Footer.css";
 
-export default function Footer() {
+export default function Footer({ currentCourse = "Medical PG" }) {
   const [phoneNumber, setPhoneNumber] = useState("");
   const [status, setStatus] = useState("idle"); // idle, sending, success, error
 
@@ -73,19 +74,46 @@ export default function Footer() {
                 />
               </a>
             </div>
+            <div className="pl-social-links">
+              <a href="#" className="pl-social-icon" aria-label="Facebook">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
+                  <path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z" />
+                </svg>
+              </a>
+              <a href="#" className="pl-social-icon" aria-label="YouTube">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
+                  <path d="M22.54 6.42a2.78 2.78 0 0 0-1.94-2C18.88 4 12 4 12 4s-6.88 0-8.6.46a2.78 2.78 0 0 0-1.94 2A29 29 0 0 0 1 11.75a29 29 0 0 0 .46 5.33A2.78 2.78 0 0 0 3.4 19c1.72.46 8.6.46 8.6.46s6.88 0 8.6-.46a2.78 2.78 0 0 0 1.94-2 29 29 0 0 0 .46-5.25 29 29 0 0 0-.46-5.33z" />
+                  <polygon points="9.75 15.02 15.5 11.75 9.75 8.48 9.75 15.02" fill="currentColor" />
+                </svg>
+              </a>
+              <a href="#" className="pl-social-icon" aria-label="Instagram">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
+                  <rect x="2" y="2" width="20" height="20" rx="5" ry="5" />
+                  <path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z" />
+                  <line x1="17.5" y1="6.5" x2="17.51" y2="6.5" />
+                </svg>
+              </a>
+              <a href="#" className="pl-social-icon" aria-label="Telegram">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
+                  <path d="m22 2-7 20-4-9-9-4Z" />
+                  <path d="M22 2 11 13" />
+                </svg>
+              </a>
+            </div>
           </div>
 
           {/* Popular Goals */}
           <div className="pl-footer-card">
             <h4 className="pl-footer-heading">POPULAR GOALS</h4>
             <ul className="pl-footer-links">
-              <li><a href="#">Medical PG</a></li>
-              <li><a href="#">FMGE</a></li>
-              <li><a href="#">SS Medicine</a></li>
-              <li><a href="#">SS Surgery</a></li>
-              <li><a href="#">SS Pediatrics</a></li>
-              <li><a href="#">ENT Residency</a></li>
-              <li><a href="#">Radiology Residency</a></li>
+              <li><Link to="/courses/medical-pg">Medical PG</Link></li>
+              <li><Link to="/courses/ss-medicine">SS Medicine</Link></li>
+              <li><Link to="/courses/ss-surgery">SS Surgery</Link></li>
+              <li><Link to="/courses/ss-pediatrics">SS Pediatrics</Link></li>
+              <li><Link to="/courses/ent-residency">ENT Residency</Link></li>
+              <li><Link to="/courses/psychiatry-residency">Psychiatry Residency</Link></li>
+              <li><Link to="/courses/obs-gyn-residency">OBS-GYN Residency</Link></li>
+              <li><Link to="/courses/radiology-residency">Radiology Residency</Link></li>
             </ul>
           </div>
 
@@ -93,7 +121,13 @@ export default function Footer() {
           <div className="pl-footer-card">
             <h4 className="pl-footer-heading">HELP & SUPPORT</h4>
             <ul className="pl-footer-links">
-              <li><a href="/help-center">Contact us</a></li>
+              <li>
+                <Link
+                  to={`/courses/${currentCourse.toLowerCase().replace(/\s+/g, "-")}/help-center`}
+                >
+                  Contact us
+                </Link>
+              </li>
               <li><a href="#">FAQs</a></li>
               <li><a href="#">Grievance Redressal</a></li>
             </ul>
@@ -104,9 +138,8 @@ export default function Footer() {
             <h4 className="pl-footer-heading">OTHER LINKS</h4>
             <ul className="pl-footer-links">
               <li><a href="#">Blogs</a></li>
-              <li><a href="#">Student Ambassador</a></li>
+              <li><a href="#">Know your Student Ambassador</a></li>
               <li><a href="#">Careers</a></li>
-              <li><a href="#">About us</a></li>
             </ul>
           </div>
 
@@ -118,7 +151,22 @@ export default function Footer() {
             </p>
             <form onSubmit={handleSendLink} className="pl-download-form">
               <div className="pl-input-wrapper">
-                <span className="pl-input-prefix">+91</span>
+                <span className="pl-input-prefix">
+                  <span className="pl-flag-icon">
+                    <svg width="18" height="12" viewBox="0 0 9 6" xmlns="http://www.w3.org/2000/svg">
+                      <rect width="9" height="2" fill="#FF9933"/>
+                      <rect y="2" width="9" height="2" fill="#FFFFFF"/>
+                      <rect y="4" width="9" height="2" fill="#138808"/>
+                      <circle cx="4.5" cy="3" r="0.8" fill="#000080"/>
+                      <circle cx="4.5" cy="3" r="0.6" fill="#FFFFFF"/>
+                      <circle cx="4.5" cy="3" r="0.3" fill="#000080"/>
+                    </svg>
+                  </span>
+                  <span className="pl-country-code">+91</span>
+                  <svg className="pl-caret-down" width="8" height="5" viewBox="0 0 8 5" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M1 1L4 4L7 1" stroke="currentColor" strokeWidth="1.2" strokeLinecap="round" strokeLinejoin="round"/>
+                  </svg>
+                </span>
                 <input
                   type="tel"
                   placeholder="Enter Mobile Number"

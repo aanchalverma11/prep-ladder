@@ -1,0 +1,273 @@
+{
+  "props": {
+    "pageProps": {
+      "courseMeta": {
+        "courseID": 7,
+        "courseMeta": {
+          "name": "SS Pediatrics",
+          "urlName": "ss-pediatrics",
+          "blogsSlug": "neet-ss-pediatrics",
+          "seo": {},
+          "id": 7,
+          "packID": 267,
+          "link": "/courses/ss-pediatrics/plan",
+          "blogLink": "/neet-ss-pediatrics",
+          "faqAppName": "neet-ss-2021",
+          "socialLinks": {
+            "fb": "https://www.facebook.com/PrepLadder.neetss/",
+            "insta": "https://www.instagram.com/prepladder.neetss/",
+            "yt": "https://www.youtube.com/c/PrepLadderNEETSS/",
+            "linkdn": "https://in.linkedin.com/company/prepladder",
+            "tl": "https://t.me/PediatricsSSprep"
+          }
+        },
+        "isExtraCourse": false,
+        "urlName": "ss-pediatrics",
+        "user": {
+          "isLogin": false,
+          "token": "",
+          "device": "",
+          "temporaryCourse": "",
+          "fakeCourseID": ""
+        }
+      },
+      "serverTime": "Mon Jun 22 2026 09:59:08 GMT+0000 (Coordinated Universal Time)",
+      "funValue": {
+        "schema": [
+          {
+            "type": "header",
+            "data": {
+              "getACallback": {
+                "isShow": true,
+                "phoneNo": "+91-7026233333"
+              },
+              "seo": {
+                "title": "NEET SS Pediatrics Preparation Online -NEET SS Coaching Online",
+                "description": "Ace your NEET SS Pediatrics preparation with PrepLadder's online coaching for NEET SS. Access Concise Notes aligned with Conceptual video lectures for effective revision.",
+                "image": "https://image.prepladder.com/content/kBAQaseil66CsCR9NfH41748326453.jpg",
+                "canonicalURL": "https://www.prepladder.com/courses/ss-pediatrics"
+              },
+              "logoutButton": {
+                "afterRedirect": {
+                  "link": "/courses/ss-pediatrics",
+                  "isSoftLogout": true
+                }
+              }
+            }
+          },
+          {
+            "type": "offerSingleLine",
+            "disabled": true,
+            "data": {
+              "text": "Last Chance! Grab SS ELITE Plan now at 10% OFF. Offer Ends Tonight at 11:59 PM.",
+              "href": "https://www.prepladder.com/courses/ss-pediatrics/plan",
+              "buttonText": "Grab now"
+            }
+          },
+          {
+            "type": "offerSingleLine",
+            "disabled": true,
+            "data": {
+              "text": "Don’t Miss the Biggest Medical Event of the Year!",
+              "href": "https://www.youtube.com/live/-QzoYjUXt54",
+              "buttonText": "Watch now!"
+            }
+          },
+          {
+            "type": "timer",
+            "disabled": 0,
+            "data": {
+              "title": "THE COUNTDOWN HAS BEGUN",
+              "button": {
+                "text": "Enrol now",
+                "href": "/courses/ss-pediatrics/plan"
+              },
+              "subTitle": "Hurry! Secure your SS ELITE Plan before prices go up tonight at 11:59 PM.",
+              "timer": {
+                "start": "2025-09-18 00:00:00",
+                "end": "2025-09-18 23:59:59"
+              },
+              "coupon": {
+                "code": "CRACKEXAM"
+              }
+            }
+          },
+          {
+            "type": "bannerTwo",
+            "data": {
+              "greenView": true,
+              "title": "Your all-in-one solution for <span>NEET SS Pediatrics</span> prep",
+              "subTitle": "neet SS 2025",
+              "paragraph": "Master SS Pediatrics with PrepLadder’s comprehensive video lectures, concise notes, Rapid Revision sessions, and expert guidance by <strong>Dr. Sandeep Sharma -</strong> \nall aligned with <strong>Nelson’s 22nd Edition.</strong>\n",
+              "button": {
+                "href": "/courses/ss-pediatrics/plan",
+                "text": "Enrol Now"
+              },
+              "image": {
+                "src": "https://image.prepladder.com/content/f7wbfhhb1c7ulVcpC1H01748236715.png",
+                "alt": "Mohammed Azam"
+              }
+            }
+          },
+          {
+            "type": "featureVersionX",
+            "id": "featureVersion",
+            "data": {
+              "ssRemove": true,
+              "feature": {
+                "poster": "https://image.prepladder.com/content/z5kDdhqC4E6q9Bwm03qR1748262659.png",
+                "video": "https://image.prepladder.com/content/z5kDdhqC4E6q9Bwm03qR1748262659.png",
+                "title": "Conceptual Video Lectures",
+                "subtitle": "Introducing 20+ hours of exam-focused updates based on Nelson’s 22nd edition. Combine this with 210+ hours of conceptual video lectures by Dr. Sandeep Sharma, and master the entire NEET SS Pediatrics syllabus with ease."
+              },
+              "features": [
+                {
+                  "poster": "https://image.prepladder.com/content/AhBeDrp6xuDxFKmFoJOs1748262712.png",
+                  "video": "https://image.prepladder.com/content/AhBeDrp6xuDxFKmFoJOs1748262712.png",
+                  "title": "Concise Notes For Quick Revision",
+                  "subtitle": "Concise Notes aligned with conceptual video lectures with high quality images for quick revision."
+                },
+                {
+                  "poster": "https://image.prepladder.com/content/tqbIHz8WsI4AoFFsuMJW1748262733.png",
+                  "video": "https://image.prepladder.com/content/tqbIHz8WsI4AoFFsuMJW1748262733.png",
+                  "title": "High Yield QBank",
+                  "subtitle": "Strengthen your NEET SS Pediatrics exam preparation with the help of 4500+ exam-oriented MCQs based on previous years topics."
+                },
+                {
+                  "poster": "https://image.prepladder.com/content/U1YIsDu9dAvh3GmZG68y1748262777.png",
+                  "video": "https://image.prepladder.com/content/U1YIsDu9dAvh3GmZG68y1748262777.png",
+                  "title": "Access Essential Treasures",
+                  "subtitle": "Benefit from 500+ treasures, condensed summary of topics for your quick last-minute revisions."
+                },
+                {
+                  "poster": "https://image.prepladder.com/content/DQTdIFcrF2QqDQpJocIe1748262808.png",
+                  "video": "https://image.prepladder.com/content/DQTdIFcrF2QqDQpJocIe1748262808.png",
+                  "title": "Detailed Performance Analysis\n",
+                  "subtitle": "Track your progress, identify areas for improvement, and ensure you're fully prepared for the exam with comprehensive performance insights."
+                }
+              ]
+            }
+          },
+          {
+            "type": "bannerCarousel",
+            "data": {
+              "webClass": "bannerCarousel-slider",
+              "bannersList": [
+                {
+                  "img": {
+                    "src": "https://image.prepladder.com/content/Jk9URvi5omGNltB71iLJ1748263324.png",
+                    "mobileImage": "https://image.prepladder.com/content/PmzTMCNAuf19fYqMKT6B1748318790.png"
+                  },
+                  "href": "/courses/ss-pediatrics/rapid-revision"
+                }
+              ]
+            },
+            "itemIndex": 6
+          },
+          {
+            "type": "topperHomepage",
+            "data": {
+              "newHome": false,
+              "subTitle": "Hear from the toppers, their real success stories of turning their dreams into reality!",
+              "title": "How They Made It: Toppers’ Journeys",
+              "image": "https://image.prepladder.com/content/DvdNrGyr7TjSLafePXhd1735882692.png",
+              "testimonial": [
+                {
+                  "type": "video",
+                  "arrow": "https://image.prepladder.com/content/s4GXBHGkfMNQVcBQ4lTA1675405606.png",
+                  "title": " PrepLadder was the cornerstone for my preparation. I started with the video lectures and the QBank. ",
+                  "name": "Dr. Pankaj",
+                  "rank": "Rank 4  | Pediatrics",
+                  "video": {
+                    "videoLink": "https://www.youtube.com/embed/Wi0xD4FZdMc?si=9KXxQGdUIzRpggRn",
+                    "videoPoster": "https://image.prepladder.com/content/bGlbJWVbHi4QaJxGmJEv1748255627.png",
+                    "isVideoPlayInPopup": true
+                  }
+                },
+                {
+                  "type": "video",
+                  "arrow": "https://image.prepladder.com/content/s4GXBHGkfMNQVcBQ4lTA1675405606.png",
+                  "title": "My seniors suggested PrepLadder for NEET SS. I started Dr. Sandeep Sharma’s lectures—and never looked back.",
+                  "name": "Dr. Hiba",
+                  "rank": "Rank 5  | Pediatrics",
+                  "video": {
+                    "videoLink": "https://www.youtube.com/embed/PqWhEmjWQe0?si=Red4WiWXUGcq2NV",
+                    "videoPoster": "https://image.prepladder.com/content/KZQv4rwqPDXDQyDgbWiN1748255666.jpg",
+                    "isVideoPlayInPopup": true
+                  }
+                },
+                {
+                  "type": "video",
+                  "arrow": "https://image.prepladder.com/content/s4GXBHGkfMNQVcBQ4lTA1675405606.png",
+                  "title": " While watching Dr. Sandeep Sharma’s videos on the PrepLadder app, I made my notes and added from Nelson’s if needed.",
+                  "name": "Dr. Nikesh",
+                  "rank": "Rank 8  | Pediatrics",
+                  "video": {
+                    "videoLink": "https://www.youtube.com/embed/9xPkOIfUCQA?si=catfQihsEzBB2bJf",
+                    "videoPoster": "https://image.prepladder.com/content/y7bHfuXmQdFsJhJXdiPT1748255702.jpg",
+                    "isVideoPlayInPopup": true
+                  }
+                },
+                {
+                  "type": "video",
+                  "arrow": "https://image.prepladder.com/content/s4GXBHGkfMNQVcBQ4lTA1675405606.png",
+                  "title": "Started PrepLadder’s subject-wise and grand tests 40 days before the exam. Loved the PrepLadder notes—they helped with my theory exams too.\n",
+                  "name": "Dr. Yaseena",
+                  "rank": "Rank 11  | Pediatrics",
+                  "video": {
+                    "videoLink": "https://www.youtube.com/embed/mWcbU2THqMY?si=GEbjw2ScWlM6WPPu",
+                    "videoPoster": "https://image.prepladder.com/content/feORRgWu9KdmlIYp9YFr1748255740.jpg",
+                    "isVideoPlayInPopup": true
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "type": "packPlan",
+            "data": {
+              "homePagePack": {
+                "theme": "neetSSRR",
+                "title": "MOST POPULAR",
+                "para": "Prepare with PrepLadder & nail your exam like a pro",
+                "img": "https://image.prepladder.com/content/ggzCIutx4dBhdSYQbCJW1748241536.png",
+                "icon": "https://image.prepladder.com/content/TTabQ4ZPTcVCJmdVxjDy1748241644.svg"
+              }
+            }
+          },
+          {
+            "type": "footer"
+          }
+        ],
+        "collapseView": false,
+        "ssr_apis_response": {
+          "status": false,
+          "error": "on server apisList.length===0"
+        }
+      },
+      "isNewView": true
+    },
+    "__N_SSP": true
+  },
+  "page": "/courses/[subcourse]",
+  "query": {
+    "subcourse": "ss-pediatrics"
+  },
+  "buildId": "GjeQ7f0ef8CKmec4-Udsz",
+  "isFallback": false,
+  "isExperimentalCompile": false,
+  "dynamicIds": [
+    62867,
+    65658,
+    69784,
+    20717,
+    23109,
+    7275,
+    78742,
+    90413,
+    96941,
+    52973
+  ],
+  "gssp": true,
+  "scriptLoader": []
+}

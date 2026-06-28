@@ -1,0 +1,820 @@
+{
+  "props": {
+    "pageProps": {
+      "courseMeta": {
+        "courseID": 1,
+        "courseMeta": {
+          "name": "Medical PG",
+          "urlName": "medical-pg",
+          "id": 1,
+          "blogsSlug": "neet-pg-study-material",
+          "packID": 251,
+          "link": "/courses/medical-pg/plan",
+          "blogLink": "/neet-pg-study-material",
+          "faqAppName": "prepladder-2021",
+          "seo": {},
+          "socialLinks": {
+            "fb": "https://www.facebook.com/medical.pg.entrance.prepladder/",
+            "insta": "https://www.instagram.com/prepladder_med/",
+            "yt": "https://www.youtube.com/channel/UCdbMxSVAgPENqhYVeYkAA2w/featured",
+            "tl": "https://t.me/medicalprep",
+            "linkdn": "https://in.linkedin.com/company/prepladder"
+          }
+        },
+        "isExtraCourse": false,
+        "urlName": "medical-pg",
+        "user": {
+          "isLogin": false,
+          "token": "",
+          "device": "",
+          "temporaryCourse": "",
+          "fakeCourseID": ""
+        }
+      },
+      "serverTime": "Fri Jun 19 2026 04:40:39 GMT+0000 (Coordinated Universal Time)",
+      "funValue": {
+        "schema": [
+          {
+            "title": "NEET PG Preparation | NEET PG Online Coaching | 96% Strike Rate",
+            "description": "Simplify your NEET PG preparation with PrepLadder's online coaching for NEET PG. Access Conceptual Videos, QBank, Comprehensive Notes, Test Series, PYQs, & more",
+            "image": "https://image.prepladder.com/content/6SIb21K3TUgMsuKdxFVz1775827412.png",
+            "canonicalURL": "https://www.prepladder.com/courses/medical-pg"
+          },
+          {
+            "timer": "",
+            "x": "",
+            "type": "header",
+            "isVersionX": false,
+            "data": {
+              "getACallback": {
+                "isShow": true,
+                "phoneNo": "+91-7026233333"
+              },
+              "seo": {
+                "title": "NEET PG Preparation | NEET PG Online Coaching | 96% Strike Rate",
+                "description": "Simplify your NEET PG preparation with PrepLadder's online coaching for NEET PG. Access Conceptual Videos, QBank, Comprehensive Notes, Test Series, PYQs, & more",
+                "image": "https://image.prepladder.com/content/6SIb21K3TUgMsuKdxFVz1775827412.png",
+                "canonicalURL": "https://www.prepladder.com/courses/medical-pg"
+              },
+              "logoutButton": {
+                "afterRedirect": {
+                  "link": "/courses/medical-pg",
+                  "isSoftLogout": true
+                }
+              }
+            }
+          },
+          {
+            "type": "appDownloadMessage",
+            "data": {
+              "altImage": "Medical PG Preparation Background",
+              "cross": true,
+              "h1": "PrepLadder for NEET PG",
+              "p": "Avail 24-Hr Free Trial",
+              "link": "https://prepladder-temp.onelink.me/GrFR/i1d7ag5t"
+            }
+          },
+          {
+            "type": "offerSingleLine",
+            "disabled": true,
+            "data": {
+              "text": "40% Off on Version XI | Ends Tonight!",
+              "href": "https://www.prepladder.com/courses/medical-pg/plan",
+              "buttonText": "Grab Now"
+            }
+          },
+          {
+            "type": "offerSingleLine",
+            "disabled": false,
+            "data": {
+              "cross": false,
+              "button": {
+                "text": "Set Reminder",
+                "href": "https://youtube.com/live/Qma79B4gv7E?feature=share"
+              },
+              "timer": {
+                "start": "2025-09-25 00:00:00",
+                "end": "2026-04-12 12:00:00"
+              },
+              "text": "Biggest Medical Event Inspire 2026 starts in",
+              "background": "rgba(158, 220, 255, 1)"
+            }
+          },
+          {
+            "type": "offerSingleLine",
+            "disabled": false,
+            "data": {
+              "text": "Resolve NEET PG Lap 2 starts on 20th June!",
+              "href": "https://SEOL2.openinapp.link/28wto",
+              "buttonText": "Enrol Now"
+            }
+          },
+          {
+            "type": "timer",
+            "disabled": 0,
+            "data": {
+              "title": "THE COUNTDOWN HAS BEGUN",
+              "subTitle": "Grab your chance to access Version X at the best price. Offer ending Tonight at 11:59 PM!<br/> ",
+              "button": {
+                "text": "Enrol now",
+                "href": "/courses/medical-pg/plan"
+              },
+              "timer": {
+                "start": "2025-09-25 00:00:00",
+                "end": "2025-09-25 23:59:59"
+              },
+              "coupon": {
+                "code": "CRACKEXAM"
+              }
+            }
+          },
+          {
+            "type": "bandVersionX",
+            "disabled": true,
+            "data": {
+              "title": "Grab the Early Bird Offer on Notes  <img src=\"https://image.prepladder.com/content/Y9yI6VrtcGw2hK2JEHur1739249196.png\"/> ",
+              "button": {
+                "text": "Know more",
+                "href": "/courses/medical-pg/neet-pg-notes"
+              }
+            }
+          },
+          {
+            "type": "bannerVXI",
+            "data": {
+              "layoutType": "default",
+              "title": {
+                "tagName": "h2",
+                "text": "Make it Stick with <i>Version XI</i>"
+              },
+              "tagline": {
+                "text": "NEET PG 2026"
+              },
+              "heroText": {
+                "h1Left": "India's Best NEET PG <br /> Preparation Courses",
+                "h1Right": "Stick"
+              },
+              "paragraph": {
+                "tagName": "h2",
+                "text": "NEET PG/INI-CET preparation comes with an overwhelming pressure, a vast syllabus, and limited time. That’s exactly why we built Version XI to make concepts stick."
+              },
+              "button": [
+                {
+                  "href": "/courses/medical-pg/plan",
+                  "text": "Enrol Now"
+                },
+                {
+                  "href": "#knowMore",
+                  "text": "Know more"
+                }
+              ],
+              "videoplayer": {
+                "videoUrl": {
+                  "videoPoster": "https://image.prepladder.com/content/4a7c7dd1-fdbf-4057-98e3-798f8d711e18.jpg",
+                  "videoLink": "https://www.youtube.com/embed/Qma79B4gv7E"
+                },
+                "videoUrl1": "https://image.prepladder.com/content/jKUdfYtaxJBo8pm01NpL1739366889.mp4",
+                "text": "Get Early Bird Offer"
+              },
+              "icon": "https://image.prepladder.com/content/NCn0uyMMTukuF44LCrmP1767700255.png",
+              "list": [
+                "Your entire NEET PG preparation will be taught live.",
+                "You will learn from India’s top educators through a fixed schedule.",
+                "You will get your doubts resolved through live mentorship sessions."
+              ],
+              "top": {
+                "tagName": "h2",
+                "text": " <img src=\"https://image.prepladder.com/content/b1hbuYjehZpKlqcKSTUw1767702763.png\"/>  90+ DAYS"
+              },
+              "head": {
+                "tagName": "h2",
+                "text": "<div class=\"pulse-wrapper\">\n  <span class=\"pulse-circle\"></span>\n</div> <div class=\"pulse-wrapper-text\"> <span>LIVE</span> Interactive Classes for NEET PG</div>"
+              },
+              "subhead": "No motivation needed. Just attendance.",
+              "text": "Be the part of Resolve 2026",
+              "feature": [
+                {
+                  "img": "https://image.prepladder.com/content/JNND2EOdux3aayD1krJt1767701260.png",
+                  "text": "A daily, fixed schedule that keeps you on track, even on days when motivation is low."
+                },
+                {
+                  "img": "https://image.prepladder.com/content/20HPbnOMpU804WN4bggs1767943524.png",
+                  "text": "Teachers explain concepts LIVE, answer doubts LIVE, and guide you in real-time."
+                }
+              ],
+              "image": {
+                "src": "https://image.prepladder.com/content/fzyb3KF9bFCPborrWfdt1767700012.png",
+                "alt": "image"
+              },
+              "numbersSection": {
+                "title": "Trusted by <span>1M+ Learners</span>",
+                "items": [
+                  {
+                    "img": "https://image.prepladder.com/content/ldzYvUImpxaQAu6hL3S11774938155.svg",
+                    "value": "5 Lakh+",
+                    "label": "Future Doctors"
+                  },
+                  {
+                    "img": "https://image.prepladder.com/content/52jTOjCMzB8cg0Qsb6JP1774939234.svg",
+                    "value": 18,
+                    "label": "Top Educators"
+                  },
+                  {
+                    "img": "https://image.prepladder.com/content/DGtcpzPv82rqay76Mykx1774939267.svg",
+                    "value": "97%",
+                    "label": "Strike Rate in 2026"
+                  },
+                  {
+                    "img": "https://image.prepladder.com/content/kTTucSyosKXDBnBQr8wT1774939292.svg",
+                    "value": "4.9",
+                    "label": "Rated by Learners"
+                  }
+                ]
+              },
+              "user": "<img src=\"https://image.prepladder.com/content/0O0CJjbRRCRxZOmY37Ys1767700049.png\"/>Joined by 2000+ Aspirants"
+            }
+          },
+          {
+            "type": "newLaunchVXI",
+            "data": {
+              "title": "What’s New in <span>Version XI</span>",
+              "paragraph": "Step into a completely reimagined prep experience, built to help you learn faster and retain longer.\n\n",
+              "features": [
+                {
+                  "tag": "NEW",
+                  "title": "Rapid Revision",
+                  "subtitle": "280 hours of exam-oriented videos",
+                  "parentClass": "rapid",
+                  "poster": "https://image.prepladder.com/content/dnwztYsu0hj1bZIEvUhX1778656695.webp",
+                  "video": "https://image.prepladder.com/content/dnwztYsu0hj1bZIEvUhX1778656695.webp",
+                  "list": [
+                    {
+                      "text": "Mapped with PYQs from NEET PG, FMGE, INI-CET"
+                    },
+                    {
+                      "text": "Tagged with error files, highlighting common mistakes"
+                    },
+                    {
+                      "text": "Aligned with current exam patterns and trends"
+                    },
+                    {
+                      "text": "Helps you revise faster and focus on high-yield topics"
+                    }
+                  ]
+                },
+                {
+                  "tag": "NEWLY REVISED",
+                  "title": "Integrated Essentials",
+                  "subtitle": "50 hours of system-wise learning ",
+                  "parentClass": "integrated",
+                  "poster": "https://image.prepladder.com/content/oEmwRolampLJMfADvOY71778656726.webp",
+                  "video": "https://image.prepladder.com/content/oEmwRolampLJMfADvOY71778656726.webp",
+                  "list": [
+                    {
+                      "text": "Covers overlapping topics in one integrated flow",
+                      "icon": "https://image.prepladder.com/content/7B95OvEwrYRzqeWrvMS41771574039.svg"
+                    },
+                    {
+                      "text": "Eliminates unnecessary repetition across multiple subjects",
+                      "icon": "https://image.prepladder.com/content/7B95OvEwrYRzqeWrvMS41771574039.svg"
+                    },
+                    {
+                      "text": "Reduces mental load during study sessions",
+                      "icon": "https://image.prepladder.com/content/7B95OvEwrYRzqeWrvMS41771574039.svg"
+                    },
+                    {
+                      "text": "Builds connected understanding for clinical MCQs",
+                      "icon": "https://image.prepladder.com/content/7B95OvEwrYRzqeWrvMS41771574039.svg"
+                    }
+                  ]
+                },
+                {
+                  "tag": "INTRODUCING",
+                  "title": "Dissection Videos",
+                  "subtitle": "20 hours of real cadaver dissections",
+                  "parentClass": "dessection",
+                  "poster": "https://image.prepladder.com/content/xMCvJ9yq0VD1aetOHOiy1778656793.webp",
+                  "video": "https://image.prepladder.com/content/xMCvJ9yq0VD1aetOHOiy1778656793.webp",
+                  "list": [
+                    {
+                      "text": "Real structures shown exactly as in the human body",
+                      "icon": "https://image.prepladder.com/content/KtUqUowF5wAjD4jDgQQW1771574165.svg"
+                    },
+                    {
+                      "text": "Makes anatomy visual and three-dimensional",
+                      "icon": "https://image.prepladder.com/content/KtUqUowF5wAjD4jDgQQW1771574165.svg"
+                    },
+                    {
+                      "text": "Improves cross-section and applied anatomy recall",
+                      "icon": "https://image.prepladder.com/content/KtUqUowF5wAjD4jDgQQW1771574165.svg"
+                    },
+                    {
+                      "text": "Reduces confusion between similar-looking structures",
+                      "icon": "https://image.prepladder.com/content/KtUqUowF5wAjD4jDgQQW1771574165.svg"
+                    }
+                  ]
+                },
+                {
+                  "tag": "OFFLINE",
+                  "title": "Printed Summary Charts",
+                  "subtitle": "High-yield revision in one-page topics",
+                  "parentClass": "flashcard",
+                  "poster": "https://image.prepladder.com/content/EQMU714xBL6BEYvVtBdN1778656815.webp",
+                  "video": "https://image.prepladder.com/content/EQMU714xBL6BEYvVtBdN1778656815.webp",
+                  "list": [
+                    {
+                      "text": "Summarises key points into exam-focused flash pages",
+                      "icon": "https://image.prepladder.com/content/u5pwQ9Q9dPxdTObQOMsh1771574238.svg"
+                    },
+                    {
+                      "text": "Made for quick revision anytime, anywhere",
+                      "icon": "https://image.prepladder.com/content/u5pwQ9Q9dPxdTObQOMsh1771574238.svg"
+                    },
+                    {
+                      "text": "No extra content, only repeatedly asked concepts",
+                      "icon": "https://image.prepladder.com/content/u5pwQ9Q9dPxdTObQOMsh1771574238.svg"
+                    },
+                    {
+                      "text": "Helps boost recall with minimal reading time",
+                      "icon": "https://image.prepladder.com/content/u5pwQ9Q9dPxdTObQOMsh1771574238.svg"
+                    }
+                  ]
+                },
+                {
+                  "tag": "NEWLY REVISED",
+                  "title": "Revamped QBank",
+                  "subtitle": "18,500 exam-aligned MCQs",
+                  "parentClass": "revamped",
+                  "poster": "https://image.prepladder.com/content/iYsyxQPziZp7ris3Zosu1778656840.webp",
+                  "video": "https://image.prepladder.com/content/iYsyxQPziZp7ris3Zosu1778656840.webp",
+                  "list": [
+                    {
+                      "text": "New 5,000 questions aligned to the latest exam framing",
+                      "icon": "https://image.prepladder.com/content/QVLQcxziRHG6HUo68mXP1771574280.svg"
+                    },
+                    {
+                      "text": "Updated to match current difficulty and patterns",
+                      "icon": "https://image.prepladder.com/content/QVLQcxziRHG6HUo68mXP1771574280.svg"
+                    },
+                    {
+                      "text": "Reviewed with inputs from recent toppers",
+                      "icon": "https://image.prepladder.com/content/QVLQcxziRHG6HUo68mXP1771574280.svg"
+                    },
+                    {
+                      "text": "Improved UX/UI for seamless experience",
+                      "icon": "https://image.prepladder.com/content/QVLQcxziRHG6HUo68mXP1771574280.svg"
+                    }
+                  ]
+                },
+                {
+                  "tag": "ONLINE",
+                  "title": "SPARK",
+                  "subtitle": "Smart digital flashcards for active recall",
+                  "parentClass": "spark",
+                  "poster": "https://image.prepladder.com/content/BgYHps0tCDzVNeWGM9HA1778656871.webp",
+                  "video": "https://image.prepladder.com/content/BgYHps0tCDzVNeWGM9HA1778656871.webp",
+                  "list": [
+                    {
+                      "text": "Tracks what you remember and what you forget",
+                      "icon": "https://image.prepladder.com/content/8NLXYWp0WFaTStBhj5TJ1771574319.svg"
+                    },
+                    {
+                      "text": "Uses repeated recall to strengthen long-term memory",
+                      "icon": "https://image.prepladder.com/content/8NLXYWp0WFaTStBhj5TJ1771574319.svg"
+                    },
+                    {
+                      "text": "Highlights weak areas and prevents over-revision",
+                      "icon": "https://image.prepladder.com/content/8NLXYWp0WFaTStBhj5TJ1771574319.svg"
+                    },
+                    {
+                      "text": "Makes revision personalized, faster, and more efficient.",
+                      "icon": "https://image.prepladder.com/content/8NLXYWp0WFaTStBhj5TJ1771574319.svg"
+                    }
+                  ]
+                }
+              ],
+              "bannercva": {
+                "cvaTitle": "TIME TO MAKE IT <span>STICK</span>",
+                "cvaPara": "Version XI is crafted for focused NEET PG aspirants who want clarity, structure, and a real edge. Unlock early access at special launch pricing.\n",
+                "button": {
+                  "href": "/courses/medical-pg/plan",
+                  "text": "Get Early Bird Offer"
+                }
+              }
+            }
+          },
+          {
+            "type": "additionalTools",
+            "disabled": false,
+            "data": {
+              "title": "Additional tools, <span>Adaptive Learning</span>",
+              "features": [
+                {
+                  "img": "https://image.prepladder.com/content/o5GoFYskhUohVgCdFOwu1774950998.svg",
+                  "title": "Test & Explanation",
+                  "description": "Test your prep and fix mistakes instantly with same-day expert explanations.",
+                  "button": {
+                    "text": "Know more",
+                    "href": "/courses/medical-pg/test-and-explanation"
+                  }
+                },
+                {
+                  "img": "https://image.prepladder.com/content/wpjosltm1FnBzSUH5PQv1776164569.svg",
+                  "title": "Version XI Notes",
+                  "description": "Version XI Notes are built to make revision faster, sharper, and easier to retain.",
+                  "button": {
+                    "text": "Know more",
+                    "href": "/courses/medical-pg/neet-pg-notes"
+                  }
+                },
+                {
+                  "img": "https://image.prepladder.com/content/wwrtxi4fOaLdDxNA47A41774952412.svg",
+                  "title": "Prof Edge",
+                  "description": "Master your Prof with a university exam-aligned syllabus from top educators.\n\n",
+                  "button": {
+                    "text": "Know more",
+                    "href": "/courses/medical-pg/profedge"
+                  }
+                }
+              ],
+              "bannercva": {
+                "cvaTitle": "TIME TO MAKE IT <span>STICK</span>",
+                "cvaPara": "Version XI is built for serious aspirants who want clarity, structure, and an edge.",
+                "buttons": [
+                  {
+                    "text": "Talk to our Counsellor",
+                    "action": "popup"
+                  },
+                  {
+                    "text": "View Plans",
+                    "href": "/courses/medical-pg/plan"
+                  }
+                ],
+                "popup": {
+                  "callIcon": "https://image.prepladder.com/content/Mx4iKnyOn6GqFONZZtUa1775716696.svg",
+                  "closeIcon": "https://image.prepladder.com/content/DCv2aCaJmlAgupkx5V3s1775716775.svg",
+                  "message": "Please call us and talk to our academic counsellor at",
+                  "phone": "+917026233333",
+                  "displayPhone": "+91 7026233333",
+                  "ctaText": "Got it"
+                }
+              }
+            }
+          },
+          {
+            "type": "listingVXI",
+            "data": {
+              "newHome": true,
+              "title": "Why This is the Only \n<span>NEET PG Prep</span> You Need!",
+              "features": [
+                {
+                  "img": "https://image.prepladder.com/content/sU5n7dZskSsmiwDlrIRJ1775469528.svg",
+                  "title": "Revise Smarter, Not Longer",
+                  "subtitle": "Streamline your prep with focused video lectures mapped to past NEET PG/FMGE/INICET questions. Highlighting common pitfalls and high-yield topics, it helps you retain more while cutting down unnecessary study time."
+                },
+                {
+                  "img": "https://image.prepladder.com/content/3rbMeMMxZGljQFnMbM6S1775469612.svg",
+                  "title": "Connect the Dots",
+                  "subtitle": "Integrated essentials bring overlapping concepts together so you see the bigger picture. Reduce repetition, lighten your mental load, and strengthen your understanding for those tricky clinical questions."
+                },
+                {
+                  "img": "https://image.prepladder.com/content/CNljyjdTJAkvNleuenHj1775469661.svg",
+                  "title": "Anatomy That Stays With You",
+                  "subtitle": "Watch real cadaver dissections to make anatomy concrete. Recognize structures instantly, improve cross-section recall, and never get confused between similar-looking parts again."
+                },
+                {
+                  "img": "https://image.prepladder.com/content/7qFirPd1tiQemVpmKeqW1775469710.svg",
+                  "title": "High-Yield Insights at a Glance",
+                  "subtitle": "Quick, one-page printed summaries condense only what really matters. Perfect for fast revisions anywhere, they make remembering repeatedly tested concepts effortless."
+                },
+                {
+                  "img": "https://image.prepladder.com/content/cKv03xiCTZc3893NlJaB1775469763.svg",
+                  "title": "Practice That Prepares You for Anything",
+                  "subtitle": "Our fully revamped QBank covers every type of question. With 18,500 questions reflecting current trends, it helps you sharpen accuracy, speed, and confidence under pressure."
+                },
+                {
+                  "img": "https://image.prepladder.com/content/TgFemhD0klFoOWS54aov1775469808.svg",
+                  "title": "Full-Length Tests for Exam Simulation",
+                  "subtitle": "Our test series simulates the real exam environment, helping you assess your preparation and refine your strategy. With full-length tests, you can evaluate your performance across all subjects."
+                }
+              ]
+            }
+          },
+          {
+            "type": "toppersVXI",
+            "data": {
+              "newHome": true,
+              "subTitle": "Hear from the toppers, their real success stories of turning their dreams into reality!",
+              "title": "How They Made It: <span>Toppers’ Journeys</span>",
+              "image": "https://image.prepladder.com/content/J2JSh88NHPRjztiabgZB1775910318.png",
+              "testimonial": [
+                {
+                  "type": "video",
+                  "arrow": "https://image.prepladder.com/content/DRcg9anpuuDhQdpy3nY41775910229.png",
+                  "title": "I used to get more negatives in PrepLadder GTs, but analyzing them helped me sharpen my approach. That’s what gave me the edge in the real exam.\n",
+                  "name": "Dr. Sanjay",
+                  "rank": "Rank 7 | NEET PG '25",
+                  "video": {
+                    "videoLink": "https://www.youtube.com/embed/AVeHxDAg91g?si=bjvEeQr1ytVp_ChT",
+                    "videoPoster": "https://image.prepladder.com/content/Dp8hZHxH9qtVgKNDiP6j1756117162.png",
+                    "isVideoPlayInPopup": true
+                  }
+                },
+                {
+                  "type": "video",
+                  "arrow": "https://image.prepladder.com/content/DRcg9anpuuDhQdpy3nY41775910229.png",
+                  "title": "PrepLadder’s QBank, using bookmarks and highlights to quickly revise weak areas. I gave GTs regularly, emphasizing that consistency is key: “Don’t fear low scores in GTs. They are learning experiences, not the final result. Even toppers begin with low scores.”",
+                  "name": "Dr. Nishid",
+                  "rank": "Rank 11 | NEET PG '25",
+                  "video": {
+                    "videoLink": "https://www.youtube.com/embed/FFZLlZC7h1s?si=CbrBEFd3EH8AHx__",
+                    "videoPoster": "https://image.prepladder.com/content/7KFR6U8nfLBwS0rg1k8q1756117248.png",
+                    "isVideoPlayInPopup": true
+                  }
+                },
+                {
+                  "type": "video",
+                  "arrow": "https://image.prepladder.com/content/DRcg9anpuuDhQdpy3nY41775910229.png",
+                  "title": "Every single Medicine question in NEET PG was from your Medicine notes, Sir. I didn’t get a single one wrong. Calling PrepLadder’s QBank aligned with real exam questions\n\n",
+                  "name": "Dr. Sahed",
+                  "rank": "Rank 13 | NEET PG '25",
+                  "video": {
+                    "videoLink": "https://www.youtube.com/embed/lqaZz4Vw-CM?si=e0Suxr8A7WfjqFvM",
+                    "videoPoster": "https://image.prepladder.com/content/RCjj1b9ypS2FCXt8k8C71756117398.png",
+                    "isVideoPlayInPopup": true
+                  }
+                },
+                {
+                  "type": "video",
+                  "arrow": "https://image.prepladder.com/content/DRcg9anpuuDhQdpy3nY41775910229.png",
+                  "title": "PrepLadder’s Rapid Revision and especially video solutions in GTs: “A 2-minute video explanation clarified concepts better than pages of text.”\n\n",
+                  "name": "Dr. Jyotiprakash",
+                  "rank": "Rank 15 | NEET PG '25",
+                  "video": {
+                    "videoLink": "https://www.youtube.com/embed/K_lNCcsDTSc?si=JYPBZsxzeG5hM0YO",
+                    "videoPoster": "https://image.prepladder.com/content/gHAqbW1niJLokt6opQRQ1756117483.jpg",
+                    "isVideoPlayInPopup": true
+                  }
+                },
+                {
+                  "type": "video",
+                  "arrow": "https://image.prepladder.com/content/DRcg9anpuuDhQdpy3nY41775910229.png",
+                  "title": "Credits to Dr. Preeti Sharma for Patho & Micro mnemonics, and Dr. Ankit Kumar for simplifying Pharma with Medicine.\n\n",
+                  "name": "Dr. Sakshi",
+                  "rank": "Rank 21 | NEET PG '25",
+                  "video": {
+                    "videoLink": "https://www.youtube.com/embed/Vy0wXN8ai_8?si=aY3ES8rW5JiwpXEd",
+                    "videoPoster": "https://image.prepladder.com/content/YmXFyDlrXVVkCg1JORrw1756117524.png",
+                    "isVideoPlayInPopup": true
+                  }
+                },
+                {
+                  "type": "video",
+                  "arrow": "https://image.prepladder.com/content/DRcg9anpuuDhQdpy3nY41775910229.png",
+                  "title": "After every GT, I knew exactly what needed attention. PrepLadder’s analysis helped me convert my mistakes into revision targets instead of just worrying about the score.",
+                  "name": "Dr. Sairaj Mane",
+                  "rank": "Rank 8 | INI-CET '26",
+                  "video": {
+                    "videoLink": "https://www.youtube.com/embed/lpU8Dhp9Ghc?si=HLv5itfCC5Wkgu7b",
+                    "videoPoster": "https://image.prepladder.com/content/ylgsLIQeYmOk1NwZqUEI1781250836.jpg",
+                    "isVideoPlayInPopup": true
+                  }
+                },
+                {
+                  "type": "video",
+                  "arrow": "https://image.prepladder.com/content/DRcg9anpuuDhQdpy3nY41775910229.png",
+                  "title": "PrepLadder’s QBank trained me to approach questions conceptually, not mechanically. It helped me build speed, accuracy, and confidence for INI-CET.",
+                  "name": "Dr. Harsh",
+                  "rank": "Rank 26 | INI-CET '26",
+                  "video": {
+                    "videoLink": "https://www.youtube.com/embed/H4ilcwCXrc0?si=sJfCjcv2G31WzYIM",
+                    "videoPoster": "https://image.prepladder.com/content/mRwq49Ucg1W1WVmxRzTc1781250947.jpg",
+                    "isVideoPlayInPopup": true
+                  }
+                },
+                {
+                  "type": "video",
+                  "arrow": "https://image.prepladder.com/content/DRcg9anpuuDhQdpy3nY41775910229.png",
+                  "title": "The PYQ-based approach helped me understand recurring themes better. PrepLadder made it easier to identify important topics and revise them with a more exam-focused mindset.",
+                  "name": "Dr. Darius",
+                  "rank": "Rank 39 | INI-CET '26",
+                  "video": {
+                    "videoLink": "https://www.youtube.com/embed/TiJPjJ9VsRU?si=7_AmWJkY4ksl_i5d",
+                    "videoPoster": "https://image.prepladder.com/content/oIpASBf8JWNjS31kWrHR1781253752.jpg",
+                    "isVideoPlayInPopup": true
+                  }
+                },
+                {
+                  "type": "video",
+                  "arrow": "https://image.prepladder.com/content/DRcg9anpuuDhQdpy3nY41775910229.png",
+                  "title": "The best part about PrepLadder was how the educators simplified complex concepts. Their teaching helped me understand the logic behind topics instead of just memorising facts.",
+                  "name": "Dr. Bala",
+                  "rank": "Rank 46 | INI-CET '26",
+                  "video": {
+                    "videoLink": "https://www.youtube.com/embed/yBv7nDl0D_4?si=L-tT-mX0H9A7LzZI",
+                    "videoPoster": "https://image.prepladder.com/content/qBwhHFWJj1Z6HQLOIsqm1781253895.jpg",
+                    "isVideoPlayInPopup": true
+                  }
+                },
+                {
+                  "type": "video",
+                  "arrow": "https://image.prepladder.com/content/DRcg9anpuuDhQdpy3nY41775910229.png",
+                  "title": "Option-wise explanations in PrepLadder helped me learn elimination better. For INI-CET, that made a huge difference because every option needed careful thinking.",
+                  "name": "Dr. Vimisha",
+                  "rank": "Rank 50 | INI-CET '26",
+                  "video": {
+                    "videoLink": "https://www.youtube.com/embed/1I74qmvxx3s?si=hs7aF4zMR_cJmu3t",
+                    "videoPoster": "https://image.prepladder.com/content/UX9qIrTZ33NjGVzaOFyB1781254008.jpg",
+                    "isVideoPlayInPopup": true
+                  }
+                }
+              ],
+              "whatsNewSliders": {
+                "title": "What’s <span>New</span>",
+                "items": [
+                  {
+                    "img": "https://image.prepladder.com/content/wUwiJHnUooVdx0Crtv201775846400.jpg",
+                    "link": "/inspire",
+                    "target": "_blank"
+                  },
+                  {
+                    "img": "https://image.prepladder.com/content/xfm1TboYanZfgV1SMT6U1775019070.png",
+                    "link": "#",
+                    "target": "_blank"
+                  },
+                  {
+                    "img": "https://image.prepladder.com/content/xfm1TboYanZfgV1SMT6U1775019070.png",
+                    "link": "#",
+                    "target": "_blank"
+                  }
+                ]
+              }
+            }
+          },
+          {
+            "type": "faqFooterVXI",
+            "data": {
+              "ssRapidFaq": true,
+              "testFaq": true,
+              "": "",
+              "mainHeading": "Frequently Asked Questions",
+              "expandView": {
+                "enabled": true,
+                "max": 3
+              },
+              "showVersionX1Footer": true,
+              "theme": "versionX1",
+              "faqArr": [
+                {
+                  "name": "What’s new in Version XI?",
+                  "text": "Version XI is a complete upgrade focused on high-yield learning and faster recall. It includes:<li>280+ Hours of entirely new Rapid Revision videos (English & Hinglish)</li><li>50+ Hrs of Integrated Essentials for system-wise learning</li><li>20 Hrs of Real cadaver dissection videos</li><li>Revamped QBank with 5000+ new questions on missing topics + topper review</li><li>Printed Summary Charts for last-minute revision</li><li>SPARK – an intelligent spaced-repetition flashcard system</li>"
+                },
+                {
+                  "name": "When will Version XI content go LIVE?",
+                  "text": "Version XI content goes live on <strong>12th April 2026.</strong>"
+                },
+                {
+                  "name": "What is the pre-booking offer, and till what date is it available?",
+                  "text": "Prebooking starts on 23rd February and is available till 28th February."
+                },
+                {
+                  "name": "What will I get till 12th April?",
+                  "text": "Until launch, you will have access to existing Version X content. You will be able to see demo videos of all the new assets in your current version."
+                },
+                {
+                  "name": "Who should buy Version XI?",
+                  "text": "Version XI is ideal for NEET PG, INI-CET, and FMGE aspirants who want a more retention-focused, exam-aligned prep system."
+                },
+                {
+                  "name": "Why should I switch from Version X to Version XI?",
+                  "text": "Version X helped you cover content. Version XI helps that content convert into recall. You get all-new Rapid Revision (not reused), PYQ-tagged learning to prioritise what repeats, integrated system-wise understanding to reduce overlap, smarter recall tools, and a QBank aligned to the current exam pattern. If your goal is better accuracy and rank improvement, Version XI is the upgrade."
+                },
+                {
+                  "name": "Will my progress be maintained if I switch to Version XI?",
+                  "text": "Yes, There will be option to switch between versions. You progress and analytics will be retained in your current version."
+                },
+                {
+                  "name": "Will I get access to live classes with Version XI?",
+                  "text": "Version XI is primarily a recorded, high-yield learning ecosystem. LIVE classes (RESOLVE) are available via the Super ELITE Plan as an add-on."
+                },
+                {
+                  "name": "What has changed in the main videos?",
+                  "text": "There are 10% changes made to main videos . Accordingly we have updated the hard copy notes. These videos were freshly recorded in version x so major updates are not done."
+                },
+                {
+                  "name": "When will I get notes for Version XI?",
+                  "text": "We will inform you when the booking starts for the same. We will start the dispatch in second week of april (tentatively)"
+                },
+                {
+                  "name": "When will I get notes for Rapid Revision?",
+                  "text": "We will inform you when the booking starts for the same. We will start the dispatch in fourth week of April (tentatively)"
+                }
+              ],
+              "copyright": "© 2026 PrepLadder Private Limited"
+            }
+          },
+          {
+            "type": "footer"
+          }
+        ],
+        "collapseView": false,
+        "ssr_apis_response": {
+          "banners": {
+            "auth": false,
+            "end_point": "website/homepage-banners",
+            "req": {
+              "publicIp": ""
+            },
+            "options": {
+              "method": "GET",
+              "rebounceCache": true
+            },
+            "res": {
+              "status": true,
+              "data": [],
+              "isIndia": 1,
+              "testimonial": [
+                {
+                  "name": "Dr. Akshit Srivastava",
+                  "image": "https://images.prepladder.com/medical/YSr1LTuSLyvIVfbiCBHC1581947541.png",
+                  "rank": "",
+                  "reviewText": "I am Thankful to all the teaching and non teaching professionals at PrepLadder who created a ladder for me towards success. It was not only a platform but a source of regular inspiration and mental peace for me through the MIB videos. I started my journey alone but made many new friends on the PrepLadder Premium Club group discussion. Thank you, PrepLadder.",
+                  "videoUrl": "",
+                  "title": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,"
+                },
+                {
+                  "name": "Dr. Shiv Kumar Thorat",
+                  "image": "https://images.prepladder.com/medical/QZWCqIScngyhZER6TaMG1581947643.png",
+                  "rank": "",
+                  "reviewText": "The PrepLadder Team are legends in their subjects. “Team PrepLadder is a step ladder for your desired NETT-PG seat”. PrepLadder videos and specially Rapid Revision was very helpful to tackle difficult exam questions. Moreover, the MIB videos inspired me a lot. Thank you so much PREPLADDER",
+                  "videoUrl": "",
+                  "title": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,"
+                },
+                {
+                  "name": "Dr. Tushar Sharma",
+                  "image": "https://images.prepladder.com/medical/07fnoOFoswumHh2hu62V1581947675.png",
+                  "rank": "",
+                  "reviewText": "The Rapid Revision was a blessing. Thank you, PrepLadder for your beautiful videos and notes. They made a difference. “PADHO UTNA CHAHIYE JITNA” did work for me. Now I tell people to blindly trust PrepLadder as I found it to be a gold standard for pg preparation",
+                  "videoUrl": "",
+                  "title": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,"
+                },
+                {
+                  "name": "Dr. Kiran Bhagawan Kanawade",
+                  "image": "https://images.prepladder.com/medical/i7fifvFDjl2LSw7zNaQi1581947695.png",
+                  "rank": "",
+                  "reviewText": "I would like to thank the entire PrepLadder faculty. All of them were very helpful and supportive throughout the course. After all, PrepLadder is like my family. All PrepLadder teachers were ever available for the students to solve their problems and were very co-operative. At last, I will say East or West PrepLadder is the best. Thank you, PrepLadder.",
+                  "videoUrl": "",
+                  "title": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,"
+                },
+                {
+                  "name": "Dr. Rajan Chhetri",
+                  "image": "https://images.prepladder.com/medical/64xoBmy9JFxPKb0VZ27r1581947723.png",
+                  "rank": "",
+                  "reviewText": "I watched PrepLadder’s Rapid Revision videos. Dream Team is the best. I saw the previous year question papers for both NEET PG and FMGE 3-4 times. Thank you, Prepladder.",
+                  "videoUrl": "",
+                  "title": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,"
+                },
+                {
+                  "name": "Dr. Ratul Maji",
+                  "image": "https://images.prepladder.com/medical/xP4ArmpfvVQpbpkBPdi51581947745.png",
+                  "rank": "",
+                  "reviewText": "“Pado utna chahiye jitna”!! PrepLadder mostly sticks to its promise and it delivers. PrepLadder’s Rapid Revision program is hands down the best of its kind. PrepLadder has turned one of my most feared subjects into one of my strongest. Thank you, Team PrepLadder.",
+                  "videoUrl": "",
+                  "title": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,"
+                }
+              ]
+            }
+          },
+          "aUser": false
+        }
+      },
+      "isNewView": true
+    },
+    "__N_SSP": true
+  },
+  "page": "/courses/[subcourse]",
+  "query": {
+    "subcourse": "medical-pg"
+  },
+  "buildId": "GjeQ7f0ef8CKmec4-Udsz",
+  "isFallback": false,
+  "isExperimentalCompile": false,
+  "dynamicIds": [
+    62867,
+    65658,
+    65449,
+    87601,
+    69784,
+    355,
+    29366,
+    14588,
+    88165,
+    61988,
+    86164,
+    18868,
+    96941,
+    52973
+  ],
+  "gssp": true,
+  "scriptLoader": []
+}
