@@ -1,0 +1,302 @@
+{
+  "props": {
+    "pageProps": {
+      "courseMeta": {
+        "courseID": 32,
+        "courseMeta": {
+          "name": "Psychiatry Residency",
+          "urlName": "psychiatry-residency",
+          "id": 32,
+          "blogsSlug": "psychiatry-residency-study-material",
+          "packID": 302,
+          "link": "/courses/psychiatry-residency/plan",
+          "blogLink": "/psychiatry-residency-study-material",
+          "faqAppName": "prepladder-2021",
+          "seo": {},
+          "socialLinks": {
+            "fb": "https://www.facebook.com/medical.pg.entrance.prepladder/",
+            "insta": "https://www.instagram.com/prepladder_med/",
+            "yt": "https://www.youtube.com/channel/UCdbMxSVAgPENqhYVeYkAA2w/featured",
+            "tl": "https://t.me/medicalprep",
+            "linkdn": "https://in.linkedin.com/company/prepladder"
+          }
+        },
+        "isExtraCourse": false,
+        "urlName": "psychiatry-residency",
+        "user": {
+          "isLogin": false,
+          "token": "",
+          "device": "",
+          "temporaryCourse": "",
+          "fakeCourseID": ""
+        }
+      },
+      "serverTime": "Tue Jun 23 2026 04:52:50 GMT+0000 (Coordinated Universal Time)",
+      "funValue": {
+        "schema": [
+          {
+            "timer": "",
+            "x": "",
+            "type": "header",
+            "data": {
+              "getACallback": {
+                "isShow": true,
+                "phoneNo": "+91-7026233333"
+              },
+              "seo": {
+                "title": "Simplify Your Path to Excelling in Psychiatry Residency | PrepLadder",
+                "description": "Prepare for your Psychiatry Residency Online with comprehensive resources and expert guidance. Get ready for success in this medical specialization.",
+                "image": "https://image.prepladder.com/content/goz26IjvJoeYyVjIYT901706007152.jpg",
+                "canonicalURL": "https://www.prepladder.com/courses/psychiatry-residency"
+              },
+              "logoutButton": {
+                "afterRedirect": {
+                  "link": "/courses/psychiatry-residency",
+                  "isSoftLogout": true
+                }
+              }
+            }
+          },
+          {
+            "type": "offerSingleLine",
+            "disabled": false,
+            "data": {
+              "text": "<b>Psychiatry Residency Notes</b> are ready for dispatch",
+              "href": "/courses/psychiatry-residency/plan",
+              "buttonText": "Order Now"
+            }
+          },
+          {
+            "type": "offerSingleLine",
+            "disabled": true,
+            "data": {
+              "text": "Don’t Miss the Biggest Medical Event of the Year!",
+              "href": "https://www.youtube.com/live/-QzoYjUXt54",
+              "buttonText": "Watch now!"
+            }
+          },
+          {
+            "type": "timer",
+            "disabled": 0,
+            "data": {
+              "title": "THE COUNTDOWN HAS BEGUN",
+              "subTitle": "Hurry! Secure your Residency ELITE Plan before prices go up tonight at 11:59 PM.",
+              "timer": {
+                "start": "2025-09-18 00:00:00",
+                "end": "2025-09-18 23:59:59"
+              },
+              "button": {
+                "text": "Enrol now",
+                "href": "/courses/psychiatry-residency/plan"
+              },
+              "coupon": {
+                "code": "CRACKEXAM"
+              }
+            }
+          },
+          {
+            "type": "bannerHome",
+            "data": {
+              "headClass": "bannerHome-medicalHead",
+              "title": "Your Ultimate Solution for <span> Psychiatry Residency </span> Preparation ",
+              "paragraph": "Curated by India’s top psychiatry faculty to help you become exam-ready.",
+              "button": {
+                "text": "Enrol now",
+                "href": "/courses/psychiatry-residency/plan"
+              }
+            }
+          },
+          {
+            "type": "bannerCarousel",
+            "ssrData": {
+              "fetchBannersOnServer": {
+                "reqParams": {}
+              }
+            },
+            "data": {
+              "webClass": "bannerCarousel-slider",
+              "bannersList": []
+            },
+            "itemIndex": 5
+          },
+          {
+            "type": "FeatureList",
+            "data": {
+              "features": [
+                {
+                  "img": {
+                    "src": "https://image.prepladder.com/content/psychiatry-residency-comprehensive-video-lectures.webp",
+                    "loading": "lazy",
+                    "alt": "Conceptual Video Lectures for Psychiatry Residency"
+                  },
+                  "title": "Conceptual Video Lectures",
+                  "subtitle": "Simplify key psychiatry concepts through our 100+ hours of comprehensive video lectures by India’s top Psychiatry faculty and develop a strong foundation."
+                },
+                {
+                  "img": {
+                    "src": "https://image.prepladder.com/content/NoV9F6MhTtff19VSLlAO1716469311.webp",
+                    "alt": "Concise Notes for Psychiatry Residency"
+                  },
+                  "title": "Concise Notes for Psychiatry Residency",
+                  "subtitle": "Access clinically oriented and concise subject-wise Psychiatry Residency notes featuring high-quality images for more immersive learning."
+                }
+              ]
+            }
+          },
+          {
+            "type": "threeBoxFeature",
+            "disabled": true,
+            "data": {
+              "title": "Why choose PrepLadder for your Psychiatry Residency Prep?",
+              "subTitle": "To elevate your Residency preparation with the best-in-class resources ",
+              "features": [
+                {
+                  "head": "High-Quality Content",
+                  "img": {
+                    "src": "https://image.prepladder.com/content/QfcSm2Bn39vMamxE5Okv1673248783.webp",
+                    "alt": "High-Quality Content for Psychiatry Residency",
+                    "loading": "lazy"
+                  },
+                  "para": "Improve your understanding of the topics through organized content developed to make mastering and applying knowledge easy."
+                },
+                {
+                  "head": "Flexible Learning",
+                  "img": {
+                    "src": "https://image.prepladder.com/content/BGcTck7JHXAV44RiDlv91673248839.webp",
+                    "alt": "Detailed  Analytics for Psychiatry Residency",
+                    "loading": "lazy"
+                  },
+                  "para": "Learn at your preferred pace and convenience, with access to premium resources always at your fingertips."
+                },
+                {
+                  "head": "Detailed  Analytics",
+                  "img": {
+                    "src": "https://image.prepladder.com/content/5X9baBYrM5O4nK1i0kW11673248869.webp",
+                    "alt": "Track your progress for Psychiatry Residency",
+                    "loading": "lazy"
+                  },
+                  "para": "Track your progress, self-evaluate, and gain valuable insights on your strengths and weaknesses to ensure success."
+                }
+              ]
+            }
+          },
+          {
+            "type": "packPlan",
+            "data": {
+              "title": "Finest Study Material to Excel in Psychiatry Residency",
+              "subTitle": "Enrol to access premium content",
+              "homePagePack": {
+                "title": "MOST POPULAR",
+                "para": "Prepare with PrepLadder & nail your exam like a pro",
+                "img": "https://image.prepladder.com/content/xroWMVX8Mx5i2P0W5pPt1682679355.svg",
+                "icon": "https://image.prepladder.com/content/WhkDqe7Y7hDRn8ekjKRz1682678721.svg"
+              }
+            }
+          },
+          {
+            "type": "aboutFaculty",
+            "disabled": false,
+            "data": {
+              "classPadding": true,
+              "title": "Meet Our Psychiatry Residency Faculty",
+              "paragraph": "Learn from Dr. Ankit Goel, a leading psychiatrist, and simplify your residency journey with his knowledge and experience. Dr. Ankit Goel is here to guide you at every step of the preparation, enabling you to run the course well and ace the exams with confidence.",
+              "videoUrl": {
+                "videoLink": "https://image.prepladder.com/content/C5uKb1nOaONjkB4aZU8Z1704264295.png",
+                "videoPoster": "https://image.prepladder.com/content/C5uKb1nOaONjkB4aZU8Z1704264295.png",
+                "videoSchemaMeta": {
+                  "name": "Watch why Dr. Ankit Goel is a true legend",
+                  "description": "Learn from Dr. Ankit Goel, a leading psychiatrist, and simplify your residency journey with his knowledge and experience. Dr. Ankit Goel is here to guide you at every step of the preparation, enabling you to run the course well and ace the exams with confidence."
+                }
+              }
+            }
+          },
+          {
+            "type": "countFeature",
+            "disabled": true,
+            "data": {
+              "title": "Let the numbers do the talking",
+              "subTitle": "We make quality education accessible with error-free content meticulously curated by experts to help you prepare and excel in exams.\n\n",
+              "features": [
+                {
+                  "title": "5M+",
+                  "subtitle": "App Downloads",
+                  "img": "https://image.prepladder.com/content/PMhZU4Acc97mnBctjj2T1654244531.svg"
+                },
+                {
+                  "title": "600M+ hours",
+                  "subtitle": "Videos watched",
+                  "img": "https://image.prepladder.com/content/kpot0RquoKbbndyJ0Hlb1654244562.svg"
+                },
+                {
+                  "title": "200k doubts",
+                  "subtitle": "Answered",
+                  "img": "https://image.prepladder.com/content/HqAoc28H9PERnw0zlG2R1654596182.png"
+                },
+                {
+                  "title": "10 lakh+",
+                  "subtitle": "Tests taken",
+                  "img": "https://image.prepladder.com/content/hybBqKwYivt1op9wtqcZ1654244626.svg"
+                }
+              ]
+            }
+          },
+          {
+            "type": "faq",
+            "data": {
+              "title": "Frequently asked questions",
+              "faqArr": [
+                {
+                  "name": "What is course content and duration? ",
+                  "text": "This course is divided into 4 major parts-\n\n<ul><li>\n\nBasic Sciences as applied to psychiatry\n\n</li><li>\n\nClinical Psychiatry\n\n</li><li>\n\nPsychiatry sub-specialties\n\n\n</li><li>\n\nNeurology and medicine as related to psychiatry \n\n</li></ul>\nAnd, the complete duration of the course will be around 100+ hours. "
+                },
+                {
+                  "name": "Who should join this course?\n\n",
+                  "text": "The comprehensive study course encompassed the entire syllabus taught during 3 years of Psychiatry residency. It is beneficial for first, second, and third-year residents, as it offers thorough syllabus coverage for the entire three-year residency. It can also be used to create content for journal clubs and seminars.  \n\n"
+                },
+                {
+                  "name": "Which books are the course based on?",
+                  "text": "The course is designed based on prominent textbooks, including Kaplan & Saddock, Synopsis, Rutter's Child & Adolescent Psychiatry, Lowenson and Ruiz Substance Abuse, Kauffman Neurology for Psychiatrists, Maudsley prescribing Guidelines, Stahl Psychopharmacology, SIMS, FISH, DSM-5, ICD11."
+                }
+              ]
+            }
+          },
+          {
+            "type": "footer"
+          }
+        ],
+        "collapseView": false,
+        "ssr_apis_response": {
+          "status": false,
+          "error": "on server apisList.length===0"
+        }
+      },
+      "isNewView": true
+    },
+    "__N_SSP": true
+  },
+  "page": "/courses/[subcourse]",
+  "query": {
+    "subcourse": "psychiatry-residency"
+  },
+  "buildId": "F1MLco_Yzell_it0CEtyO",
+  "isFallback": false,
+  "isExperimentalCompile": false,
+  "dynamicIds": [
+    62867,
+    65658,
+    87601,
+    69784,
+    53303,
+    7275,
+    7934,
+    90413,
+    32536,
+    69363,
+    62530,
+    18868,
+    96941,
+    52973
+  ],
+  "gssp": true,
+  "scriptLoader": []
+}

@@ -1,0 +1,359 @@
+{
+  "props": {
+    "pageProps": {
+      "courseMeta": {
+        "courseID": 33,
+        "courseMeta": {
+          "name": "ENT Residency",
+          "urlName": "ent-residency",
+          "id": 33,
+          "blogsSlug": "ent-residency-study-materials",
+          "packID": 300,
+          "link": "/courses/ent-residency/plan",
+          "blogLink": "/ent-residency-study-materials",
+          "faqAppName": "prepladder-2021",
+          "seo": {},
+          "socialLinks": {
+            "fb": "https://www.facebook.com/medical.pg.entrance.prepladder/",
+            "insta": "https://www.instagram.com/prepladder_med/",
+            "yt": "https://www.youtube.com/channel/UCdbMxSVAgPENqhYVeYkAA2w/featured",
+            "tl": "https://t.me/medicalprep",
+            "linkdn": "https://in.linkedin.com/company/prepladder"
+          }
+        },
+        "isExtraCourse": false,
+        "urlName": "ent-residency",
+        "user": {
+          "isLogin": false,
+          "token": "",
+          "device": "",
+          "temporaryCourse": "",
+          "fakeCourseID": ""
+        }
+      },
+      "serverTime": "Mon Jun 22 2026 12:47:24 GMT+0000 (Coordinated Universal Time)",
+      "funValue": {
+        "schema": [
+          {
+            "timer": "",
+            "x": "",
+            "type": "header",
+            "data": {
+              "getACallback": {
+                "isShow": true,
+                "phoneNo": "+91-7026233333"
+              },
+              "seo": {
+                "title": "ENT Residency Preparation Online | PrepLadder",
+                "description": "Prepare for your ENT Residency Online with comprehensive resources and expert guidance. Get ready for success in ear, nose, and throat medical specialization.",
+                "image": "https://image.prepladder.com/content/SWuOzTFDnS1YzoQwnCP61698398615.png",
+                "canonicalURL": "https://www.prepladder.com/courses/ent-residency"
+              },
+              "logoutButton": {
+                "afterRedirect": {
+                  "link": "/courses/ent-residency",
+                  "isSoftLogout": true
+                }
+              }
+            }
+          },
+          {
+            "type": "offerSingleLine",
+            "data": {
+              "text": "Master ENT residency prep with <b>PrepLadder's Clinical QBank </b>",
+              "href": "/courses/ent-residency/plan",
+              "buttonText": "Enrol now"
+            }
+          },
+          {
+            "type": "timer",
+            "disabled": 0,
+            "data": {
+              "title": "THE COUNTDOWN HAS BEGUN",
+              "subTitle": "Hurry! Secure your Residency ELITE Plan before prices go up tonight at 11:59 PM.",
+              "timer": {
+                "start": "2025-09-18 00:00:00",
+                "end": "2025-09-18 23:59:59"
+              },
+              "button": {
+                "text": "Enrol now",
+                "href": "/courses/ent-residency/plan"
+              },
+              "coupon": {
+                "code": "CRACKEXAM"
+              }
+            }
+          },
+          {
+            "type": "bannerHome",
+            "data": {
+              "headClass": "bannerHome-medicalHead",
+              "title": "Your One-Stop-Solution for <span> ENT Residency </span>Preparation",
+              "enrol": {
+                "text": "Enrol for ENT Residency ELITE Plan Now",
+                "link": "/courses/ent-residency/plan"
+              },
+              "paragraph": "Access comprehensive and well-structured ENT Residency study material curated by India's top ENT faculty.",
+              "button": {
+                "text": "Enrol now",
+                "href": "/courses/ent-residency/plan"
+              }
+            }
+          },
+          {
+            "type": "bannerCarousel",
+            "ssrData": {
+              "fetchBannersOnServer": {
+                "reqParams": {}
+              }
+            },
+            "data": {
+              "webClass": "bannerCarousel-slider",
+              "bannersList": []
+            },
+            "itemIndex": 4
+          },
+          {
+            "type": "FeatureList",
+            "data": {
+              "features": [
+                {
+                  "img": {
+                    "src": "https://image.prepladder.com/content/ent-residency-comprehensive-video-lectures.webp",
+                    "alt": "Conceptual Video Lectures for ENT Residency"
+                  },
+                  "title": "Conceptual Video Lectures",
+                  "subtitle": "Study from 150+ hours of in-depth video lectures from India’s top ENT faculty for a strong conceptual foundation of the topics."
+                },
+                {
+                  "img": {
+                    "src": "https://image.prepladder.com/content/ent-residency-Qbank.webp",
+                    "alt": "QBank with Detailed Explanations for ENT Residency"
+                  },
+                  "title": "QBank with Detailed Explanations",
+                  "subtitle": "Elevate your readiness with our 1500+ Clinical QBank questions, thoughtfully categorized by subject and topic, enabling you to assess your understanding and sharpen your diagnostic abilities."
+                },
+                {
+                  "img": {
+                    "src": "https://image.prepladder.com/content/ent-residency-NOTES.webp",
+                    "alt": "Concise Notes for ENT Residency"
+                  },
+                  "title": "Concise Notes for ENT Residency",
+                  "subtitle": "Access clinically oriented and concise subject-wise ENT Residency notes featuring high-quality images for more immersive learning."
+                }
+              ]
+            }
+          },
+          {
+            "type": "threeBoxFeature",
+            "disabled": true,
+            "data": {
+              "title": "Why choose PrepLadder for your ENT Residency Prep?",
+              "subTitle": "To elevate your Residency preparation with the best-in-class resources ",
+              "features": [
+                {
+                  "head": "Top Quality Content ",
+                  "img": {
+                    "src": "https://image.prepladder.com/content/QfcSm2Bn39vMamxE5Okv1673248783.webp",
+                    "loading": "lazy",
+                    "alt": "Top Quality Content for ENT Residency"
+                  },
+                  "para": "Enhance your subject-matter understanding with structured content in the form of video lectures by India's top ENT faculty."
+                },
+                {
+                  "head": "Flexible Learning",
+                  "img": {
+                    "src": "https://image.prepladder.com/content/BGcTck7JHXAV44RiDlv91673248839.webp",
+                    "alt": "Access the best study resources right at your fingertips for ENT Residency",
+                    "loading": "lazy"
+                  },
+                  "para": "Access the best study resources right at your fingertips and turn any location into a study space at your convenience."
+                },
+                {
+                  "head": "Comprehensive Analytics",
+                  "img": {
+                    "src": "https://image.prepladder.com/content/5X9baBYrM5O4nK1i0kW11673248869.webp",
+                    "alt": "Monitor your preparation for ENT Residency",
+                    "loading": "lazy"
+                  },
+                  "para": "Monitor your preparation, self-assess, and benefit from in-depth insights and guarantee your success."
+                }
+              ]
+            }
+          },
+          {
+            "type": "aboutFaculty",
+            "disabled": false,
+            "data": {
+              "classPadding": true,
+              "title": "Meet Our ENT Residency Faculty",
+              "paragraph": "Learn from Dr. Vyshnavi Bommakanti, a practicing ENT surgeon, to elevate your medical journey with her knowledge that blends cutting-edge expertise with real-world clinical experience.",
+              "videoUrl": {
+                "videoLink": "https://image.prepladder.com/content/ENT-vyshnavi-bommakanti.webp",
+                "videoPoster": "https://image.prepladder.com/content/ENT-vyshnavi-bommakanti.webp",
+                "videoSchemaMeta": {
+                  "name": "Watch why Dr. Vyshnavi Bommakanti is a true legend",
+                  "description": "Dr. Vyshanavi is an ENT and Skull base surgeon from Hyderabad India. She completed her MBBS from Rajiv Gandhi University of Health Sciences Karnataka and DNB in ENT. She also has a Fellowship in skull base surgeries and advanced rhinology from University of Graz Austria and Bombay Hospital Bombay."
+                }
+              }
+            }
+          },
+          {
+            "type": "countFeature",
+            "disabled": true,
+            "data": {
+              "title": "Let the numbers do the talking",
+              "subTitle": "We make quality education accessible with error-free content meticulously curated by experts to help you prepare and excel in exams.\n\n",
+              "features": [
+                {
+                  "title": "5M+",
+                  "subtitle": "App Downloads",
+                  "img": "https://image.prepladder.com/content/PMhZU4Acc97mnBctjj2T1654244531.svg"
+                },
+                {
+                  "title": "600M+ hours",
+                  "subtitle": "Videos watched",
+                  "img": "https://image.prepladder.com/content/kpot0RquoKbbndyJ0Hlb1654244562.svg"
+                },
+                {
+                  "title": "200k doubts",
+                  "subtitle": "Answered",
+                  "img": "https://image.prepladder.com/content/HqAoc28H9PERnw0zlG2R1654596182.png"
+                },
+                {
+                  "title": "10 lakh+",
+                  "subtitle": "Tests taken",
+                  "img": "https://image.prepladder.com/content/hybBqKwYivt1op9wtqcZ1654244626.svg"
+                }
+              ]
+            }
+          },
+          {
+            "type": "planFaq",
+            "ssrData": {
+              "fetchFAQsOnServer": {
+                "reqParams": {
+                  "appName": "prepladder-2021",
+                  "courseID": 33
+                }
+              }
+            },
+            "data": {
+              "title": "Frequently asked questions",
+              "faqArr": [
+                {
+                  "name": "What is course content and duration? ",
+                  "text": "This course is divided into 4 major parts-\n\n<ul><li>\n\nBasic Sciences\n\n</li><li>\n\nPrinciples and Practices of ENT\n\n</li><li>\n\nGeneral and surgical principles of head and neck\n\n\n</li><li>\n\nRecent advances \n\n</li></ul>\nAnd, the complete duration of the course will be around 150+ hours. "
+                },
+                {
+                  "name": "Who should join this course?\n\n",
+                  "text": "The comprehensive study course covers the entire syllabus that is taught in 3 years of ENT residency. It is beneficial for first, second, and third-year residents, as it offers comprehensive syllabus coverage for the entire three-year residency. It can also be used to create content for journal clubs and seminars. \n\n"
+                },
+                {
+                  "name": "What all content assets will be there apart from video lectures?",
+                  "text": "In addition to video lectures, you will also get access to- \n<ul><li>Comprehensive Notes\n</li><li>High-yield QBank \n</li><li>Test Series\n</li><li>Treasures, custom modules and more. \n</li><ul>"
+                },
+                {
+                  "name": "Which books is the course based on?",
+                  "text": "The course is designed based on prominent textbooks like \"Diseases of Ear, Nose, and Throat\" by Scott Brown, \"Surgery of the Ear\" by Glasscock & Shambaugh, \"Otolaryngology—Head & Neck Surgery\" by Cummings, and others.  \n\n"
+                }
+              ],
+              "ssrFaqs": {
+                "packDiscountAmount": 0,
+                "legal": [],
+                "faqs": {
+                  "General": {
+                    "data": [
+                      {
+                        "title": "Can I login from 3 devices?",
+                        "information": "You are allowed to be logged in on a maximum of two devices at the same time. Please note that accessing your account with a third device may lead to it being flagged or permanently blocked."
+                      },
+                      {
+                        "title": "Can I take screenshots?",
+                        "information": "No, you cannot take screenshots on an Android device. Whereas on IOS, if your account has been observed taking screenshots more than 3 times, your account will be flagged and the content will no longer be available for you for at least 15 days."
+                      },
+                      {
+                        "title": "How many devices am I allowed to use with my PrepLadder subscription?",
+                        "information": "You can log in only through 2 devices with the same credentials at the same time. If you try to log in from the third device, then you will have to log out from either one of the 2 existing devices. If any unusual login attempts are observed to the 3rd device, your account will be flagged or permanently blocked."
+                      },
+                      {
+                        "title": "What happens if I permanently delete my PrepLadder account?",
+                        "information": "By deleting your account permanently-\nYou’ll be logged out of Prepladder & your account will no longer be usable.\nYour active subscription will be canceled.\nYou’ll not be able to access your downloaded/saved videos.\nYou’ll not be able to access your bookmarked content.\nYou’ll not be able to sign in to your account. You’ll have to sign up/register again."
+                      },
+                      {
+                        "title": "Can I share my subscription?",
+                        "information": "No, you cannot share your subscription. Sharing won't be possible, but you can use the same credentials (login information) to log in on 2 different devices. Unfortunately, there is a catch: neither of these devices can play videos at the same time.\nNote: We advise you not to disclose your credentials to anyone."
+                      },
+                      {
+                        "title": "What is the ENT Residency Program?",
+                        "information": "The ENT Residency Program is a comprehensive course designed specifically for MS ENT students in their residency years. Covering all essential topics required for theory and practical exams, this program offers a holistic approach to ENT exam preparations."
+                      },
+                      {
+                        "title": "What is the Course Content and Duration?",
+                        "information": "The course is divided into four major parts, including Basic Sciences, Principles and Practices of ENT, General and Surgical Principles of Head and Neck, and Recent Advances. With a duration of approximately 150+ hours, it provides an in-depth knowledge of the key aspects of ENT."
+                      },
+                      {
+                        "title": "How is this course helpful?",
+                        "information": "This course serves as a one-stop solution for MS ENT residents, offering curated content for exam preparation. With a busy schedule, it saves time by consolidating information from various sources into comprehensive lectures. Our dedicated ENT faculty has meticulously compiled all essential information in a manner that fosters concept-building and improves clinical approach."
+                      },
+                      {
+                        "title": "Who should join this course?",
+                        "information": "Whether you're a 1st-year, 2nd-year, or 3rd-year resident, this course is tailored to cover the entire three-year residency syllabus. Additionally, it can be utilized for creating content for journal clubs and seminars."
+                      },
+                      {
+                        "title": "Is there a free trial of the course?",
+                        "information": "Yes, upon signing up you will get a 24-hour free trial during which you can explore all our premium content."
+                      },
+                      {
+                        "title": "What is the KYC process for accessing the PrepLadder app on multiple devices?",
+                        "information": "\t<p><strong>For Premium Users:</strong></p>\n\t<ul>\n\t\t<li>KYC is mandatory to access the app after becoming a premium user. You will need to complete it immediately after purchasing a plan.</li>\n\t\t<li>If you log in on a third device, KYC must be re-verified before access is granted.</li>\n\t\t<li>The same document used for the first KYC (e.g., passport or Aadhaar card) must be used for re-KYC on additional devices.</li>\n\t\t<li>Once KYC is completed on the third device, the app will automatically log out from the first device to maintain account security.</li>\n\t</ul>\n\t\n\t<p><strong>For Non-Premium Users:</strong></p>\n\t<ul>\n\t\t<li>Non-premium users can complete KYC through their <strong>profile</strong> section.</li>\n\t\t<li>Logging in on a third device will require contacting <strong>support</strong> for assistance.</li>\n\t</ul>\n\n</ol>\n\n<p>This process ensures the security of your PrepLadder account and content access across devices.</p>"
+                      },
+                      {
+                        "title": "Can I access videos on my PC or desktop?",
+                        "information": "No, video content is currently only accessible on mobile and tablet devices. However, all other modules like QBank, tests, Custom Modules, and PrepAI can be accessed on both desktop and mobile devices."
+                      }
+                    ]
+                  }
+                }
+              }
+            },
+            "itemIndex": 9
+          },
+          {
+            "type": "footer"
+          }
+        ],
+        "collapseView": false,
+        "ssr_apis_response": {
+          "status": false,
+          "error": "on server apisList.length===0"
+        }
+      },
+      "isNewView": true
+    },
+    "__N_SSP": true
+  },
+  "page": "/courses/[subcourse]",
+  "query": {
+    "subcourse": "ent-residency"
+  },
+  "buildId": "vpMucalhe9NmxWygflCRN",
+  "isFallback": false,
+  "isExperimentalCompile": false,
+  "dynamicIds": [
+    62867,
+    65658,
+    87601,
+    69784,
+    53303,
+    7275,
+    7934,
+    32536,
+    69363,
+    93179,
+    96941,
+    52973
+  ],
+  "gssp": true,
+  "scriptLoader": []
+}
