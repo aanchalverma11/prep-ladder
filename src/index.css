@@ -168,11 +168,37 @@ html, body {
 .pl-blog-articles-section,
 .pl-blog-faq-section,
 .pl-login-main {
-  width: 96% !important;
-  max-width: 96% !important;
+  width: 90% !important;
+  max-width: 1280px !important;
   margin-left: auto !important;
   margin-right: auto !important;
   box-sizing: border-box !important;
+}
+
+@media (max-width: 1024px) {
+  .content-container,
+  [class*="container"],
+  [class*="__container"],
+  [class*="-importance__card"],
+  [class*="-dreamers__card"],
+  .pl-navbar,
+  .pl-footer-container,
+  .pl-blog-banner,
+  .pl-blog-pill-tag-container,
+  .pl-blog-faculty-section,
+  .pl-blog-faculty-hero-image-section,
+  .pl-blog-ad-banner,
+  .pl-blog-success-section,
+  .pl-blog-guide-section,
+  .pl-blog-subject-section,
+  .pl-blog-articles-section,
+  .pl-blog-faq-section,
+  .pl-login-main {
+    width: 100% !important;
+    max-width: 100% !important;
+    padding-left: 16px !important;
+    padding-right: 16px !important;
+  }
 }
 
 /* All direct page component wrappers should be 100% wide */
