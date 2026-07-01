@@ -150,7 +150,6 @@ html, body {
   box-sizing: border-box !important;
 }
 
-/* Centralized fluid alignment container (spreads across the whole viewport on zoom out) */
 .content-container,
 [class*="container"],
 [class*="__container"],
@@ -169,11 +168,34 @@ html, body {
 .pl-blog-articles-section,
 .pl-blog-faq-section,
 .pl-login-main {
-  width: 100% !important;
-  max-width: 92% !important;
+  width: 92% !important;
+  max-width: 1200px !important;
   margin-left: auto !important;
   margin-right: auto !important;
   box-sizing: border-box !important;
+}
+
+@media (min-width: 1400px) {
+  .content-container,
+  [class*="container"],
+  [class*="__container"],
+  [class*="-importance__card"],
+  [class*="-dreamers__card"],
+  .pl-navbar,
+  .pl-footer-container,
+  .pl-blog-banner,
+  .pl-blog-pill-tag-container,
+  .pl-blog-faculty-section,
+  .pl-blog-faculty-hero-image-section,
+  .pl-blog-ad-banner,
+  .pl-blog-success-section,
+  .pl-blog-guide-section,
+  .pl-blog-subject-section,
+  .pl-blog-articles-section,
+  .pl-blog-faq-section,
+  .pl-login-main {
+    max-width: 94% !important;
+  }
 }
 
 /* All direct page component wrappers should be 100% wide */
