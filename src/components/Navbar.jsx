@@ -203,7 +203,7 @@ export default function Navbar({ currentCourse = "Medical PG" }) {
 
   return (
     <header className={`pl-header ${scrolled ? "pl-header--scrolled" : ""}`}>
-      <nav className="pl-navbar">
+      <nav className="pl-navbar content-container">
         {/* Left Side: Logo & Course Switcher */}
         <div className="pl-navbar__left">
           <Link to="/courses/medical-pg" className="pl-logo" aria-label="PrepLadder Home">

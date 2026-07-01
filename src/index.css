@@ -24,8 +24,10 @@
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+}
 
-  @media (max-width: 1024px) {
+@media (max-width: 1024px) {
+  :root {
     font-size: 16px;
   }
 }
@@ -74,20 +76,28 @@ h1 {
   font-size: 56px;
   letter-spacing: -1.68px;
   margin: 32px 0;
-  @media (max-width: 1024px) {
+}
+
+@media (max-width: 1024px) {
+  h1 {
     font-size: 36px;
     margin: 20px 0;
   }
 }
+
 h2 {
   font-size: 24px;
   line-height: 118%;
   letter-spacing: -0.24px;
   margin: 0 0 8px;
-  @media (max-width: 1024px) {
+}
+
+@media (max-width: 1024px) {
+  h2 {
     font-size: 20px;
   }
 }
+
 p {
   margin: 0;
 }
@@ -106,3 +116,205 @@ code {
   padding: 4px 8px;
   background: var(--code-bg);
 }
+
+/* ─────────────────────────────────────────────
+   Standardized Grid & Responsive Layout System
+   ───────────────────────────────────────────── */
+
+/* Global layout roots scale to 100% viewport width */
+html, body, #root, .app-layout-root, .app-main-content, .app-content-wrapper {
+  width: 100% !important;
+  max-width: 100% !important;
+  min-width: 100% !important;
+  margin: 0 !important;
+  padding: 0 !important;
+  box-sizing: border-box !important;
+}
+
+html, body {
+  overflow-x: hidden;
+  scroll-behavior: smooth;
+}
+
+*, *::before, *::after {
+  box-sizing: inherit;
+}
+
+/* Page wrapper stretching to 100% width with hidden horizontal scroll */
+.page-wrapper {
+  width: 100% !important;
+  max-width: 100% !important;
+  margin: 0 !important;
+  padding: 0 !important;
+  overflow-x: hidden !important;
+  box-sizing: border-box !important;
+}
+
+/* Centralized fluid alignment container (spreads across the whole viewport on zoom out) */
+.content-container,
+[class*="container"],
+[class*="__container"],
+[class*="-importance__card"],
+[class*="-dreamers__card"],
+.pl-navbar,
+.pl-footer-container,
+.pl-blog-banner,
+.pl-blog-pill-tag-container,
+.pl-blog-faculty-section,
+.pl-blog-faculty-hero-image-section,
+.pl-blog-ad-banner,
+.pl-blog-success-section,
+.pl-blog-guide-section,
+.pl-blog-subject-section,
+.pl-blog-articles-section,
+.pl-blog-faq-section,
+.pl-login-main {
+  width: 100% !important;
+  max-width: 92% !important;
+  margin-left: auto !important;
+  margin-right: auto !important;
+  box-sizing: border-box !important;
+}
+
+/* All direct page component wrappers should be 100% wide */
+.pl-coursepage,
+.pl-plans-page,
+.pl-checkout-page,
+.pl-help-center-page,
+.pl-profile-page,
+.pl-anatomy-page,
+.pl-physiology-page,
+.pl-biochemistry-page,
+.pl-microbiology-page,
+.pl-pathology-page,
+.pl-forensic-page,
+.pl-psm-page,
+.pl-ent-page,
+.pl-ophthalmology-page,
+.pl-gyn-obs-page,
+.pl-surgery-page,
+.pl-anaesthesia-page,
+.pl-orthopedics-page,
+.pl-psychiatry-page,
+.pl-dermatology-page,
+.pl-blog-page,
+.pl-login-page,
+.pl-faculty-page {
+  width: 100% !important;
+  max-width: 100% !important;
+  min-width: 100% !important;
+  margin: 0 !important;
+  padding: 0 !important;
+  box-sizing: border-box !important;
+}
+
+/* Ensure all page sections, headers, and footers span 100% viewport width */
+.pl-header,
+.pl-announcement-strip,
+.pl-course-hero,
+.pl-metrics-section,
+.pl-whatsnew-section,
+.pl-adaptive-section,
+.pl-whyprepladder-section,
+.pl-testimonials-section,
+.pl-faqs-accordion-section,
+.pl-bottom-faculty-section,
+[class*="-importance"],
+.pl-footer-new {
+  width: 100% !important;
+  max-width: 100% !important;
+  margin-left: 0 !important;
+  margin-right: 0 !important;
+  box-sizing: border-box !important;
+}
+
+/* Stretch all section/div direct children of page wrappers across the screen */
+.app-content-wrapper > *,
+.pl-coursepage > section,
+.pl-coursepage > div,
+.pl-plans-page > section,
+.pl-plans-page > div,
+.pl-anatomy-page > section,
+.pl-anatomy-page > div,
+.pl-checkout-page > div,
+.pl-checkout-page > section {
+  width: 100% !important;
+  max-width: 100% !important;
+  margin-left: 0 !important;
+  margin-right: 0 !important;
+  box-sizing: border-box !important;
+}
+
+/* Scale down huge headers slightly at high zoom levels/smaller widths to prevent clipping */
+@media (max-width: 600px) {
+  h1 {
+    font-size: 28px !important;
+    margin: 16px 0 !important;
+    letter-spacing: -0.8px !important;
+  }
+  h2 {
+    font-size: 18px !important;
+  }
+}
+
+/* Handle tables and items that naturally overflow on zoom gracefully */
+.table-responsive, 
+.pl-compare-table-wrapper {
+  max-width: 100%;
+  overflow-x: auto !important;
+  -webkit-overflow-scrolling: touch;
+}
+
+/* Flex containers are forced to wrap under extreme zoom sizes */
+.pl-navbar,
+.pl-navbar__left,
+.pl-navbar__right,
+.pl-desktop-nav,
+.nav-wrapper,
+.pl-plans-footer,
+.pl-footer-container {
+  max-width: 100%;
+}
+
+/* Make all layout-level large faculty and banner images spread fully on zoom out */
+.pl-hero-faculty-img,
+.pl-bottom-faculty-logo-wrapper,
+.pl-bottom-faculty-img,
+.pl-blog-faculty-hero-image,
+.pl-blog-faculty-hero-image-section {
+  width: 100% !important;
+  max-width: 100% !important;
+}
+
+/* Viewport-based fluid scaling for wide displays / zoomed out states */
+@media (min-width: 1440px) {
+  /* Hero titles scale fluidly */
+  .pl-hero-title,
+  [class*="-hero__heading"],
+  [class*="-hero-title"],
+  .ss-hero-heading-main {
+    font-size: clamp(2.5rem, 3.5vw, 5.5rem) !important;
+  }
+
+  /* Hero descriptions scale fluidly */
+  .pl-hero-description,
+  [class*="-hero__description"],
+  [class*="-hero-desc"],
+  .ss-hero-description-text {
+    font-size: clamp(1.05rem, 1.3vw, 1.8rem) !important;
+    max-width: 80% !important;
+  }
+}
+
+/* Hide hardcoded line breaks inside hero titles on larger viewports to let them spread in a single line */
+@media (min-width: 992px) {
+  .pl-hero-title br,
+  [class*="-hero__heading"] br,
+  [class*="-hero-title"] br,
+  .ss-hero-heading-main br {
+    display: none !important;
+  }
+}
+
+
+

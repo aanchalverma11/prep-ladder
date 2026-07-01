@@ -22,7 +22,7 @@ export default function Footer({ currentCourse = "Medical PG" }) {
 
   return (
     <footer className="pl-footer-new">
-      <div className="pl-footer-container">
+      <div className="pl-footer-container content-container">
         <div className="pl-footer-grid">
           {/* Brand Card */}
           <div className="pl-footer-card pl-footer-card--brand">

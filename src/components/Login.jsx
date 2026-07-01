@@ -186,7 +186,7 @@ export default function Login() {
   };
 
   return (
-    <div className="pl-login-container">
+    <div className="pl-login-page page-wrapper">
       <div className="pl-login-bg-wave"></div>
 
       {/* Header with simple branding logo */}

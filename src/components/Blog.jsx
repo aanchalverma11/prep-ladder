@@ -309,7 +309,7 @@ export default function Blog() {
   };
 
   return (
-    <div className="pl-blog-container">
+    <div className="pl-blog-page page-wrapper">
       {/* Banner */}
       <section className="pl-blog-banner">
         <div className="pl-blog-dropdowns">

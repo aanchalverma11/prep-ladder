@@ -1,4 +1,5 @@
 import { useState, useEffect, useRef } from "react";
+import { Link } from "react-router-dom";
 import "./MedicalPG.css";
 import medicalFacultyGroup from "../assets/medical_faculty_group.png";
 
@@ -348,10 +349,10 @@ export default function MedicalPG({ course = "Medical PG", onViewChange }) {
   const heroFacultyImage = "https://image.prepladder.com/content/5rCnV7u7H5Au6mkt4dl31778656280.webp";
 
   return (
-    <div className="pl-coursepage">
+    <div className="pl-coursepage page-wrapper">
       {/* Announcement Strip */}
       <div className="pl-announcement-strip">
-        <div className="pl-announcement-container">
+        <div className="pl-announcement-container content-container">
           <p className="pl-announcement-text">
             Resolve {course} Lap 2 starts on 20th June! <a href="#" className="pl-announcement-btn">Enrol Now</a>
           </p>
@@ -361,7 +362,7 @@ export default function MedicalPG({ course = "Medical PG", onViewChange }) {
       {/* Hero / Banner Section */}
       <section className="pl-course-hero">
         <div className="pl-hero-watermark">XI</div>
-        <div className="pl-course-hero__container">
+        <div className="pl-course-hero__container content-container">
           <div className="pl-hero-tag">
             <span className="pl-hero-tag-dot"></span>
             {courseDetails.tag}
@@ -377,9 +378,9 @@ export default function MedicalPG({ course = "Medical PG", onViewChange }) {
             {courseDetails.desc}
           </p>
           <div className="pl-hero-actions">
-            <a href="#" className="pl-btn-primary">
+            <Link to="/courses/medical-pg/plan" className="pl-btn-primary">
               Enrol Now
-            </a>
+            </Link>
             <a href="#whats-new" className="pl-btn-secondary">
               Know more
             </a>
@@ -396,7 +397,7 @@ export default function MedicalPG({ course = "Medical PG", onViewChange }) {
 
       {/* Trust Metrics / Counters section */}
       <section className="pl-metrics-section">
-        <div className="pl-metrics-container">
+        <div className="pl-metrics-container content-container">
           <h2 className="pl-metrics-title">
             Trusted by <span>1M+ Learners</span>
           </h2>
@@ -454,7 +455,7 @@ export default function MedicalPG({ course = "Medical PG", onViewChange }) {
 
       {/* What's New in Version XI */}
       <section id="whats-new" className="pl-whatsnew-section">
-        <div className="pl-whatsnew-container">
+        <div className="pl-whatsnew-container content-container">
           <div className="pl-section-header">
             <h2>What’s New in <span>Version XI</span></h2>
             <p>
@@ -509,7 +510,7 @@ export default function MedicalPG({ course = "Medical PG", onViewChange }) {
 
       {/* Adaptive Learning / Additional Tools */}
       <section className="pl-adaptive-section">
-        <div className="pl-adaptive-container">
+        <div className="pl-adaptive-container content-container">
           <div className="pl-section-header">
             <h2>Additional Tools, <span>Adaptive Learning</span></h2>
           </div>
@@ -575,7 +576,7 @@ export default function MedicalPG({ course = "Medical PG", onViewChange }) {
 
       {/* Why PrepLadder section */}
       <section className="pl-whyprepladder-section">
-        <div className="pl-why-container">
+        <div className="pl-why-container content-container">
           <h2 className="pl-why-title">Why This is the Only <br /><span>{course === "Medical PG" ? "NEET PG Prep" : `${course} Prep`} You Need!</span></h2>
           <div className="pl-why-grid">
             <div className="pl-why-card">
@@ -631,7 +632,7 @@ export default function MedicalPG({ course = "Medical PG", onViewChange }) {
 
       {/* Testimonials section */}
       <section className="pl-testimonials-section">
-        <div className="pl-test-container">
+        <div className="pl-test-container content-container">
           <div className="pl-test-header">
             <img src="https://image.prepladder.com/content/J2JSh88NHPRjztiabgZB1775910318.png" className="pl-test-medal" alt="Medal" />
             <h2>How They Made It: <span>Toppers’ Journeys</span></h2>
@@ -694,7 +695,7 @@ export default function MedicalPG({ course = "Medical PG", onViewChange }) {
 
       {/* FAQs Section */}
       <section className="pl-faqs-accordion-section">
-        <div className="pl-faq-container">
+        <div className="pl-faq-container content-container">
           <h2 className="pl-faq-title">Frequently Asked Questions</h2>
           <div className="pl-faq-accordion">
             {(showAllFaqs ? FAQ_ITEMS : FAQ_ITEMS.slice(0, 3)).map((faq, index) => {
@@ -737,7 +738,7 @@ export default function MedicalPG({ course = "Medical PG", onViewChange }) {
 
       {/* Bottom Faculty Arc Banner */}
       <section className="pl-bottom-faculty-section">
-        <div className="pl-bottom-faculty-container">
+        <div className="pl-bottom-faculty-container content-container">
           <div className="pl-bottom-faculty-logo-wrapper">
             <img
               src="https://image.prepladder.com/content/Rq9ZUTIm9UtuRtbfjl4v1771564310.png"

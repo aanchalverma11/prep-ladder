@@ -3,7 +3,7 @@
    Prefix: pl-blog-
    ───────────────────────────────────────────── */
 
-.pl-blog-container {
+.pl-blog-page {
   padding-bottom: 5rem;
   background-color: #FCFAF7; /* Warm cream/beige page background */
   font-family: 'Inter', system-ui, -apple-system, sans-serif;

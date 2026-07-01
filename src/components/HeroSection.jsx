@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 import './Home.css'; // Importing custom plain CSS
 
 /**
@@ -26,9 +27,9 @@ export default function HeroSection() {
           <div className="col-12 col-md-10 col-lg-8 hero-content-center">
             
             {/* Promo badge at the top */}
-            <a href="#plans" className="grab-plan-badge">
+            <Link to="/courses/medical-pg/plan" className="grab-plan-badge">
               Grab SS 3.0 ELITE Plan Now
-            </a>
+            </Link>
 
             {/* Main Heading */}
             <h1 className="hero-main-heading">
@@ -42,9 +43,9 @@ export default function HeroSection() {
 
             {/* Principal CTA button */}
             <div>
-              <a href="#plans" className="btn-enrol-cta">
+              <Link to="/courses/medical-pg/plan" className="btn-enrol-cta">
                 Enrol now
-              </a>
+              </Link>
             </div>
 
             {/* App Store download links */}

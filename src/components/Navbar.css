@@ -34,13 +34,14 @@
 }
 
 .pl-navbar {
-  max-width: 1280px;
+  max-width: 1440px;
   height: 72px;
   margin: 0 auto;
-  padding: 0 2rem;
+  padding: 0 32px;
   display: flex;
   align-items: center;
   justify-content: space-between;
+  box-sizing: border-box;
 }
 
 /* --- Left Group --- */

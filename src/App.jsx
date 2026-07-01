@@ -68,66 +68,68 @@ function MainLayout() {
   const isDermatology = location.pathname.endsWith("/dermatology-preparation") || location.pathname.endsWith("/dermatology");
   const isProfile = location.pathname.endsWith("/profile");
   return (
-    <div style={{ minHeight: "100vh", display: "flex", flexDirection: "column" }}>
+    <div style={{ minHeight: "100vh", display: "flex", flexDirection: "column" }} className="app-layout-root">
       <Navbar currentCourse={currentCourse} />
-      <main style={{ flex: 1 }}>
-        {isHelpCenter ? (
-          <HelpCenter course={currentCourse} />
-        ) : isBlog ? (
-          <Blog />
-        ) : isFaculty ? (
-          <Faculty />
-        ) : isPlan ? (
-          <Plans />
-        ) : isAnatomy ? (
-          <Anatomy />
-        ) : isPhysiology ? (
-          <Physiology />
-        ) : isBiochemistry ? (
-          <Biochemistry/>
-        ) : isMicrobiology ? (
-          <Microbiology />
-        ) : isPathology ? (
-          <Pathology />
-        ) : isForensic ? (
-          <ForensicMedicine />
-        ) : isPSM ? (
-          <PSM />
-        ) : isENT ? (
-          <ENT />
-        ) : isOphthalmology ? (
-          <Ophthalmology />
-        ) : isGynObs ? (
-          <GynaecologyObstetrics />
-        ) : isSurgery ? (
-          <Surgery />
-        ) : isAnaesthesia ? (
-          <Anaesthesia />
-        ) : isOrthopedics ? (
-          <Orthopedics />
-        ) : isPsychiatry ? (
-          <Psychiatry />
-        ) : isDermatology ? (
-          <Dermatology />
-        ) : isProfile ? (
-          <Profile />
-        ) : currentCourse === "SS Medicine" ? (
-          <SS_medicine />
-        ) : currentCourse === "SS Surgery" ? (
-          <SS_surgery />
-        ) : currentCourse === "SS Pediatrics" ? (
-          <SS_pediatrics />
-        ) : currentCourse === "ENT Residency" ? (
-          <ENT_residency />
-        ) : currentCourse === "Psychiatry Residency" ? (
-          <Psychiatry_residency />
-        ) : currentCourse === "OBS-GYN Residency" ? (
-          <OBS_GYN_residency />
-        ) : currentCourse === "Radiology Residency" ? (
-          <Radiology_residency />
-        ) : (
-          <MedicalPG course={currentCourse} />
-        )}
+      <main style={{ flex: 1 }} className="app-main-content">
+        <div className="app-content-wrapper">
+          {isHelpCenter ? (
+            <HelpCenter course={currentCourse} />
+          ) : isBlog ? (
+            <Blog />
+          ) : isFaculty ? (
+            <Faculty />
+          ) : isPlan ? (
+            <Plans />
+          ) : isAnatomy ? (
+            <Anatomy />
+          ) : isPhysiology ? (
+            <Physiology />
+          ) : isBiochemistry ? (
+            <Biochemistry/>
+          ) : isMicrobiology ? (
+            <Microbiology />
+          ) : isPathology ? (
+            <Pathology />
+          ) : isForensic ? (
+            <ForensicMedicine />
+          ) : isPSM ? (
+            <PSM />
+          ) : isENT ? (
+            <ENT />
+          ) : isOphthalmology ? (
+            <Ophthalmology />
+          ) : isGynObs ? (
+            <GynaecologyObstetrics />
+          ) : isSurgery ? (
+            <Surgery />
+          ) : isAnaesthesia ? (
+            <Anaesthesia />
+          ) : isOrthopedics ? (
+            <Orthopedics />
+          ) : isPsychiatry ? (
+            <Psychiatry />
+          ) : isDermatology ? (
+            <Dermatology />
+          ) : isProfile ? (
+            <Profile />
+          ) : currentCourse === "SS Medicine" ? (
+            <SS_medicine />
+          ) : currentCourse === "SS Surgery" ? (
+            <SS_surgery />
+          ) : currentCourse === "SS Pediatrics" ? (
+            <SS_pediatrics />
+          ) : currentCourse === "ENT Residency" ? (
+            <ENT_residency />
+          ) : currentCourse === "Psychiatry Residency" ? (
+            <Psychiatry_residency />
+          ) : currentCourse === "OBS-GYN Residency" ? (
+            <OBS_GYN_residency />
+          ) : currentCourse === "Radiology Residency" ? (
+            <Radiology_residency />
+          ) : (
+            <MedicalPG course={currentCourse} />
+          )}
+        </div>
       </main>
       <Footer currentCourse={currentCourse} />
     </div>
