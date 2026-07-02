@@ -234,7 +234,7 @@
 .pl-metric-box {
   display: flex;
   flex-direction: column;
-  align-items: flex-start;
+  align-items: center;
   text-align: left;
   padding: 2rem;
   border-radius: 16px;
@@ -1284,8 +1284,31 @@
   }
 
   .pl-metrics-grid {
-    grid-template-columns: 1fr;
+    grid-template-columns: repeat(2, 1fr);
     gap: 1rem;
+  }
+
+  .pl-metric-box {
+    padding: 1.5rem 1rem;
+  }
+
+  .pl-metric-number {
+    font-size: 1.75rem;
+  }
+
+  .pl-metric-label {
+    font-size: 0.85rem;
+  }
+
+  .pl-metric-icon-wrapper {
+    width: 46px;
+    height: 46px;
+    margin-bottom: 1rem;
+  }
+
+  .pl-metric-icon-wrapper svg {
+    width: 24px;
+    height: 24px;
   }
 
   .pl-why-grid {

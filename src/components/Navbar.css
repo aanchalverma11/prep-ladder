@@ -640,6 +640,17 @@
   }
 }
 
+@keyframes pl-slide-left {
+  from {
+    opacity: 0;
+    transform: translateX(8px);
+  }
+  to {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
 /* --- Responsive Settings --- */
 @media (max-width: 992px) {
   .pl-desktop-nav,
@@ -650,6 +661,19 @@
 
   .pl-hamburger {
     display: flex;
+  }
+
+  .pl-course-dropdown {
+    left: auto;
+    right: 0;
+  }
+
+  .pl-course-submenu {
+    left: auto;
+    right: 100%;
+    padding-left: 0;
+    padding-right: 8px;
+    animation: pl-slide-left 0.18s cubic-bezier(0.16, 1, 0.3, 1);
   }
 }
 
